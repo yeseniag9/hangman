@@ -1,4 +1,4 @@
 import random
 
-name = input("What is your name? ")
+name = input("Hi, what is your name? ")
 print("Good luck", name, "!")
