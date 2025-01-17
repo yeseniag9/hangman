@@ -26,7 +26,7 @@ while turns > 0:
         break
 
     print()
-    guess = input("guess a latter:")
+    guess = input("guess a letter:")
 
     guesses += guess
 
