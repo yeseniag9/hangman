@@ -7,3 +7,5 @@ word = random.choice(words)
 
 guesses = ''
 turns = 8
+
+while turns > 0:
