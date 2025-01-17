@@ -5,3 +5,5 @@ words = ['whisper', 'sapphire', 'lantern', 'melody',
          'ember', 'solace']
 word = random.choice(words)
 
+guesses = ''
+turns = 12
