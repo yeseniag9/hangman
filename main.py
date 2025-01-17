@@ -5,4 +5,3 @@ words = ['whisper', 'sapphire', 'lantern', 'melody',
          'ember', 'solace']
 word = random.choice(words)
 
-print("Guess a letter")
