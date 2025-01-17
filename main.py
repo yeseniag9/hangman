@@ -6,4 +6,4 @@ words = ['whisper', 'sapphire', 'lantern', 'melody',
 word = random.choice(words)
 
 guesses = ''
-turns = 12
+turns = 8
