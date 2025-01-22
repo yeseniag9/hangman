@@ -1,11 +1,11 @@
-i {
-    font-size: 30px;
-    padding-top: 350px;
-}
-
 .play {
     display: flex;
     justify-content: center;
+}
+
+i {
+    font-size: 37px;
+    padding-top: 350px;
 }
 
 p {
