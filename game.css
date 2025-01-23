@@ -1,0 +1,9 @@
+body {
+    background-color: lightgray;
+}
+
+p {
+    font-size: 47px;
+    padding: 7px;
+    text-decoration: underline;
+}
