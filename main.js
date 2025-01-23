@@ -1,3 +1,3 @@
-function playGame(){
-	location.href='hangman.html'
+function playGame() {
+	location.href='game.html'
 }
