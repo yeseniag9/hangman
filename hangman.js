@@ -1,3 +1,3 @@
 function functionName(){
-	alert('Hello world');
+	location.href='hangman.html'
 }
