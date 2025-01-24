@@ -2,6 +2,11 @@ body {
     background-color: lightgray;
 }
 
+.wordbank {
+    display: flex;
+    justify-content: center;
+}
+
 p {
     font-size: 47px;
     padding: 7px;
