@@ -3,9 +3,9 @@ body {
 }
 
 .wordbank {
+    border-top: 3px solid black;
     display: flex;
     justify-content: center;
-    border-top: 2px solid black;
     margin-top: 429px;
 }
 
