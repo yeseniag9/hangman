@@ -6,11 +6,10 @@ body {
     display: flex;
     justify-content: center;
     border-top: 2px solid black;
-    margin-top: 460px;
+    margin-top: 429px;
 }
 
 p {
     font-size: 53px;
     padding: 9px;
-    margin-top: 17px;
 }
