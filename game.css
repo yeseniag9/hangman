@@ -3,7 +3,7 @@ body {
 }
 
 .wordbank {
-    border-top: 3px solid black;
+    border-top: 4px solid black;
     display: flex;
     justify-content: center;
     margin-top: 219px;
