@@ -1,40 +1,45 @@
-import random
+def hangman():
+    print("Hey")
 
-words = ['whisper', 'sapphire', 'lantern', 'melody',
-         'horizon', 'echo', 'wander', 'velvet',
-         'ember', 'solace']
-word = random.choice(words)
+hangman()
 
-guesses = ''
-turns = 8
+    # import random
 
-while turns > 0:
-    failed = 0
+    # words = ['whisper', 'sapphire', 'lantern', 'melody',
+            # 'horizon', 'echo', 'wander', 'velvet',
+            # 'ember', 'solace']
+    # word = random.choice(words)
 
-    for letter in word:
+    # guesses = ''
+    # turns = 8
 
-        if letter in guesses:
-            print(letter, end=" ")
+    # while turns > 0:
+        # failed = 0
 
-        else:
-            print("_")
-            failed += 1
+        # for letter in word:
 
-    if failed == 0:
-        print("You Win")
-        print("The word is: ", word)
-        break
+            # if letter in guesses:
+                # print(letter, end=" ")
 
-    print()
-    guess = input("guess a letter:")
+            # else:
+                # print("_")
+                # failed += 1
 
-    guesses += guess
+        # if failed == 0:
+            # print("You Win")
+            # print("The word is: ", word)
+            # break
 
-    if guess not in word:
+        # print()
+        # guess = input("guess a letter:")
 
-        turns -= 1
-        print("Wrong")
-        print("You have", + turns, 'more guesses')
+        # guesses += guess
 
-        if turns == 0:
-            print("You Loose")
+        # if guess not in word:
+
+            # turns -= 1
+            # print("Wrong")
+            # print("You have", + turns, 'more guesses')
+
+            # if turns == 0:
+                # print("You Loose") 
