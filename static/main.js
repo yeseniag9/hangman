@@ -1,3 +1,3 @@
 function playGame() {
-	location.href='game.html'
+	location.href='game'
 }
