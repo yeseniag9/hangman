@@ -1,0 +1,19 @@
+body {
+    background-color: lightgray;
+}
+
+.post {
+    padding: 70px;
+}
+
+.wordbank {
+    border-top: 4px solid black;
+    display: flex;
+    justify-content: center;
+    margin-top: 78px;
+}
+
+p {
+    font-size: 53px;
+    padding: 9px;
+}
