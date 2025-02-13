@@ -31,3 +31,6 @@ def test():
     for w in range(len(word)):
         test += "_ "
     return test
+
+if __name__ == '__main__':
+    app.run(debug=True)
