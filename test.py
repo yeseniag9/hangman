@@ -1,20 +1,6 @@
-from flask import Flask
-from flask import render_template
 import random
 
-app = Flask(__name__)
-
-@app.route("/")
-def home():
-    return render_template("index.html")
-
-@app.route("/game")
-def game():
-    return render_template("game.html")
-
-@app.route("/test")
-def test():
-    words = ["apple", "breeze", "candle", "dolphin", "echo", "feather", "guitar", "horizon", "island", "jungle",  
+words = ["apple", "breeze", "candle", "dolphin", "echo", "feather", "guitar", "horizon", "island", "jungle",  
             "kitten", "lantern", "meadow", "nebula", "ocean", "puzzle", "quartz", "ripple", "sunbeam", "tundra",  
             "umbrella", "voyage", "whisper", "xylophone", "yonder", "zephyr", "amber", "blizzard", "cascade",  
             "drizzle", "ember", "fountain", "glacier", "harbor", "illusion", "jigsaw", "kelp", "lullaby", "mirage",  
@@ -25,9 +11,9 @@ def test():
             "alchemy", "ballet", "crimson", "daydream", "epiphany", "flourish", "gossamer", "halcyon", "infinity",  
             "jubilant", "keystone", "labyrinth", "moonbeam", "novella", "obsidian", "phenomenon", "quintessence",  
             "resonance", "silk", "tempest", "utopia", "verdant", "willow", "xylophonist", "yesteryear", "zealous"]
-    word = random.choice(words)
+word = random.choice(words)
 
-    test = ""
-    for w in range(len(word)):
-        test += "_ "
-    return test
+test = ""
+for w in range(len(word)):
+    test += "_ "
+print(test)
