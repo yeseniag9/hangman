@@ -18,4 +18,4 @@ for w in range(len(word)):
     test += "_ "
 print(test)
 
-turns = 7
+turns = 7 
