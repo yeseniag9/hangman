@@ -28,6 +28,6 @@ def test():
     word = random.choice(words)
 
     test = ""
-    for w in range(len(word)):
+    for w in range(len(word)): 
         test += "_ "
     return test
