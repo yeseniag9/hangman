@@ -4,20 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="{{ url_for('static', filename='images/stick-man.png')}}">
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}">
-    <script src="https://kit.fontawesome.com/eaeedff1d2.js" crossorigin="anonymous"></script>
-    <script src="{{url_for('static', filename='main.js')}}"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='game.css')}}">
     <title>Hangman</title>
 </head>
 <body>
-    <div class="play">
-        <i class="fa-solid fa-play" onclick="playGame()"></i>
-    </div>    
-    <div class="play">
-        <p>P</p>
+    <div class="post">
+        <img src="{{ url_for('static', filename='images/post.png')}}" alt="post" height="500">
+    </div>
+    <div class="wordbank">
+        <p>A</p>
+        <p>B</p>
+        <p>C</p>
+        <p>D</p>
+        <p>E</p>
+        <p>F</p>
+        <p>G</p>
+        <p>H</p>
+        <p>I</p>
+        <p>J</p>
+        <p>K</p>
         <p>L</p>
-        <p>_</p>
+        <p>M</p>
+        <p>N</p>
+        <p>O</p>
+        <p>P</p>
+        <p>Q</p>
+        <p>R</p>
+        <p>S</p>
+        <p>T</p>
+        <p>U</p>
+        <p>V</p>
+        <p>W</p>
+        <p>X</p>
         <p>Y</p>
+        <p>Z</p>
     </div>
 </body>
 </html>
