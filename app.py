@@ -30,4 +30,4 @@ def test():
     test = ""
     for w in range(len(word)): 
         test += "_ "
-    return test
+    return test 
