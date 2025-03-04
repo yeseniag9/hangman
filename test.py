@@ -26,3 +26,4 @@ while turns < 8:
     guesses += guess
 
     if guess not in word:
+        turns -= 1
