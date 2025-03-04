@@ -20,3 +20,6 @@ print(test)
 
 guesses = {}
 turns = 7
+
+while turns < 8:
+    
