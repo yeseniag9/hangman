@@ -18,4 +18,7 @@ for w in range(len(word)):
     test += "_ "
 print(test)
 
+guesses = ""
 turns = 7
+
+while turns < 8:
