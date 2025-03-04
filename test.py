@@ -31,3 +31,4 @@ while turns < 8:
 
         if turns == 0:
             print ("Game over")
+            break
