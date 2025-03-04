@@ -27,3 +27,4 @@ while turns < 8:
 
     if guess not in word:
         turns -= 1
+        print("Add hangman part")
