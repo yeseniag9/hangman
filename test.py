@@ -28,3 +28,6 @@ while turns < 8:
     if guess not in word:
         turns -= 1
         print("Add hangman part")
+
+        if turns == 0:
+            print ("Game over")
