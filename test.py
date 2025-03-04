@@ -23,3 +23,5 @@ turns = 7
 
 while turns < 8:
     guess = input("Guess a letter: ")
+    
+    guesses += guess
