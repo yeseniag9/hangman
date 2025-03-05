@@ -33,3 +33,4 @@ while turns < 8:
             print ("Game over")
             break
     else:
+        print(guess)
