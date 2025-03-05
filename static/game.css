@@ -2,12 +2,16 @@ body {
     background-color: lightgray;
 }
 
+.post-guesses {
+    display: flex;
+}
+
 .post {
     padding: 70px;
 }
 
-.post-guesses {
-    display: flex;
+h1 {
+    font-size: 47px;
 }
 
 /* h1 {
