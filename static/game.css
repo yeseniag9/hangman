@@ -6,6 +6,10 @@ body {
     padding: 70px;
 }
 
+.post-guesses {
+    display: flex;
+}
+
 /* h1 {
    display: flex;
    justify-content: center; 
