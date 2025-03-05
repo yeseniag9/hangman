@@ -4,9 +4,6 @@ body {
 
 .post-guesses {
     display: flex;
-}
-
-.post {
     padding: 150px;
 }
 
