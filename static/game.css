@@ -4,12 +4,10 @@ body {
 
 .post-guesses {
     display: flex;
-    padding: 150px;
 }
 
 h1 {
     font-size: 47px;
-    padding-left: 360px;
 }
 
 /* h1 {
