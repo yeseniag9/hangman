@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300..700&display=swap');
+
 body {
     background-color: lightgray;
 }
@@ -20,4 +22,6 @@ p {
     font-size: 47px;
     padding: 7px;
     text-decoration: underline;
+    font-family: "Signika Negative", sans-serif;
+    font-weight: 600;
 }
