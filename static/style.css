@@ -21,7 +21,10 @@ i:hover {
 p {
     font-size: 47px;
     padding: 7px;
-    text-decoration: underline;
     font-family: "Signika Negative", sans-serif;
     font-weight: 600;
+}
+
+.A {
+    padding-top: 6.4px;
 }
