@@ -19,7 +19,7 @@ for w in range(len(word)):
 print(test)
 
 guesses = ""
-turns = 7
+turns = 6
 
 while turns < 8:
     guess = input("Guess a letter: ")
