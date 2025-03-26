@@ -2,6 +2,8 @@
 
 body {
     background-color: lightgray;
+    font-family: "Signika Negative", sans-serif;
+    font-weight: 600;
 }
 
 .post-guesses {
@@ -18,8 +20,6 @@ body {
 h1 {
     font-size: 47px;
     padding-top: 55px;
-    font-family: "Signika Negative", sans-serif;
-    font-weight: 600;
     padding-left: 163px;
 }
 
