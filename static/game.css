@@ -27,7 +27,6 @@ h1 {
     box-sizing: border-box;
     width: 500px;
     border: 5px solid black;
-    padding: 5px;
     height: 520px;
 }
 
@@ -35,6 +34,10 @@ h1 {
     display: flex;
     justify-content: space-evenly;
     font-size: 27px;
+}
+
+.Z {
+    padding-right: 340px;
 }
 
 .test {
