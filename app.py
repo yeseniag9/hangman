@@ -1,5 +1,4 @@
-from flask import Flask
-from flask import render_template
+from flask import Flask, render_template
 import random
 
 app = Flask(__name__)
@@ -31,3 +30,6 @@ def test():
     for w in range(len(word)): 
         test += "_ "
     return test 
+
+if __name__ == "__main__":
+    app.run()
