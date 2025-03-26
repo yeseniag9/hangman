@@ -26,18 +26,26 @@ h1 {
 .box {
     box-sizing: border-box;
     width: 500px;
-    border: 5px solid black;
+    border: 4px solid black;
     height: 520px;
 }
 
 .letters {
     display: flex;
     justify-content: space-evenly;
-    font-size: 27px;
+    font-size: 36px;
+    margin: -13px;
+}
+
+.YZ {
+    display: flex;
+    font-size: 36px;
+    margin: -13px;
+    padding-left: 54px;
 }
 
 .Z {
-    padding-right: 340px;
+    padding-left: 56px;
 }
 
 .test {
