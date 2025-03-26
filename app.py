@@ -9,10 +9,6 @@ def home():
 
 @app.route("/game")
 def game():
-    return render_template("game.html")
-
-@app.route("/test")
-def test():
     words = ["apple", "breeze", "candle", "dolphin", "echo", "feather", "guitar", "horizon", "island", "jungle",  
             "kitten", "lantern", "meadow", "nebula", "ocean", "puzzle", "quartz", "ripple", "sunbeam", "tundra",  
             "umbrella", "voyage", "whisper", "xylophone", "yonder", "zephyr", "amber", "blizzard", "cascade",  
@@ -29,7 +25,7 @@ def test():
     test = ""
     for w in range(len(word)): 
         test += "_ "
-    return test 
+    return render_template("game.html", test=test)
 
 if __name__ == "__main__":
     app.run()
