@@ -31,6 +31,12 @@ h1 {
     height: 520px;
 }
 
+.letters {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 27px;
+}
+
 .test {
     display: flex;
     justify-content: center;
