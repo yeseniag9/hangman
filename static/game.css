@@ -33,17 +33,17 @@ h1 {
 .letters {
     display: flex;
     justify-content: space-evenly;
-    font-size: 36px;
+    font-size: 32px;
 }
 
 .YZ {
     display: flex;
-    font-size: 36px;
-    padding: 29px;
+    font-size: 32px;
+    padding-left: 52px;
 }
 
 .Z {
-    padding-left: 50px;
+    padding-left: 53px;
 }
 
 .test {
