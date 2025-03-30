@@ -25,6 +25,7 @@ def game():
     underscores = ""
     for w in range(len(word)): 
         underscores += "_ "
+        
     return render_template("game.html", underscores=underscores)
 
 if __name__ == "__main__":
