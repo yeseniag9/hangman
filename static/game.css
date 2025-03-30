@@ -37,6 +37,10 @@ h1 {
     cursor: default;
 }
 
+p:hover {
+    color: rgb(33, 156, 239);
+}
+
 .YZ {
     display: flex;
     font-size: 32px;
