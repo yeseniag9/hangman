@@ -58,7 +58,6 @@
         </div>
     </div>
     <div class="underscores">{{underscores}}</div>
-
     <script>
         function A() {
 	        let A = document.getElementById("A");
@@ -188,26 +187,6 @@
         function Z() {
 	        let Z = document.getElementById("Z");
 	        Z.style.color = "lightgray";
-        }
-    </script>
-
-    <input type="text" id="input">
-    <button onclick="sendData()">Send Data</button>
-    <div id="output"></div>
-    <script>
-        function sendData() {
-            var value = document.getElementById('input').value;
-            $.ajax({
-                url: '/process',
-                type: 'POST',
-                data: { 'data': value },
-                success: function(response) {
-                    document.getElementById('output').innerHTML = response;
-                },
-                error: function(error) {
-                    console.log(error);
-                }
-            });
         }
     </script>
 </body>

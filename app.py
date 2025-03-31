@@ -30,10 +30,3 @@ def game():
 
 if __name__ == "__main__":
     app.run()
-
-@app.route('/process', methods=['POST'])
-def process():
-    data = request.form.get('data')
-    # process the data using Python code
-    result = data.upper()
-    return result
