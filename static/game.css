@@ -52,8 +52,8 @@ p:hover {
 }
 
 .word-underscores {
-    display: flex;
-    justify-content: center;
+    display: block;
+    text-align: center;
 }
 
 .word { 
