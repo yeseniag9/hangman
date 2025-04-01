@@ -51,6 +51,16 @@ p:hover {
     padding-left: 53px;
 }
 
+
+
+
+.word { 
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    margin-top: -10px;
+}
+
 .underscores {
     display: flex;
     justify-content: center;
