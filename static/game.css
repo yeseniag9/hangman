@@ -59,10 +59,9 @@ p:hover {
 .word { 
     font-size: 60px;
     text-transform: uppercase;
-    visibility: hidden;
 }
 
 .underscores {
-    font-size: 110px;
+    font-size: 100px;
     margin-top: -99px;
 }
