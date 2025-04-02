@@ -59,10 +59,12 @@ p:hover {
 .word { 
     font-size: 60px;
     text-transform: uppercase;
-    letter-spacing: 37px;
+    letter-spacing: 43px;
+    padding-left: 10px;
 }
 
 .underscores {
-    font-size: 100px;
+    font-size: 95px;
     margin-top: -74px;
+    letter-spacing: 25px;
 }
