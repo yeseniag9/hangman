@@ -22,11 +22,14 @@ def game():
             "resonance", "silk", "tempest", "utopia", "verdant", "willow", "xylophonist", "yesteryear", "zealous"]
     word = random.choice(words) 
 
+    characters = list(word)
+    print(characters)
+
     underscores = ""
     for w in range(len(word)): 
         underscores += "_"
         
-    return render_template("game.html", word=word, underscores=underscores)
+    return render_template("game.html", characters=characters, word=word, underscores=underscores)
 
 if __name__ == "__main__":
     app.run()
