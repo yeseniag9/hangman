@@ -22,6 +22,11 @@ body {
     margin-top: 195px;
 }
 
+.body {
+    border: 2px solid rgb(71, 137, 199);    
+    height: 100px;
+}
+
 h1 {
     font-size: 45px;
     padding-top: 55px;
