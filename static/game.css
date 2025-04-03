@@ -12,12 +12,7 @@ body {
     height: 85vh;
 }
 
-.post {
-    display: flex;
-    align-items: center;
-}
-
-.head {
+.post-hangman {
     display: flex;
     align-items: center;
 }
