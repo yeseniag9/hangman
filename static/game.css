@@ -6,7 +6,7 @@ body {
     font-weight: 600;
 }
 
-.post-letters {
+.post-hangman-letters {
     display: flex;
     justify-content: space-evenly;
     height: 85vh;
