@@ -17,11 +17,6 @@ body {
     align-items: center;
 }
 
-.head {
-    margin-left: -400px;
-    margin-top: 195px;
-}
-
 .body {
     border: 1.5px solid rgb(71, 137, 199);    
     height: 100px;
