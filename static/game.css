@@ -32,6 +32,13 @@ body {
     margin-left: 35px;
 }
 
+.left-arm {
+    font-size: 110px;
+    margin-top: -185px;
+    rotate: -50deg;
+    margin-left: -55px;
+}
+
 h1 {
     font-size: 45px;
     padding-top: 55px;
