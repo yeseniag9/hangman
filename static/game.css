@@ -32,11 +32,22 @@ body {
     margin-left: 35px;
 }
 
-.left-arm {
+.arms {
     font-size: 110px;
     margin-top: -185px;
+    display: flex;
+}
+
+.left-arm {
     rotate: -50deg;
-    margin-left: -55px;
+    margin-left: -35px;
+    margin-top: 30px;
+}
+
+.right-arm {
+    rotate: 50deg;
+    margin-left: 50px;
+    margin-top: 34px;
 }
 
 h1 {
