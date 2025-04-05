@@ -19,6 +19,8 @@ body {
 
 .hangman {
     color: rgb(33, 156, 239);
+    padding-top: 210px;
+    font-size: 130px;
 }
 
 .body {
