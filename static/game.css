@@ -25,7 +25,9 @@ body {
 
 .body {
     border-left: 14px solid rgb(33, 156, 239);
-    height: 35px;
+    height: 135px;
+    margin-top: -33px;
+    margin-left: 35px;
 }
 
 h1 {
