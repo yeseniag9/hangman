@@ -17,9 +17,13 @@ body {
     align-items: center;
 }
 
+.hangman {
+    color: rgb(33, 156, 239);
+}
+
 .body {
-    border: 1.5px solid rgb(71, 137, 199);    
-    height: 100px;
+    border-left: 2px solid rgb(33, 156, 239);
+    height: 35px;
 }
 
 h1 {
