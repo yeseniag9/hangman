@@ -42,9 +42,10 @@ h1 {
 
 .letters {
     display: flex;
-    justify-content: space-evenly;
-    font-size: 32px;
+    flex-wrap: wrap;
     cursor: default;
+    font-size: 32px;
+    letter-spacing: 30px;
 }
 
 p:hover {
@@ -55,10 +56,6 @@ p:hover {
     display: flex;
     font-size: 32px;
     padding-left: 52px;
-}
-
-.Z {
-    padding-left: 53px;
 }
 
 .bottom-container {
