@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, request, jsonify
 import random
 
 app = Flask(__name__)
@@ -28,5 +28,8 @@ def game():
         
     return render_template("game.html", word=word, underscores=underscores)
 
-if __name__ == "__main__":
-    app.run()
+
+
+@app.route("/test")
+def test():
+    return "Test"
