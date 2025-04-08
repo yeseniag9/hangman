@@ -25,6 +25,11 @@ body {
     margin-top: -43px;
 }
 
+.head {
+    margin-top: 25px;
+    margin-right: 45px;
+}
+
 .body {
     border-left: 14px solid rgb(33, 156, 239);
     height: 100px;
