@@ -38,9 +38,11 @@ body {
 }
 
 .left-arm {
-    rotate: -50deg;
-    margin-left: -35px;
-    margin-top: 30px;
+    border-right: 3px solid rgb(71, 137, 199);
+    height: 105px;
+    rotate: 110deg;
+    margin-top: -200px;
+    margin-right: 135px;
 }
 
 .right-arm {
