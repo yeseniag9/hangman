@@ -7,9 +7,6 @@ app = Flask(__name__)
 def home():
     return render_template("index.html")
 
-with open('static/main.js') as jsfile:
-    word = jsfile.read()
-
 @app.route("/game", methods=['GET'])
 def game():
     words = ["apple", "breeze", "candle", "dolphin", "echo", "feather", "guitar", "horizon", "island", "jungle",  
@@ -28,8 +25,5 @@ def game():
     underscores = ""
     for w in range(len(word)): 
         underscores += "_"
-    
-
-    return jsonify({"word":word})
-    
-    #return render_template("game.html", word=word, underscores=underscores)
+        
+    return render_template("game.html", word=word, underscores=underscores)
