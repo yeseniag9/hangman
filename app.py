@@ -27,9 +27,3 @@ def game():
         underscores += "_"
         
     return render_template("game.html", word=word, underscores=underscores)
-
-
-
-@app.route("/test")
-def test():
-    return "Test"
