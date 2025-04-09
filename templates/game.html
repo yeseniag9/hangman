@@ -14,7 +14,7 @@
             <img src="/static/images/post.png" alt="post" height="600">
         </div>
         <div class="hangman">
-            <img class="head" src="/static/images/head.png" alt="head" height="125">
+            <img id="head" class="head" src="/static/images/head.png" alt="head" height="125">
             <div class="body"></div>
             <div class="left-arm"></div>
             <div class="right-arm"></div>
@@ -63,6 +63,9 @@
         function A() {
 	        let A = document.getElementById("A");
 	        A.style.color = "lightgray";
+            
+            let head = document.getElementById("head");
+            head.style.visibility = "visible";
         }
 
         function B() {
