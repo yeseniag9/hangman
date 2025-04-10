@@ -3,6 +3,7 @@ from flask_restful import Resource, Api
 import random
 
 app = Flask(__name__)
+api = Api(app)
 
 @app.route("/")
 def home():
