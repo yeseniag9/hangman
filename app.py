@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import Flask, render_template,         jsonify, request
 import random
 
 app = Flask(__name__)
@@ -28,3 +28,24 @@ def game():
         underscores += "_"
         
     return render_template("game.html", word=word, underscores=underscores) 
+
+
+
+if __name__ == '__main__':
+    app.run(debug=True)
+
+
+
+
+
+
+@app.route('/test', methods=['GET','POST'])
+def index():
+    if request.method == "POST":
+        firstname = request.form['firstname']
+        lastname = request.form['lastname']
+        output = firstname + lastname
+        if firstname and lastname:
+            return jsonify({'output':'Your Name is ' + output + ', right?'})
+    
+    return render_template('test.html')
