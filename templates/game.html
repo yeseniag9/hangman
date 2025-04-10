@@ -65,7 +65,18 @@
 	        let A = document.getElementById("A");
 	        A.style.color = "lightgray";
             
-            let pick = A
+            let pick = {
+                "letter": A,
+            }
+
+            $.ajax({
+                url: Flask.url_for('game'),
+                type: 'POST',
+                data: JSON.stringify(pick), 
+            })
+            .done(function(result){     
+            console.log(result)     
+            })  
         }
 
         function B() {
