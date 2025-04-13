@@ -69,8 +69,8 @@ body {
     rotate: 150deg;
 }
 
-h1 {
-    font-size: 45px;
+h2 {
+    font-size: 40px;
     padding-top: 55px;
     text-align: center;
 }
@@ -86,7 +86,7 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     cursor: default;
-    font-size: 32px;
+    font-size: 30px;
     letter-spacing: 53px;
     padding-left: 40px;
 }
