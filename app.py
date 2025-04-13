@@ -9,6 +9,11 @@ def home():
 
 @app.route("/game", methods=['GET','POST'])
 def game():
+    if request.method == "POST":
+        letter = request.form['letter']
+        output = letter
+        if letter:
+            return jsonify({'output': output})
     
     words = ["apple", "breeze", "candle", "dolphin", "echo", "feather", "guitar", "horizon", "island", "jungle",  
             "kitten", "lantern", "meadow", "nebula", "ocean", "puzzle", "quartz", "ripple", "sunbeam", "tundra",  
