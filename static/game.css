@@ -69,6 +69,10 @@ body {
     rotate: 150deg;
 }
 
+.input {
+    border: 2px solid rgb(71, 137, 199);
+}
+
 h2 {
     font-size: 40px;
     padding-top: 115px;
