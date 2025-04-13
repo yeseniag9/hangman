@@ -1,4 +1,4 @@
-from flask import Flask, render_template,         jsonify, request
+from flask import Flask, render_template, jsonify, request
 import random
 
 app = Flask(__name__)
@@ -7,7 +7,7 @@ app = Flask(__name__)
 def home():
     return render_template("index.html")
 
-@app.route("/game")
+@app.route("/game", methods=['GET','POST'])
 def game():
     
     words = ["apple", "breeze", "candle", "dolphin", "echo", "feather", "guitar", "horizon", "island", "jungle",  
