@@ -83,14 +83,13 @@ input {
 }
 
 .input {
-    padding-top: 9px;
-}
-
-.input {
-    border: 2px solid rgb(71, 137, 199);
+    border: 2px solid black;
     border-radius: 25px;
     text-indent: 11px;
     outline: none;
+    padding-top: 6px;
+    padding-bottom: 4px;
+    background-color: lightgray;
 }
 
 h2 {
