@@ -69,13 +69,17 @@ body {
     rotate: 150deg;
 }
 
-.form {
+.pick-letter {
     display: flex;
     justify-content: center;
 }
 
 h3 {
     font-size: 30px;
+}
+
+.pick {
+    padding-top: 3px;
 }
 
 input {
@@ -87,9 +91,6 @@ input {
     border-radius: 25px;
     text-indent: 11px;
     outline: none;
-    padding-top: 6px;
-    padding-bottom: 4px;
-    background-color: lightgray;
 }
 
 h2 {
