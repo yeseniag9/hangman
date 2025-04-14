@@ -93,6 +93,15 @@ input {
     outline: none;
 }
 
+button {
+    border-left: 3px solid rgb(71, 137, 199);
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+    background-color: lightgrey;
+    font-size: 17px;
+}
+
 h2 {
     font-size: 40px;
     text-align: center;
