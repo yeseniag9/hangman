@@ -104,6 +104,7 @@ button {
     background-color: lightgrey;
     font-size: 22px;
     margin-left: 10px;
+    font-weight: bold;
 }
 
 button:hover {
