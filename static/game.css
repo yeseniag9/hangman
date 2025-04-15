@@ -90,7 +90,7 @@ input {
 
 .input {
     border: 2px solid black;
-    border-radius: 25px;
+    border-radius: 10px;
     text-indent: 21px;
     outline: none;
     font-size: 24px;
