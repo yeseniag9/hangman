@@ -91,9 +91,9 @@ input {
 .input {
     border: 2px solid black;
     border-radius: 25px;
-    text-indent: 17px;
+    text-indent: 21px;
     outline: none;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 button {
