@@ -127,6 +127,7 @@ h2 {
 }
 
 .letters {
+    color: lightgray;
     display: flex;
     flex-wrap: wrap;
     cursor: default;
