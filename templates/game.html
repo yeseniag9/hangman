@@ -80,10 +80,13 @@
                     $('#output').text(data.output).show();
                 });
                 e.preventDefault();
+
+                let A = document.getElementById("A");
+                if ('#output' == A) {
+                    A.style.color = "green";
+                }
             });
 
-            let A = document.getElementById("A");
-	        A.style.color = "green";
         });
 
         function B() {
