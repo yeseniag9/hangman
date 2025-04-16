@@ -1,5 +1,7 @@
 from flask import Flask, render_template, jsonify, request
+from bs4 import BeautifulSoup as bs
 import random
+import re
 
 app = Flask(__name__)
 
