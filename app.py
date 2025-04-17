@@ -1,7 +1,5 @@
 from flask import Flask, render_template, jsonify, request
 import random
-from selenium import webdriver
-
 
 app = Flask(__name__)
 
