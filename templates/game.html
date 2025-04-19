@@ -76,14 +76,14 @@
                     url : '/game'
                 })
                 .done(function(data){
-                    let A = document.getElementById("A");
+                    let B = document.getElementById("B");
 
                     pick =  $('#letter').val()
 
-                    if (pick = A) {
-                        A.style.color = "orange";
+                    if (pick = B) {
+                        B.style.color = "orange";
                     } else {
-                        A.style.color = "red";
+                        B.style.color = "red";
                     }
                 });
                 e.preventDefault();
