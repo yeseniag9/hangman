@@ -28,7 +28,6 @@
                 <input class="input" type="text" id="letter" size="4">
                 <button type="submit" name="button">Submit</button>
             </form>
-            <div id="output"></div>
             <h2>Guesses</h2>
             <div class="box">
                 <div class="letters">
@@ -80,7 +79,7 @@
                     let A = document.getElementById("A");
 
                     pick =  $('#letter').val()
-                    
+
                     if (pick = A) {
                         A.style.color = "orange";
                     } else {
