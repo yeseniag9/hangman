@@ -77,18 +77,17 @@
                     url : '/game'
                 })
                 .done(function(data){
-                    $('#output').text(data.output).show();
+                    let A = document.getElementById("A");
+
+                    pick =  $('#letter').val()
+                    
+                    if (pick = A) {
+                        A.style.color = "orange";
+                    } else {
+                        A.style.color = "red";
+                    }
                 });
                 e.preventDefault();
-
-                let A = document.getElementById("A");
-
-                pick = $("#letter");
-                if (pick = A) {
-                    A.style.color = "orange";
-                } else {
-                    A.style.color = "red";
-                }
             });
 
         });
