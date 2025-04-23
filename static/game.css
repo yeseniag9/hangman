@@ -136,10 +136,6 @@ h2 {
     padding-left: 40px;
 }
 
-p:hover {
-    color: rgb(71, 137, 199);
-}
-
 .YZ {
     display: flex;
     font-size: 32px;
