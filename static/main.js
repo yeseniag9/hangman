@@ -2,10 +2,8 @@ function playGame() {
 	location.href='game';
 }
 
-function Lose() {
-	alert("Aw no! Play again?");
-}
 
-function Win() {
-	alert("Way to go! Play again?");
+function myFunction() {
+	var popup = document.getElementById("myPopup");
+	popup.classList.toggle("show");
 }
