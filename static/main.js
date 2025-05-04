@@ -4,11 +4,9 @@ function playGame() {
 
 
 function Lose() {
-	var popup = document.getElementById("lose");
-	popup.classList.toggle("show");
+	alert("Aw no! Play again?");
 }
 
 function Win() {
-	var popup = document.getElementById("win");
-	popup.classList.toggle("show");
+	alert("Way to go! Play again?");
 }
