@@ -65,11 +65,18 @@
         <div class="underscores">{{underscores}}</div>
     </div>
     <div>
-        <a onclick="showPopup()">Popup</a>
-        <div class="popup" id="popup">
-            <span style='font-size:30px;'>&#128513; Play again?</span>
-            <a href="#" onclick="hidePopup()">Ok!</a>
-          </div>
+        <div>
+            <a onclick="showWin()">Win Popup</a>
+            <div class="popup" id="win-popup">
+            <span style='font-size:30px;'>&#128513; Win</span>
+            <a href="#" onclick="hideWin()">Ok!</a>
+        </div>
+        <div>
+            <a onclick="showLose()">Lose Popup</a>
+            <div class="popup" id="lose-popup">
+            <span style='font-size:30px;'>&#128513; Lose</span>
+            <a href="#" onclick="hideLose()">Ok!</a>
+        </div>
     </div>
     <script>
     </script> 
