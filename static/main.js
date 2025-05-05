@@ -2,14 +2,12 @@ function playGame() {
 	location.href='game';
 }
 
-$ = function(id) {
-	return document.getElementById(id);
+function showPopup() {
+	let showPopup = document.getElementById("popup");
+	showPopup.style.display ='block';
 }
 
-var show = function(id) {
-	$(id).style.display ='block';
+function hidePopup() {
+	let hidePopup = document.getElementById("popup");
+	hidePopup.style.display ='none';
 }
-
-var hide = function(id) {
-	$(id).style.display ='none';
-}  
