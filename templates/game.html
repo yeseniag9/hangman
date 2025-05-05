@@ -6,7 +6,6 @@
     <link rel="icon" href="/static/images/stickman.png">
     <link rel="stylesheet" href="/static/game.css">
     <script src="/static/main.js"></script>
-    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <title>Hangman</title> 
 </head>
 <body>
@@ -66,21 +65,7 @@
         <div class="underscores">{{underscores}}</div>
     </div>
     <script>
-        swal({
-            title: "Aw, no!",
-            text: "Play again?",
-            button: "No",
-            showDenyButton: true,
-            showCancelButton: true,
-            confirmButtonText: `Save`,
-            denyButtonText: `Don't save`,
-         }).then((result) => {
-            if (result.isConfirmed) {
-                Swal.fire('Saved!', '', 'success')
-            } else if (result.isDenied) {
-                Swal.fire('Changes are not saved', '', 'info')
-            }
-        })   
+       
     </script> 
 </body>
 </html>
