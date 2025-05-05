@@ -64,17 +64,13 @@
         <div class="word">{{word}}</div>
         <div class="underscores">{{underscores}}</div>
     </div>
-
-    <a href="#" onclick="showPopup()">Show popup (box-shadow)</a>
-
-<div class="popup" id="popup">
-  <p>This is a popup!</p>
-  <p>Overlay uses <b>box-shadow</b>.</p>
-	<p>(Doesn't block elements on background)</p>
-  <a href="#" onclick="hidePopup()">Ok!</a>
-</div>
-
-
+    <div>
+        <a onclick="showPopup()">Popup</a>
+        <div class="popup" id="popup">
+            <span style='font-size:30px;'>&#128513; Play again?</span>
+            <a href="#" onclick="hidePopup()">Ok!</a>
+          </div>
+    </div>
     <script>
     </script> 
 </body>
