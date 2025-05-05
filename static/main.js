@@ -2,12 +2,22 @@ function playGame() {
 	location.href='game';
 }
 
-function showPopup() {
-	let showPopup = document.getElementById("popup");
-	showPopup.style.display ='block';
+function showWin() {
+	let showWin = document.getElementById("win-popup");
+	showWin.style.display ='block';
 }
 
-function hidePopup() {
-	let hidePopup = document.getElementById("popup");
-	hidePopup.style.display ='none';
+function hideWin() {
+	let hideWin = document.getElementById("win-popup");
+	hideWin.style.display ='none';
+}
+
+function showLose() {
+	let showLose = document.getElementById("lose-popup");
+	showLose.style.display ='block';
+}
+
+function hideLose() {
+	let hideLose = document.getElementById("hide-popup");
+	hideLose.style.display ='none';
 }
