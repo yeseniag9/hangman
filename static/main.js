@@ -18,6 +18,6 @@ function showLose() {
 }
 
 function hideLose() {
-	let hideLose = document.getElementById("hide-popup");
+	let hideLose = document.getElementById("lose-popup");
 	hideLose.style.display ='none';
 }

@@ -25,7 +25,7 @@
             <form class="form" id="form">
                 <h1 class="pick">Pick a letter: <h1>
                 <input class="input" type="text" id="input" size="4"> 
-                <button type="submit" name="button">Submit</button> 
+                <button class="submit" type="submit" name="button">Submit</button> 
             </form>
             <h2>Guesses</h2>
             <div class="box">
@@ -68,17 +68,22 @@
         <div>
             <a onclick="showWin()">Win Popup</a>
             <div class="popup" id="win-popup">
-            <span style='font-size:30px;'>&#128513; Win</span>
-            <a href="#" onclick="hideWin()">Ok!</a>
+                <span>&#128513; Win</span>
+                <button class="yes" onclick="hideWin()">Yes</button>
+                <button class="no" onclick="hideWin()">No</button>
+            </div>
         </div>
         <div>
             <a onclick="showLose()">Lose Popup</a>
             <div class="popup" id="lose-popup">
-            <span style='font-size:30px;'>&#128513; Lose</span>
-            <a href="#" onclick="hideLose()">Ok!</a>
+                <span>&#128532; Lose</span>
+                <button class="yes" onclick="hideLose()">Yes</button>
+                <button class="no" onclick="hideLose()">No</button>
+            </div>
         </div>
     </div>
     <script>
+
     </script> 
 </body>
 </html>
