@@ -66,8 +66,12 @@
         <div class="underscores">{{underscores}}</div>
     </div>
     <script>
-        swal("Aw no! Play again?");
-        swal("Way to go! Play again?");
+        swal({
+            title: "Aw, no!",
+            text: "Play again?",
+            icon: "success",
+            button: "No",
+        });    
     </script> 
 </body>
 </html>
