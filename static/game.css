@@ -169,15 +169,6 @@ h2 {
     border: 2px solid black;
     background: rgb(71, 137, 199);
     color: white;
-
-
-
     width: 280px;
     height: 60px;
-    padding: 10px;
-    left: 50%;
-    margin-left: -150px;
-    top: 50%;
-    margin-top: -464px;
-    z-index: 20;
 }
