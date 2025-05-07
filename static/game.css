@@ -167,11 +167,12 @@ h2 {
     box-sizing: border-box;
     border-radius: 25px;
     border: 2px solid black;
+    background: rgb(71, 137, 199);
+    color: white;
 
 
 
     width: 280px;
-    background: #FFF;
     height: 60px;
     padding: 10px;
     left: 50%;
