@@ -162,6 +162,12 @@ h2 {
 }
 
 .popup {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.pop {
     display: none;
     position: fixed;
     box-sizing: border-box;
@@ -173,9 +179,4 @@ h2 {
     margin-top: -915px;
     width: 300px;
     margin-left: -50px;
-}
-
-.pop {
-    display: flex;
-    justify-content: center;
 }
