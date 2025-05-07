@@ -164,6 +164,11 @@ h2 {
 .popup {
     display: none;
     position: fixed;
+    box-sizing: border-box;
+    border-radius: 25px;
+    border: 2px solid black;
+
+
 
     width: 280px;
     background: #FFF;
