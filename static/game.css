@@ -169,9 +169,10 @@ h2 {
     border: 2px solid black;
     background: rgb(71, 137, 199);
     color: white;
-    width: 280px;
-    height: 60px;
+    height: 70px;
     margin-top: -915px;
+    width: 300px;
+    margin-left: -50px;
 }
 
 .pop {
