@@ -172,5 +172,9 @@ h2 {
     width: 280px;
     height: 60px;
     margin-top: -915px;
-    margin-left: 675px;
+}
+
+.pop {
+    display: flex;
+    justify-content: center;
 }
