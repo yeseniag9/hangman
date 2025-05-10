@@ -11,6 +11,8 @@ body, html {
 .top-container {
     width: 100%;
     background-color: rgb(71, 137, 199);
+    margin-bottom: -50px;
+    padding-top: 10px;
 }
 
 .middle-container {
