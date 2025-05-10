@@ -12,7 +12,8 @@ body, html {
     width: 100%;
     background-color: rgb(71, 137, 199);
     padding-top: 1px;
-
+    font-size: 20px;
+    display: flex;
 }
 
 .middle-container {
