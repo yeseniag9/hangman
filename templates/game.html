@@ -9,23 +9,25 @@
     <title>Hangman</title> 
 </head>
 <body>
-    <div class="popup">
-        <a onclick="showWin()">Win Popup</a>
-        <div class="pop" id="win-popup">
-            <p class="play-again">&#128513; Way to go! Play again?</p>
-            <button class="yes" onclick="hideWin()">Yes</button>
-            <button class="no" onclick="hideWin()">No</button>
-        </div>
-    </div>
-    <div class="popup">
-        <a onclick="showLose()">Lose Popup</a>
-        <div class="pop" id="lose-popup">
-            <p class="play-again">&#128532; Aw, no! Play again?</p>
-            <button class="yes" onclick="hideLose()">Yes</button>
-            <button class="no" onclick="hideLose()">No</button>
-        </div>
-    </div>
     <div class="top-container">
+        <div class="popup">
+            <a onclick="showWin()">Win Popup</a>
+            <div class="pop" id="win-popup">
+                <p class="play-again">&#128513; Way to go! Play again?</p>
+                <button class="yes" onclick="hideWin()">Yes</button>
+                <button class="no" onclick="hideWin()">No</button>
+            </div>
+        </div>
+        <div class="popup">
+            <a onclick="showLose()">Lose Popup</a>
+            <div class="pop" id="lose-popup">
+                <p class="play-again">&#128532; Aw, no! Play again?</p>
+                <button class="yes" onclick="hideLose()">Yes</button>
+                <button class="no" onclick="hideLose()">No</button>
+            </div>
+        </div>
+    </div>
+    <div class="middle-container">
         <div class="post">
             <img src="/static/images/post.png" alt="post" height="600">
         </div>

@@ -6,7 +6,7 @@ body {
     font-weight: 600;
 }
 
-.top-container {
+.middle-container {
     display: flex;
     justify-content: space-evenly;
     height: 85vh;
@@ -173,7 +173,7 @@ h2 {
     position: fixed;
     box-sizing: border-box;
     border-radius: 25px;
-    border: 2px solid black;
+    border: 2px solid white;
     background: rgb(71, 137, 199);
     color: white;
     height: 70px;
