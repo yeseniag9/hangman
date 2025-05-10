@@ -1,9 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300..700&display=swap');
 
-body {
+body, html {
     background-color: lightgray;
     font-family: "Signika Negative", sans-serif;
     font-weight: 600;
+    margin:0;
+    padding:0;
+}
+
+.top-container {
+    width: auto;
+    background-color: green;
 }
 
 .middle-container {
@@ -159,24 +166,4 @@ h2 {
     font-size: 97px;
     margin-top: -95px;
     letter-spacing: 27px;
-}
-
-.popup {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    font-size: 20px;
-}
-
-.pop {
-    display: none;
-    position: fixed;
-    box-sizing: border-box;
-    border-radius: 25px;
-    border: 2px solid white;
-    background: rgb(71, 137, 199);
-    color: white;
-    height: 70px;
-    width: 300px;
-    margin-left: -50px;
 }
