@@ -4,14 +4,13 @@ body, html {
     background-color: lightgray;
     font-family: "Signika Negative", sans-serif;
     font-weight: 600;
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
 }
 
 .top-container {
-    width: auto;
+    width: 100%;
     background-color: rgb(71, 137, 199);
-    display: flex;
 }
 
 .middle-container {
