@@ -10,7 +10,8 @@ body, html {
 
 .top-container {
     width: auto;
-    background-color: green;
+    background-color: rgb(71, 137, 199);
+    display: flex;
 }
 
 .middle-container {
