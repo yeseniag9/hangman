@@ -8,23 +8,9 @@ body, html {
     padding: 0;
 }
 
-.popup-container {
-    width: 100%;
-    background-color: rgb(71, 137, 199);
-    padding-top: 1px;
-    display: flex;
-    align-items: center;
-    height: 50px;
-    margin-bottom: -15px;
-}
-
-.popup {
-    font-size: 20px;
-}
-
 .top-container {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     height: 85vh;
 }
 
@@ -175,4 +161,18 @@ h2 {
     font-size: 97px;
     margin-top: -95px;
     letter-spacing: 27px;
+}
+
+.popup-container {
+    width: 100%;
+    background-color: rgb(71, 137, 199);
+    padding-top: 1px;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    margin-bottom: -15px;
+}
+
+.popup {
+    font-size: 20px;
 }
