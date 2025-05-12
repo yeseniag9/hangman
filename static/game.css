@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300..700&display=swap');
 
 body, html {
-    background-color: lightgray;
+    background-color: white;
     font-family: "Signika Negative", sans-serif;
     font-weight: 600;
     margin: 0;
@@ -38,10 +38,10 @@ body, html {
     font-size: 130px;
     margin-left: -390px;
     margin-top: -43px;
-    visibility: hidden;
+    visibility: visible;
 }
 
-.head {
+.face {
     margin-top: 25px;
     margin-right: 45px;
 }
