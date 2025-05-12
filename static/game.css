@@ -8,7 +8,7 @@ body, html {
     padding: 0;
 }
 
-.top-container {
+.popup-container {
     width: 100%;
     background-color: rgb(71, 137, 199);
     padding-top: 1px;
@@ -22,7 +22,7 @@ body, html {
     font-size: 20px;
 }
 
-.middle-container {
+.top-container {
     display: flex;
     justify-content: space-evenly;
     height: 85vh;

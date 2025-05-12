@@ -3,22 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="/static/images/stickman.png">
+    <link rel="icon" href="/static/images/favicon-96x96.png">
     <link rel="stylesheet" href="/static/game.css">
     <script src="/static/main.js"></script>
     <title>Hangman</title> 
 </head>
 <body>
     <div class="top-container">
-        <div class="popup" id="win-popup">
-            <p>&#128513; Way to go! Play again?</p>
-        </div>
-        <div>
-            <button onclick="hideWin()">Yes</button>
-            <button onclick="hideWin()">No</button>
-        </div>
-    </div>
-    <div class="middle-container">
         <div class="post">
             <img src="/static/images/post.png" alt="post" height="600">
         </div>
@@ -72,6 +63,15 @@
     <div class="bottom-container">
         <div class="word">{{word}}</div>
         <div class="underscores">{{underscores}}</div>
+    </div>
+    <div class="popup-container">
+        <div class="popup" id="win-popup">
+            <p>&#128513; Way to go! Play again?</p>
+        </div>
+        <div>
+            <button onclick="hideWin()">Yes</button>
+            <button onclick="hideWin()">No</button>
+        </div>
     </div>
     <script>
 
