@@ -33,12 +33,10 @@ p {
     padding-top: 6.4px;
 }
 
-
-
-
-
 .stickman {
+    text-align: end;
+}
+
+.bubble {
     display: flex;
-    justify-content: end;
-    padding-top: 160px;
-}   
+}
