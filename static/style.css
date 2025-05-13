@@ -5,8 +5,8 @@ body {
 }
 
 .play {
-    display: flex;
-    justify-content: center;
+    padding-top: 360px;
+    text-align: center;
 }
 
 i {
@@ -15,6 +15,11 @@ i {
 
 i:hover {
     color: orange;
+}
+
+.pl-y {
+    display: flex;
+    justify-content: center;
 }
 
 p {
@@ -31,4 +36,5 @@ p {
 .stickman {
     display: flex;
     justify-content: end;
+    padding-top: 160px;
 }   
