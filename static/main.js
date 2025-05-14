@@ -33,56 +33,56 @@ function letterPicked() {
 	var Z = document.getElementById("Z");
 
 	if (input == "A") {
-		A.style.color = "green";
+		A.style.color = "orange";
 	} else if (input == "B" ) {
-		B.style.color = "green";
+		B.style.color = "orange";
 	} else if (input == "C" ) {
-		C.style.color = "green";
+		C.style.color = "orange";
 	} else if (input == "D" ) {
-		D.style.color = "green";
+		D.style.color = "orange";
 	} else if (input == "E" ) {
-		E.style.color = "green";
+		E.style.color = "orange";
 	} else if (input == "F" ) {
-		F.style.color = "green";
+		F.style.color = "orange";
 	} else if (input == "G" ) {
-		G.style.color = "green";
+		G.style.color = "orange";
 	} else if (input == "H" ) {
-		H.style.color = "green";
+		H.style.color = "orange";
 	} else if (input == "I" ) {
-		I.style.color = "green";
+		I.style.color = "orange";
 	} else if (input == "J" ) {
-		J.style.color = "green";
+		J.style.color = "orange";
 	} else if (input == "K" ) {
-		K.style.color = "green";
+		K.style.color = "orange";
 	} else if (input == "L" ) {
-		L.style.color = "green";
+		L.style.color = "orange";
 	} else if (input == "M" ) {
-		M.style.color = "green";
+		M.style.color = "orange";
 	} else if (input == "N" ) {
-		N.style.color = "green";
+		N.style.color = "orange";
 	} else if (input == "O" ) {
-		O.style.color = "green";
+		O.style.color = "orange";
 	} else if (input == "P" ) {
-		P.style.color = "green";
+		P.style.color = "orange";
 	} else if (input == "Q" ) {
-		Q.style.color = "green";
+		Q.style.color = "orange";
 	} else if (input == "R" ) {
-		R.style.color = "green";
+		R.style.color = "orange";
 	} else if (input == "S" ) {
-		S.style.color = "green";
+		S.style.color = "orange";
 	} else if (input == "T" ) {
-		T.style.color = "green";
+		T.style.color = "orange";
 	} else if (input == "U" ) {
-		U.style.color = "green";
+		U.style.color = "orange";
 	} else if (input == "V" ) {
-		V.style.color = "green";
+		V.style.color = "orange";
 	} else if (input == "W" ) {
-		W.style.color = "green";
+		W.style.color = "orange";
 	} else if (input == "X" ) {
-		X.style.color = "green";
+		X.style.color = "orange";
 	} else if (input == "Y" ) {
-		Y.style.color = "green";
+		Y.style.color = "orange";
 	} else if (input == "Z" ) {
-		Z.style.color = "green";
+		Z.style.color = "orange";
 	}
 }

@@ -109,8 +109,8 @@ input {
 }
 
 .submit:hover {
-    color: rgb(71, 137, 199);
-    border-left: 3px solid rgb(71, 137, 199);
+    color: orange;
+    border-left: 3px solid orange;
 }
 
 h2 {
