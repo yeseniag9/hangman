@@ -32,57 +32,57 @@ function letterPicked() {
 	var Y = document.getElementById("Y");
 	var Z = document.getElementById("Z");
 
-	if (input == "A") {
+	if (input == "A" || input == "a") {
 		A.style.color = "orange";
-	} else if (input == "B" ) {
+	} else if (input == "B" || input == "b") {
 		B.style.color = "orange";
-	} else if (input == "C" ) {
+	} else if (input == "C" || input == "c") {
 		C.style.color = "orange";
-	} else if (input == "D" ) {
+	} else if (input == "D" || input == "d") {
 		D.style.color = "orange";
-	} else if (input == "E" ) {
+	} else if (input == "E" || input == "e") {
 		E.style.color = "orange";
-	} else if (input == "F" ) {
+	} else if (input == "F" || input == "f") {
 		F.style.color = "orange";
-	} else if (input == "G" ) {
+	} else if (input == "G" || input == "g") {
 		G.style.color = "orange";
-	} else if (input == "H" ) {
+	} else if (input == "H" || input == "h") {
 		H.style.color = "orange";
-	} else if (input == "I" ) {
+	} else if (input == "I" || input == "i") {
 		I.style.color = "orange";
-	} else if (input == "J" ) {
+	} else if (input == "J" || input == "j") {
 		J.style.color = "orange";
-	} else if (input == "K" ) {
+	} else if (input == "K" || input == "k") {
 		K.style.color = "orange";
-	} else if (input == "L" ) {
+	} else if (input == "L" || input == "l") {
 		L.style.color = "orange";
-	} else if (input == "M" ) {
+	} else if (input == "M" || input == "m") {
 		M.style.color = "orange";
-	} else if (input == "N" ) {
+	} else if (input == "N" || input == "n") {
 		N.style.color = "orange";
-	} else if (input == "O" ) {
+	} else if (input == "O" || input == "o") {
 		O.style.color = "orange";
-	} else if (input == "P" ) {
+	} else if (input == "P" || input == "p") {
 		P.style.color = "orange";
-	} else if (input == "Q" ) {
+	} else if (input == "Q" || input == "q") {
 		Q.style.color = "orange";
-	} else if (input == "R" ) {
+	} else if (input == "R" || input == "r") {
 		R.style.color = "orange";
-	} else if (input == "S" ) {
+	} else if (input == "S" || input == "s") {
 		S.style.color = "orange";
-	} else if (input == "T" ) {
+	} else if (input == "T" || input == "t") {
 		T.style.color = "orange";
-	} else if (input == "U" ) {
+	} else if (input == "U" || input == "u") {
 		U.style.color = "orange";
-	} else if (input == "V" ) {
+	} else if (input == "V" || input == "v") {
 		V.style.color = "orange";
-	} else if (input == "W" ) {
+	} else if (input == "W" || input == "w") {
 		W.style.color = "orange";
-	} else if (input == "X" ) {
+	} else if (input == "X" || input == "x") {
 		X.style.color = "orange";
-	} else if (input == "Y" ) {
+	} else if (input == "Y" || input == "y") {
 		Y.style.color = "orange";
-	} else if (input == "Z" ) {
+	} else if (input == "Z" || input == "z") {
 		Z.style.color = "orange";
 	}
 }
