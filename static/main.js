@@ -14,7 +14,6 @@ function hideWin() {
 
 function letterPicked() {
     var input = document.getElementById("userInput").value;
-    alert(input);
 
 	var A = document.getElementById("A");
 	var B = document.getElementById("B");
@@ -42,7 +41,6 @@ function letterPicked() {
 	var X = document.getElementById("X");
 	var Y = document.getElementById("Y");
 	var Z = document.getElementById("Z");
-
 
 	if (input == "A") {
 		A.style.color = "green";
