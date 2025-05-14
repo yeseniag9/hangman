@@ -102,14 +102,6 @@ h2 {
     text-align: center;
 }
 
-.word { 
-    font-size: 60px;
-    text-transform: uppercase;
-    letter-spacing: 44px;
-    padding-left: 7px;
-    visibility: hidden;
-}
-
 .underscores {
     font-size: 97px;
     margin-top: -95px;
