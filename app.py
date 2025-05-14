@@ -22,8 +22,6 @@ def game():
             "resonance", "silk", "tempest", "utopia", "verdant", "willow", "xylophonist", "yesteryear", "zealous"]
     word = random.choice(words) 
 
-    print(word)
-
     underscores = ""
     randomWord = ""
     for w in range(len(word)):
