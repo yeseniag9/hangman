@@ -2,16 +2,6 @@ function playGame() {
 	location.href='game';
 }
 
-function showWin() {
-	let showWin = document.getElementById("win-popup");
-	showWin.style.display ='block';
-}
-
-function hideWin() {
-	let hideWin = document.getElementById("win-popup");
-	hideWin.style.display ='none';
-}
-
 function letterPicked() {
     var input = document.getElementById("userInput").value;
 
@@ -95,18 +85,4 @@ function letterPicked() {
 	} else if (input == "Z" ) {
 		Z.style.color = "green";
 	}
-
-
-
-
-
-
-
-
-
-
-
-
-	console.log(letterA);
-	console.log(input);
 }
