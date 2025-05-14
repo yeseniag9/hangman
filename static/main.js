@@ -17,7 +17,7 @@ function letterPicked() {
     alert(input);
 
 	var letterA = document.getElementById("A");
-	if (input == letterA) {
+	if (input == "A") {
 		letterA.style.color = "green";
 	} else {
 		letterA.style.color = "red";
