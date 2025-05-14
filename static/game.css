@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300..700&display=swap');
 
 body, html {
-    background-color: white;
     font-family: "Signika Negative", sans-serif;
     font-weight: 600;
     margin: 0;
@@ -103,10 +102,10 @@ input {
     border-bottom: none;
     border-right: none;
     border-top: none;
-    background-color: lightgrey;
     font-size: 22px;
     margin-left: 10px;
     font-weight: bold;
+    background-color: white;
 }
 
 .submit:hover {
@@ -129,7 +128,7 @@ h2 {
 }
 
 .letters {
-    color: lightgray;
+    color: white;
     display: flex;
     flex-wrap: wrap;
     cursor: default;
