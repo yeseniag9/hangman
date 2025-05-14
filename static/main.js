@@ -12,7 +12,7 @@ function hideWin() {
 	hideWin.style.display ='none';
 }
 
-function othername() {
+function letterPicked() {
     var input = document.getElementById("userInput").value;
     alert(input);
 }
