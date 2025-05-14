@@ -23,34 +23,6 @@ body, html {
     margin-bottom: 300px;
 }
 
-.body {    
-    margin-left: 60px;
-}
-
-.left-arm {
-    rotate: 110deg;
-    margin-top: -200px;
-    margin-right: 135px;
-}
-
-.right-arm {
-    rotate: 70deg;
-    margin-left: -15px;
-    margin-top: -175px;
-}
-
-.left-leg {
-    rotate: 35deg;
-    margin-top: 143px;
-    margin-right: 140px;
-}
-
-.right-leg {
-    margin-top: -135px;
-    margin-left: 85px;
-    rotate: 150deg;
-}
-
 .form {
     display: flex;
     justify-content: center;
