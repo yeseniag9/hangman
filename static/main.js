@@ -15,4 +15,14 @@ function hideWin() {
 function letterPicked() {
     var input = document.getElementById("userInput").value;
     alert(input);
+
+	var letterA = document.getElementById("A");
+	if (input == letterA) {
+		letterA.style.color = "green";
+	} else {
+		letterA.style.color = "red";
+	}
+
+	console.log(letterA);
+	console.log(input);
 }
