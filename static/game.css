@@ -21,7 +21,6 @@ body, html {
 .hangman {
     margin-left: -195px;
     margin-bottom: 300px;
-    visibility: hidden;
 }
 
 .form {
