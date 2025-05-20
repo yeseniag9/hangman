@@ -23,7 +23,7 @@ def game():
     word = random.choice(words) 
 
     underscores = ""
-    randomWord = ""
+    randomWord = []
     for w in range(len(word)):
         randomWord += word[w]
         underscores += "_"
