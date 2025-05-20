@@ -27,6 +27,5 @@ def game():
     for w in range(len(word)):
         randomWord += word[w]
         underscores += "_"
-    
         
     return render_template("game.html", randomWord=randomWord, underscores=underscores) 
