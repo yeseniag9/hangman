@@ -20,7 +20,8 @@ def game():
             "alchemy", "ballet", "crimson", "daydream", "epiphany", "flourish", "gossamer", "halcyon", "infinity",  
             "jubilant", "keystone", "labyrinth", "moonbeam", "novella", "obsidian", "phenomenon", "quintessence",  
             "resonance", "silk", "tempest", "utopia", "verdant", "willow", "xylophonist", "yesteryear", "zealous"]
-    word = random.choice(words) 
+    word = random.choice(words)
+    word = word.upper()
 
     underscores = ""
     randomWord = []
