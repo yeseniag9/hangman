@@ -6,19 +6,12 @@
     <link rel="icon" href="/static/images/favicon.png">
     <link rel="stylesheet" href="/static/game.css">
     <script type="text/javascript" src="/static/main.js"></script>
-    <title>Hangman</title>
-    
-
-
     <script type="text/javascript">
         const letter = "{{ data }}";
     </script>
+    <title>Hangman</title>
 </head>
 <body>
-    <div>{{data}}</div>
-
-
-
     <div class="top-container">
         <div class="post">
             <img src="/static/images/post.png" alt="post" height="600">
@@ -74,5 +67,8 @@
     <div class="bottom-container">
         <div class="underscores">{{underscores}}</div>
     </div>
+
+
+    <div>{{data}}</div>
 </body>
 </html>

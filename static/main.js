@@ -113,8 +113,6 @@ function letterPicked() {
 	}
 }
 
-
-
 function passData() {
     return letter
 }
