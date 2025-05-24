@@ -5,10 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="/static/images/favicon.png">
     <link rel="stylesheet" href="/static/game.css">
-    <script src="/static/main.js"></script>
-    <title>Hangman</title> 
+    <script type="text/javascript" src="/static/main.js"></script>
+    <title>Hangman</title>
+    
+
+
+    <script type="text/javascript">
+        const username = "{{ data.username }}";
+        const site = "{{ data.site }}";
+    </script>
 </head>
 <body>
+    <div>{{data}}</div>
+
+
+
     <div class="top-container">
         <div class="post">
             <img src="/static/images/post.png" alt="post" height="600">

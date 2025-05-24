@@ -112,3 +112,9 @@ function letterPicked() {
 		document.forms['form'].reset()
 	}
 }
+
+
+
+function myFunc() {
+    return username + site
+}

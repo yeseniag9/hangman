@@ -9,6 +9,10 @@ def home():
 
 @app.route("/game") 
 def game():
+    data = {'username': 'Pang', 'site': 'stackoverflow.com'}
+
+
+
     words = ["apple", "breeze", "candle", "dolphin", "echo", "feather", "guitar", "horizon", "island", "jungle",  
             "kitten", "lantern", "meadow", "nebula", "ocean", "puzzle", "quartz", "ripple", "sunbeam", "tundra",  
             "umbrella", "voyage", "whisper", "xylophone", "yonder", "zephyr", "amber", "blizzard", "cascade",  
@@ -29,4 +33,4 @@ def game():
         randomWord += word[w]
         underscores += "_"
         
-    return render_template("game.html", randomWord=randomWord, underscores=underscores) 
+    return render_template("game.html", randomWord=randomWord, underscores=underscores, data=data) 
