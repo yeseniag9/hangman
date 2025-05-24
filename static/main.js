@@ -32,6 +32,9 @@ function letterPicked() {
 	var Y = document.getElementById("Y");
 	var Z = document.getElementById("Z");
 
+
+	
+
 	if (input == "A" || input == "a") {
 		A.style.color = "orange";
 		document.forms['form'].reset()
@@ -112,5 +115,7 @@ function letterPicked() {
 		document.forms['form'].reset()
 	}
 
-	return letter
+	if (letter.includes(input)) {
+		A.style.color = "green";
+	}
 }
