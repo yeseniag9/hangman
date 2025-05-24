@@ -115,6 +115,6 @@ function letterPicked() {
 
 
 
-function myFunc() {
-    return username + site
+function passData() {
+    return letter
 }

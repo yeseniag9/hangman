@@ -9,7 +9,7 @@ def home():
 
 @app.route("/game") 
 def game():
-    data = {'username': 'Pang', 'site': 'stackoverflow.com'}
+    data = {'letter': 'Pang'}
 
 
 
