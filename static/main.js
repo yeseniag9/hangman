@@ -111,8 +111,6 @@ function letterPicked() {
 		Z.style.color = "orange";
 		document.forms['form'].reset()
 	}
-}
 
-function passData() {
-    return letter
+	return letter
 }
