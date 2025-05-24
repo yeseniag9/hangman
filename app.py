@@ -9,10 +9,6 @@ def home():
 
 @app.route("/game") 
 def game():
-    data = {'letter': 'Pang'}
-
-
-
     words = ["apple", "breeze", "candle", "dolphin", "echo", "feather", "guitar", "horizon", "island", "jungle",  
             "kitten", "lantern", "meadow", "nebula", "ocean", "puzzle", "quartz", "ripple", "sunbeam", "tundra",  
             "umbrella", "voyage", "whisper", "xylophone", "yonder", "zephyr", "amber", "blizzard", "cascade",  
@@ -32,5 +28,8 @@ def game():
     for w in range(len(word)):
         randomWord += word[w]
         underscores += "_"
+
+        data = {'letter': randomWord }
+
         
     return render_template("game.html", randomWord=randomWord, underscores=underscores, data=data) 
