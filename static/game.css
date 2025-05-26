@@ -19,14 +19,13 @@ body, html {
 }
 
 .hangman {
-    margin-left: -195px;
+    margin-left: -196px;
+    margin-bottom: 242px;
 }
 
 .string {
-    border-left: 3px solid black;
-    height: 30px;
+    font-size: 22px;
     margin-left: 58px;
-    margin-bottom: 232px;
 }
 
 .form {
