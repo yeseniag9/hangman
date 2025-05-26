@@ -16,16 +16,19 @@ body, html {
 .post {
     display: flex;
     align-items: center;
+    position: relative;
 }
 
 .hangman {
     margin-left: -196px;
-    margin-bottom: 242px;
+    margin-bottom: 264px;
+    position: relative;
 }
 
 .string {
     font-size: 22px;
     margin-left: 58px;
+    position: absolute;
 }
 
 .form {
