@@ -113,6 +113,6 @@ function letterPicked() {
 	}
 
 	if (randomWord.includes(input)) {
-		A.style.color = "green";
+		console.log("success")
 	}
 }
