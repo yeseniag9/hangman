@@ -5,6 +5,9 @@ function playGame() {
 guesses = 0
 
 function letterPicked() {
+	guesses += 1
+	console.log(guesses)
+
     var input = document.getElementById("userInput").value;
 
 	var A = document.getElementById("A");
@@ -115,13 +118,9 @@ function letterPicked() {
 	}
 
 	if (randomWord.includes(input)) {
-		guesses += 1
-		console.log(guesses)
 		console.log("success")
 		console.log(input)
 	} else {
-		guesses += 1
-		console.log(guesses)
 		console.log("fail")
 		console.log(input)
 	}
