@@ -2,6 +2,8 @@ function playGame() {
 	location.href='game';
 }
 
+guesses = 0
+
 function letterPicked() {
     var input = document.getElementById("userInput").value;
 
@@ -113,9 +115,13 @@ function letterPicked() {
 	}
 
 	if (randomWord.includes(input)) {
+		guesses += 1
+		console.log(guesses)
 		console.log("success")
 		console.log(input)
 	} else {
+		guesses += 1
+		console.log(guesses)
 		console.log("fail")
 		console.log(input)
 	}
