@@ -114,5 +114,9 @@ function letterPicked() {
 
 	if (randomWord.includes(input)) {
 		console.log("success")
+		console.log(input)
+	} else {
+		console.log("fail")
+		console.log(input)
 	}
 }
