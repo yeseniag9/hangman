@@ -23,6 +23,13 @@ body, html {
     margin-bottom: 200px;
 }
 
+.string {
+    border-left: 3px solid black;
+    height: 30px;
+    margin-left: 58px;
+    margin-bottom: 32px;
+}
+
 .form {
     display: flex;
     justify-content: center;
