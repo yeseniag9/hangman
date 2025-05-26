@@ -20,14 +20,13 @@ body, html {
 
 .hangman {
     margin-left: -195px;
-    margin-bottom: 200px;
 }
 
 .string {
     border-left: 3px solid black;
     height: 30px;
     margin-left: 58px;
-    margin-bottom: 32px;
+    margin-bottom: 232px;
 }
 
 .form {
