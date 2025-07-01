@@ -31,4 +31,4 @@ def game():
 
         data = randomWord
                  
-    return render_template("game.html", randomWord=randomWord, underscores=underscores, data=data)      
+    return render_template("game.html", randomWord=randomWord, underscores=underscores, data=data)       
