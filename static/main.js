@@ -129,4 +129,4 @@ function letterPicked() {
 let test = [1,2,3,1,4]
 console.log(test.indexOf(3))
    
-var randomWordJS = randomWord.replace(/[^a-zA-Z]+/g, '');
+var randomWordJS = randomWord.replace(/[^a-zA-Z]+/g, ''); 
