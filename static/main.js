@@ -38,8 +38,15 @@ function letterPicked() {
 	var Z = document.getElementById("Z");
  	
 	var string = document.getElementById("string");
-	
-
+	var head = document.getElementById("head");
+	var body = document.getElementById("body");
+	var leftArm = document.getElementById("leftArm");
+	var rightArm = document.getElementById("rightArm");
+	var leftLeg = document.getElementById("leftLeg");
+	var rightLeg = document.getElementById("rightLeg");
+	var leftEye = document.getElementById("leftEye");
+	var rightEye = document.getElementById("rightEye");
+	var frown = document.getElementById("frown");
 
 	if (input == "A" || input == "a") {
 		A.style.color = "orange";
