@@ -125,3 +125,5 @@ function letterPicked() {
 		console.log(input)
 	}
 }
+
+// - guess count needs to stop after 7 
