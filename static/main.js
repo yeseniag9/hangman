@@ -36,6 +36,10 @@ function letterPicked() {
 	var X = document.getElementById("X");
 	var Y = document.getElementById("Y");
 	var Z = document.getElementById("Z");
+ 	
+	var string = document.getElementById("string");
+	
+
 
 	if (input == "A" || input == "a") {
 		A.style.color = "orange";
@@ -122,11 +126,8 @@ function letterPicked() {
 		console.log(input)
 	} else {
 		console.log("fail")
-		console.log(input)
-
-		var string = document.getElementById("string");
-		string.style.color = "green";  
-	}
+		console.log(input) 
+ 	}
 }
 
 // - guess count needs to stop after 10
