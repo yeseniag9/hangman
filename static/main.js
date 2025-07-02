@@ -123,6 +123,9 @@ function letterPicked() {
 	} else {
 		console.log("fail")
 		console.log(input)
+
+		var string = document.getElementById("string");
+		string.style.color = "green";  
 	}
 }
 
