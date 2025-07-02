@@ -48,6 +48,8 @@ function letterPicked() {
 	var rightEye = document.getElementById("rightEye");
 	var frown = document.getElementById("frown");
 
+	var hangman = [string, head, body, leftArm, rightArm, leftLeg, rightLeg, leftEye, rightEye, frown]
+
 	if (input == "A" || input == "a") {
 		A.style.color = "orange";
 		document.forms['form'].reset()
@@ -134,6 +136,8 @@ function letterPicked() {
 	} else {
 		console.log("fail")
 		console.log(input) 
+
+		hangman[0].style.color = "black";
  	}
 }
 
