@@ -115,7 +115,7 @@ function letterPicked() {
 	} else if (input == "Z" || input == "z") {
 		Z.style.color = "orange";
 		document.forms['form'].reset()
-	}
+	} 
 
 	if (randomWord.includes(input.toLowerCase()) || randomWord.includes(input.toUpperCase())) {
 		console.log("success")
