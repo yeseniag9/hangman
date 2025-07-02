@@ -126,4 +126,4 @@ function letterPicked() {
 	}
 }
 
-// - guess count needs to stop after 7 
+// - guess count needs to stop after 10
