@@ -117,7 +117,7 @@ function letterPicked() {
 		document.forms['form'].reset()
 	}
 
-	if (randomWord.includes(input)) {
+	if (randomWord.includes(input.toLowerCase()) || randomWord.includes(input.toUpperCase())) {
 		console.log("success")
 		console.log(input)
 	} else {
