@@ -23,18 +23,7 @@ body, html {
     margin-left: -196px;
     margin-bottom: 400px;
     position: relative;
-    color: white;
-}
-
-.string {
-    font-size: 22px;
-    margin-left: 58px;
-    position: absolute;
-}
-
-.head {
-    font-size: 22px;
-    position: absolute;
+    color: black;
 }
 
 .form {
