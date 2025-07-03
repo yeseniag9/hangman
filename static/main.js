@@ -132,24 +132,18 @@ function letterPicked() {
 
 	if (randomWord.includes(input.toLowerCase()) || randomWord.includes(input.toUpperCase())) {
 		console.log("success")
-		console.log(input)
-			
-		hangman.shift()
-		console.log(hangman)
 	} else {
+		console.log("fail")
+
 		incorrectGuesses += 1
 		console.log(incorrectGuesses)
 
-		console.log("fail")
-		console.log(input)
- 	}
-
-	if (incorrectGuesses < 11) {
-		hangman[0].style.color = "black";
-		hangman.shift() 
-		console.log(hangman)
-	} else {
-		hangman[0].style.color = "green";
+		if (incorrectGuesses < 11) {
+			hangman[0].style.color = "black";
+			console.log(hangman)
+		} else {
+			A.style.color = "green"
+		}
 	}
 }
 
