@@ -2,12 +2,12 @@ function playGame() {
 	location.href='game';
 }
 
-guesses = 0
+totalGuesses = 0
 incorrectGuesses = 0
 
 function letterPicked() {
-	guesses += 1
-	console.log(guesses)
+	totalGuesses += 1
+	console.log(totalGuesses)
 
     var input = document.getElementById("userInput").value;
 
@@ -132,7 +132,7 @@ function letterPicked() {
 
 	if (randomWord.includes(input.toLowerCase()) || randomWord.includes(input.toUpperCase())) {
 		if (input == "") {
-			guesses -= 1
+			totalGuesses -= 1
 		} else {
 			console.log("success")
 		}
