@@ -132,10 +132,14 @@ function letterPicked() {
 	if (randomWord.includes(input.toLowerCase()) || randomWord.includes(input.toUpperCase())) {
 		console.log("success")
 		console.log(input)
+
+		hangman.shift()
+		console.log(hangman)
+
 	} else {
 		console.log("fail")
-		console.log(input) 
-			
+		console.log(input)
+
 		hangman[0].style.color = "black";
 		hangman.shift() 
 		console.log(hangman)
