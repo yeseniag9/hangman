@@ -3,10 +3,12 @@ function playGame() {
 }
 
 guesses = 0
+incorrectGuesses = 0
 
 function letterPicked() {
 	guesses += 1
 	console.log(guesses)
+	console.log(incorrectGuesses)
 
     var input = document.getElementById("userInput").value;
 
@@ -136,6 +138,9 @@ function letterPicked() {
 		hangman.shift()
 		console.log(hangman)
 	} else {
+		incorrectGuesses += 1
+		console.log(incorrectGuesses)
+
 		console.log("fail")
 		console.log(input)
 
@@ -146,4 +151,3 @@ function letterPicked() {
 }
 
 // - incorrect guess count needs to stop after 10
-// - add hangman part 
