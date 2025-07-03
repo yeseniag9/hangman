@@ -135,17 +135,12 @@ function letterPicked() {
 	} else {
 		console.log("fail")
 
+		part = hangman[incorrectGuesses]
+		part.style.color = "black";
+
 		incorrectGuesses += 1
 		console.log(incorrectGuesses)
-
-		if (incorrectGuesses < 11) {
-			hangman[0].style.color = "black";
-			console.log(hangman)
-		} else {
-			A.style.color = "green"
-		}
 	}
 }
 
 // - incorrect guess count needs to stop after 10
-// - hangman parts need to be added per incorrect guess
