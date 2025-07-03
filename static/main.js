@@ -131,7 +131,11 @@ function letterPicked() {
 	} 
 
 	if (randomWord.includes(input.toLowerCase()) || randomWord.includes(input.toUpperCase())) {
-		console.log("success")
+		if (input == "") {
+			guesses -= 1
+		} else {
+			console.log("success")
+		}
 	} else {
 		console.log("fail")
 
