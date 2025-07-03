@@ -136,7 +136,7 @@ function letterPicked() {
 		console.log("fail")
 
 		part = hangman[incorrectGuesses]
-		part.style.color = "black";
+		part.style.color = "green";
 
 		incorrectGuesses += 1
 		console.log(incorrectGuesses)
