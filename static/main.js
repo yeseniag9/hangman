@@ -8,7 +8,6 @@ incorrectGuesses = 0
 function letterPicked() {
 	guesses += 1
 	console.log(guesses)
-	console.log(incorrectGuesses)
 
     var input = document.getElementById("userInput").value;
 
