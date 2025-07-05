@@ -50,6 +50,7 @@ body, html {
     font-weight: lighter;
     font-size: 90px;
     justify-content: space-between;
+    margin-bottom: 6px;
 }    
 
 .left-arm {
@@ -63,8 +64,17 @@ body, html {
 .legs {
     display: flex;
     font-weight: lighter;
-    font-size: 90px;
+    font-size: 90px; 
     justify-content: space-around;  
+    margin-left: -3px;
+}
+
+.left-leg {
+    transform: rotate(37deg);
+}
+
+.right-leg {
+    transform: rotate(-37deg);
 }
 
 .eyes {
