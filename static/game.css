@@ -20,10 +20,21 @@ body, html {
 }
 
 .hangman {
-    margin-left: -196px;
-    margin-bottom: 400px;
+    font-size: 40px;
     position: relative;
     color: black;
+}
+
+.arms {
+    display: flex;
+}
+
+.legs {
+    display: flex;
+}
+
+.eyes {
+    display: flex;
 }
 
 .form {
