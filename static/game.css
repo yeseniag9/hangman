@@ -42,18 +42,21 @@ body, html {
     font-size: 110px;
     margin-left: 37px; 
     font-weight: lighter;
+    margin-bottom: -170px; 
 }
 
 .arms {
     display: flex;
     font-weight: lighter;
     font-size: 90px;
+    justify-content: space-around; 
 }
 
 .legs {
     display: flex;
     font-weight: lighter;
     font-size: 90px;
+    justify-content: space-around;  
 }
 
 .eyes {
