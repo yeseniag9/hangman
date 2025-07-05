@@ -42,15 +42,23 @@ body, html {
     font-size: 110px;
     margin-left: 37px; 
     font-weight: lighter;
-    margin-bottom: -170px; 
+    margin-bottom: -160px; 
 }
 
 .arms {
     display: flex;
     font-weight: lighter;
     font-size: 90px;
-    justify-content: space-around; 
+    justify-content: space-between;
+}    
+
+.left-arm {
+    transform: rotate(100deg); 
 }
+
+.right-arm {
+    transform: rotate(-100deg);
+}    
 
 .legs {
     display: flex;
