@@ -46,10 +46,14 @@ body, html {
 
 .arms {
     display: flex;
+    font-weight: lighter;
+    font-size: 90px;
 }
 
 .legs {
     display: flex;
+    font-weight: lighter;
+    font-size: 90px;
 }
 
 .eyes {
