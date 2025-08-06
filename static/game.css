@@ -23,7 +23,10 @@ body, html {
 .hangman {
     position: relative;
     color: black; 
-} 
+    transform: scale(1, 1.6);
+    margin-bottom: 290px;
+    margin-left: -186px;
+}
 
 .string {
     font-size: 25px;
