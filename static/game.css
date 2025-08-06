@@ -23,15 +23,18 @@ body, html {
 .hangman {
     position: relative;
     color: black; 
-    transform: scale(1, 1.6);
-    margin-bottom: 269px;
-    margin-left: -186px;
+    
+    margin-bottom: 50px;
+    margin-left: -50px;
 }
 
 .string {
     font-size: 20px;
-    margin-bottom: -37px;
-    margin-left: 48px;
+    margin-bottom: -30px;
+    margin-left: 50px;
+    transform: scale(1, 1.6);
+
+    color: green;
 }
 
 .head {
@@ -42,10 +45,11 @@ body, html {
 } 
 
 .body {
-    font-size: 110px;
+    font-size: 10px;
     margin-left: 37px; 
     font-weight: lighter;
     margin-bottom: -160px; 
+    transform: scale(1, 5);
 }
 
 .arms {
