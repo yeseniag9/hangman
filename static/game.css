@@ -24,12 +24,12 @@ body, html {
     position: relative;
     color: black; 
     transform: scale(1, 1.6);
-    margin-bottom: 290px;
+    margin-bottom: 269px;
     margin-left: -186px;
 }
 
 .string {
-    font-size: 25px;
+    font-size: 20px;
     margin-bottom: -37px;
     margin-left: 48px;
 }
