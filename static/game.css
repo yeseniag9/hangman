@@ -22,35 +22,31 @@ body, html {
 
 .hangman {
     position: relative;
-    color: black; 
-
-    margin-bottom: 50px;
-    margin-left: -50px;
+    color: black;
+    margin-left: -140px;
+    margin-bottom: 33px;
 }
 
 .string {
     font-size: 20px;
     transform: scale(1, 1.6);
     margin-left: 2px;
-
-    color: green;
+    margin-bottom: 38px;
+    color: white;
 }
 
 .head {
     font-size: 15px;
     font-family: "Montserrat", sans-serif; 
     font-weight: lighter; 
-    transform: scale(6, 10);
+    transform: scale(8, 10);
     margin-left: 25px;
-    margin-top: 39px;
+    padding-top: 1.5px;
 } 
 
 .body {
     font-size: 10px;
-    margin-left: 37px; 
     font-weight: lighter;
-    margin-bottom: -160px; 
-    transform: scale(1, 5);
 }
 
 .arms {
@@ -58,7 +54,6 @@ body, html {
     font-weight: lighter;
     font-size: 90px;
     justify-content: space-between;
-    margin-bottom: 6px;
 }    
 
 .left-arm {
@@ -74,8 +69,6 @@ body, html {
     font-weight: lighter;
     font-size: 90px; 
     justify-content: space-around;  
-    margin-left: -3px; 
-    margin-bottom: -250px;
 }
 
 .left-leg {
@@ -87,7 +80,7 @@ body, html {
 }
 
 .face {
-    margin-left: 40px;
+
 } 
 
 .eyes {
