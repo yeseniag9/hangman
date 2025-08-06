@@ -23,25 +23,26 @@ body, html {
 .hangman {
     position: relative;
     color: black; 
-    
+
     margin-bottom: 50px;
     margin-left: -50px;
 }
 
 .string {
     font-size: 20px;
-    margin-bottom: -30px;
-    margin-left: 50px;
     transform: scale(1, 1.6);
+    margin-left: 2px;
 
     color: green;
 }
 
 .head {
-    font-size: 125px;
+    font-size: 15px;
     font-family: "Montserrat", sans-serif; 
     font-weight: lighter; 
-    margin-bottom: -49px; 
+    transform: scale(6, 10);
+    margin-left: 25px;
+    margin-top: 39px;
 } 
 
 .body {
