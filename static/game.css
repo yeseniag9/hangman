@@ -23,8 +23,8 @@ body, html {
 .hangman {
     position: relative;
     color: black;
-    margin-left: -140px;
-    margin-bottom: 33px;
+    margin-left: -139.5px;
+    margin-top: 133px;
 }
 
 .string {
@@ -42,11 +42,14 @@ body, html {
     transform: scale(8, 10);
     margin-left: 25px;
     padding-top: 1.5px;
+    margin-bottom: 56px;
 } 
 
 .body {
-    font-size: 90px;
+    font-size: 100px;
     font-weight: lighter;
+    margin-left: -8px;
+    transform: scale(1, 1.5);
 }
 
 .arms {
