@@ -93,6 +93,10 @@ body, html {
     display: flex; 
 }
 
+.right {
+    padding-top: 180px;
+}
+
 .form {
     display: flex;
     justify-content: center;
