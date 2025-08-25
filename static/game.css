@@ -33,7 +33,7 @@ body, html {
     transform: scale(1, 1.6);
     margin-left: 2px;
     margin-bottom: 44px;
-    margin-top: 14px;
+    margin-top: -125px;
 
     color: red;
 }
@@ -53,8 +53,8 @@ body, html {
     font-size: 100px;
     font-weight: lighter;
     margin-left: -8px;
-    transform: scale(1, 1.8);
-    padding-top: 9px;
+    transform: scale(1, 1.6);
+    padding-top: 3px;
 
     color: blue;
 }
@@ -62,10 +62,15 @@ body, html {
 .arms {
     font-weight: lighter;
     font-size: 100px;
+    transform: scale(1, 0.8);
+
+    color: purple;
 }    
 
 .left-arm {
     transform: rotate(100deg);
+    margin-top: -135px;
+    margin-left: -138px;
 }
 
 .right-arm {
