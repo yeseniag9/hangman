@@ -32,8 +32,10 @@ body, html {
     font-size: 20px;
     transform: scale(1, 1.6);
     margin-left: 2px;
-    color: white;
-    margin-bottom: 36px;
+    margin-bottom: 44px;
+    margin-top: 14px;
+
+    color: red;
 }
 
 .head {
@@ -43,14 +45,18 @@ body, html {
     transform: scale(8, 10);
     margin-left: 9.5px;
     margin-bottom: 54px;
-    color: white;
+    
+    color: green;
 } 
 
 .body {
     font-size: 100px;
     font-weight: lighter;
     margin-left: -8px;
-    transform: scale(1, 1.5);
+    transform: scale(1, 1.8);
+    padding-top: 9px;
+
+    color: blue;
 }
 
 .arms {
