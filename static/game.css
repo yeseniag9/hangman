@@ -23,7 +23,7 @@ body, html {
 .hangman {
     position: relative;
     margin-left: -139.5px;
-    margin-bottom: -401px;
+    margin-bottom: -70px;
 
     color: black;
 }
@@ -33,7 +33,6 @@ body, html {
     transform: scale(1, 1.6);
     margin-left: 2px;
     margin-bottom: 44px;
-    margin-top: -125px;
 
     color: red;
 }
@@ -69,12 +68,14 @@ body, html {
 
 .left-arm {
     transform: rotate(100deg);
-    margin-top: -135px;
+    margin-top: -115px;
     margin-left: -138px;
 }
 
 .right-arm {
     transform: rotate(-100deg);
+    margin-top: -226px;
+    margin-right: -70px;
 }    
 
 .legs {
