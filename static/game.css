@@ -22,17 +22,18 @@ body, html {
 
 .hangman {
     position: relative;
-    color: black;
     margin-left: -139.5px;
-    margin-top: 133px;
+    margin-bottom: -401px;
+
+    color: black;
 }
 
 .string {
     font-size: 20px;
     transform: scale(1, 1.6);
     margin-left: 2px;
-    margin-bottom: 38px;
     color: white;
+    margin-bottom: 36px;
 }
 
 .head {
@@ -40,9 +41,9 @@ body, html {
     font-family: "Montserrat", sans-serif; 
     font-weight: lighter; 
     transform: scale(8, 10);
-    margin-left: 25px;
-    padding-top: 1.5px;
-    margin-bottom: 56px;
+    margin-left: 9.5px;
+    margin-bottom: 54px;
+    color: white;
 } 
 
 .body {
@@ -53,14 +54,12 @@ body, html {
 }
 
 .arms {
-    display: flex;
     font-weight: lighter;
-    font-size: 90px;
-    justify-content: space-between;
+    font-size: 100px;
 }    
 
 .left-arm {
-    transform: rotate(100deg); 
+    transform: rotate(100deg);
 }
 
 .right-arm {
@@ -68,10 +67,8 @@ body, html {
 }    
 
 .legs {
-    display: flex;
     font-weight: lighter;
-    font-size: 90px; 
-    justify-content: space-around;  
+    font-size: 100px; 
 }
 
 .left-leg {
