@@ -23,7 +23,7 @@ body, html {
 .hangman {
     position: relative;
     margin-left: -139.5px;
-    margin-bottom: -70px;
+    margin-bottom: 272px;
 
     color: black;
 }
@@ -42,8 +42,8 @@ body, html {
     font-family: "Montserrat", sans-serif; 
     font-weight: lighter; 
     transform: scale(8, 10);
-    margin-left: 9.5px;
-    margin-bottom: 54px;
+    margin-left: 8.5px;
+    margin-bottom: 52px;
     
     color: green;
 } 
@@ -53,7 +53,6 @@ body, html {
     font-weight: lighter;
     margin-left: -8px;
     transform: scale(1.1, 1.6);
-    padding-top: 3px;
 
     color: blue;
 }
@@ -95,22 +94,6 @@ body, html {
 .right-leg {
     transform: rotate(-37deg);
     margin-top: -120px;
-}
-
-.face {
-    margin-top: -380px;
-    font-size: 35px;
-    transform: scale(1, 1.6);
-
-    color: brown;
-} 
-
-.eyes {
-    display: flex; 
-}
-
-.frown {
-    transform: rotate(90deg);
 }
 
 .right {
