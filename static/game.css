@@ -32,7 +32,7 @@ body, html {
     font-size: 20px;
     transform: scale(1, 1.6);
     margin-left: 2px;
-    margin-bottom: 44px;
+    margin-bottom: 43px;
 
     color: red;
 }
@@ -73,8 +73,8 @@ body, html {
 
 .right-arm {
     transform: rotate(-100deg);
-    margin-top: -225px;
-    margin-right: -73px;
+    margin-top: -224px;
+    margin-right: -71px;
 }    
 
 .legs {
