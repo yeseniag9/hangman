@@ -67,14 +67,14 @@ body, html {
 
 .left-arm {
     transform: rotate(100deg);
-    margin-top: -115px;
-    margin-left: -138px;
+    margin-top: -97px;
+    margin-left: -166px;
 }
 
 .right-arm {
     transform: rotate(-100deg);
-    margin-top: -224px;
-    margin-right: -71px;
+    margin-top: -244px;
+    margin-right: -49px;
 }    
 
 .legs {
@@ -87,8 +87,8 @@ body, html {
 
 .left-leg {
     transform: rotate(37deg);
-    padding-top: 91px;
-    margin-left: -10px;
+    padding-top: 93px;
+    margin-left: -9px;
 }
 
 .right-leg {
