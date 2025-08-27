@@ -87,11 +87,14 @@ body, html {
 
 .left-leg {
     transform: rotate(37deg);
-    padding-top: 110px;
+    padding-top: 91px;
+    margin-left: -10px;
 }
 
 .right-leg {
     transform: rotate(-37deg);
+    margin-top: -128px;
+    margin-left: 18px;
 }
 
 .right-top {
