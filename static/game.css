@@ -23,7 +23,7 @@ body, html {
 .hangman {
     position: relative;
     margin-left: -139.5px;
-    margin-top: 105px;
+    margin-bottom: 38px;
 
     color: black;
 }
@@ -42,7 +42,7 @@ body, html {
     font-family: "Montserrat", sans-serif; 
     font-weight: lighter; 
     transform: scale(8, 10);
-    margin-left: 8.5px;
+    margin-left: 22px;
     margin-bottom: 52px;
     
     color: green;
