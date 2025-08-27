@@ -89,18 +89,28 @@ body, html {
 .left-leg {
     transform: rotate(37deg);
     margin-left: -40px;
+    margin-top: 140px;
 }
 
 .right-leg {
     transform: rotate(-37deg);
+    margin-top: -120px;
 }
 
 .face {
+    margin-top: -380px;
+    font-size: 35px;
+    transform: scale(1, 1.6);
 
+    color: brown;
 } 
 
 .eyes {
     display: flex; 
+}
+
+.frown {
+    transform: rotate(90deg);
 }
 
 .right {
