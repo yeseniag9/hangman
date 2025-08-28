@@ -41,6 +41,8 @@ body, html {
     transform: scale(8, 10);
     margin-left: 22px;
     margin-bottom: 52px;
+    position: relative;
+    z-index: 2;
 } 
 
 .body {
@@ -48,6 +50,8 @@ body, html {
     font-weight: lighter;
     margin-left: -8px;
     transform: scale(1.1, 1.6);
+    position: relative;
+    z-index: 1;
 }
 
 .arms {
