@@ -51,82 +51,82 @@ function letterPicked() {
 	var hangman = [string, head, body, leftArm, rightArm, leftLeg, rightLeg, leftEye, rightEye, frown];
 
 	if (input == "A" || input == "a") {
-		A.style.color = "orange";
+		A.style.color = " rgb(33, 156, 239)";
 		document.forms['form'].reset()
 	} else if (input == "B" || input == "b") {
-		B.style.color = "orange";
+		B.style.color = " rgb(33, 156, 239)";
 		document.forms['form'].reset()
 	} else if (input == "C" || input == "c") {
-		C.style.color = "orange";
+		C.style.color = " rgb(33, 156, 239)";
 		document.forms['form'].reset()
 	} else if (input == "D" || input == "d") {
-		D.style.color = "orange";
+		D.style.color = " rgb(33, 156, 239)";
 		document.forms['form'].reset()
 	} else if (input == "E" || input == "e") {
-		E.style.color = "orange";
+		E.style.color = " rgb(33, 156, 239)";
 		document.forms['form'].reset()
 	} else if (input == "F" || input == "f") {
-		F.style.color = "orange";
+		F.style.color = " rgb(33, 156, 239)";
 		document.forms['form'].reset()
 	} else if (input == "G" || input == "g") {
-		G.style.color = "orange";
+		G.style.color = " rgb(33, 156, 239)";
 		document.forms['form'].reset()
 	} else if (input == "H" || input == "h") {
-		H.style.color = "orange";
+		H.style.color = " rgb(33, 156, 239)";
 		document.forms['form'].reset()
 	} else if (input == "I" || input == "i") {
-		I.style.color = "orange";
+		I.style.color = " rgb(33, 156, 239)";
 		document.forms['form'].reset()
 	} else if (input == "J" || input == "j") {
-		J.style.color = "orange";
+		J.style.color = " rgb(33, 156, 239)";
 		document.forms['form'].reset()
 	} else if (input == "K" || input == "k") {
-		K.style.color = "orange";
+		K.style.color = " rgb(33, 156, 239)";
 		document.forms['form'].reset()
 	} else if (input == "L" || input == "l") {
-		L.style.color = "orange";
+		L.style.color = " rgb(33, 156, 239)";
 		document.forms['form'].reset()
 	} else if (input == "M" || input == "m") {
-		M.style.color = "orange";
+		M.style.color = " rgb(33, 156, 239)";
 		document.forms['form'].reset()
 	} else if (input == "N" || input == "n") {
-		N.style.color = "orange";
+		N.style.color = " rgb(33, 156, 239)";
 		document.forms['form'].reset()
 	} else if (input == "O" || input == "o") {
-		O.style.color = "orange";
+		O.style.color = " rgb(33, 156, 239)";
 		document.forms['form'].reset()
 	} else if (input == "P" || input == "p") {
-		P.style.color = "orange";
+		P.style.color = " rgb(33, 156, 239)";
 		document.forms['form'].reset()
 	} else if (input == "Q" || input == "q") {
-		Q.style.color = "orange";
+		Q.style.color = " rgb(33, 156, 239)";
 		document.forms['form'].reset()
 	} else if (input == "R" || input == "r") {
-		R.style.color = "orange";
+		R.style.color = " rgb(33, 156, 239)";
 		document.forms['form'].reset()
 	} else if (input == "S" || input == "s") {
-		S.style.color = "orange";
+		S.style.color = " rgb(33, 156, 239)";
 		document.forms['form'].reset()
 	} else if (input == "T" || input == "t") {
-		T.style.color = "orange";
+		T.style.color = " rgb(33, 156, 239)";
 		document.forms['form'].reset()
 	} else if (input == "U" || input == "u") {
-		U.style.color = "orange";
+		U.style.color = " rgb(33, 156, 239)";
 		document.forms['form'].reset()
 	} else if (input == "V" || input == "v") {
-		V.style.color = "orange";
+		V.style.color = " rgb(33, 156, 239)";
 		document.forms['form'].reset()
 	} else if (input == "W" || input == "w") {
-		W.style.color = "orange";
+		W.style.color = " rgb(33, 156, 239)";
 		document.forms['form'].reset()
 	} else if (input == "X" || input == "x") {
-		X.style.color = "orange";
+		X.style.color = " rgb(33, 156, 239)";
 		document.forms['form'].reset()
 	} else if (input == "Y" || input == "y") {
-		Y.style.color = "orange";
+		Y.style.color = " rgb(33, 156, 239)";
 		document.forms['form'].reset()
 	} else if (input == "Z" || input == "z") {
-		Z.style.color = "orange";
+		Z.style.color = " rgb(33, 156, 239)";
 		document.forms['form'].reset()
 	} 
 
@@ -140,7 +140,7 @@ function letterPicked() {
 		console.log("fail")
 
 		part = hangman[incorrectGuesses]
-		part.style.color = "green";
+		part.style.color = " rgb(33, 156, 239)";
 
 		incorrectGuesses += 1
 		console.log(incorrectGuesses)
