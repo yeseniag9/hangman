@@ -11,7 +11,7 @@ body, html {
 .top-container {
     display: flex;
     justify-content: space-around;
-    height: 85vh;
+    height: 87vh;
 }
 
 .left-top {
@@ -23,7 +23,7 @@ body, html {
 .hangman {
     position: relative;
     margin-left: -139.5px;
-    margin-bottom: 36px;
+    margin-bottom: 37px;
     color: white;
 }
 
@@ -96,6 +96,7 @@ body, html {
     position: relative;
     flex-direction: column;
     justify-content: center;
+    padding-bottom: 28px;
 }
 
 .form {
