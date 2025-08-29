@@ -157,32 +157,38 @@ h2 {
 }
 
 .letters {
-    color: green;
+    color: white;
     display: flex;
     flex-wrap: wrap;
     cursor: default;
     font-size: 27px;
-    padding-left: 10px;
+    padding-left: 45px;
+    padding-top: 8px;
 }
 
 .a-f {
     display: flex;
-    letter-spacing: 10px;
+    letter-spacing: 69px;
 }
 
 .g-l {
     display: flex;
-    letter-spacing: 10px;
+    letter-spacing: 71px;
 }
 
 .m-r {
     display: flex;
-    letter-spacing: 10px;
+    letter-spacing: 67px;
 }
 
 .s-x {
     display: flex;
-    letter-spacing: 10px;
+    letter-spacing: 68px;
+}
+
+.y-z {
+    display: flex;
+    letter-spacing: 70px;
 }
 
 .bottom-container {
