@@ -103,6 +103,7 @@ body, html {
     display: flex;
     justify-content: center;
     border-bottom: 2px solid black;
+    width: 40vh;
 }
 
 h1 {
@@ -150,25 +151,38 @@ h2 {
 .box {
     box-sizing: border-box;
     border-radius: 25px;
-    width: 500px;
+    width: 40vh;
     border: 4px solid black;
-    height: 442px;
+    height: 34vh;
 }
 
 .letters {
-    color: white;
+    color: green;
     display: flex;
     flex-wrap: wrap;
     cursor: default;
     font-size: 27px;
-    letter-spacing: 53px;
-    padding-left: 60px;
+    padding-left: 10px;
 }
 
-.YZ {
+.a-f {
     display: flex;
-    font-size: 32px;
-    padding-left: 52px;
+    letter-spacing: 10px;
+}
+
+.g-l {
+    display: flex;
+    letter-spacing: 10px;
+}
+
+.m-r {
+    display: flex;
+    letter-spacing: 10px;
+}
+
+.s-x {
+    display: flex;
+    letter-spacing: 10px;
 }
 
 .bottom-container {
