@@ -193,8 +193,13 @@ h2 {
 
 .bottom-container {
     text-align: center;
+    font-size: 45px;
 }
 
 .data {
+    color: black;
+}
+
+.value {
     color: black;
 }
