@@ -149,3 +149,4 @@ function letterPicked() {
 
 // - incorrect guess count needs to stop after 7
 // - input should only count letters towards guesses 
+// - total guess count should be 0 if blank inputs are only thing entered 
