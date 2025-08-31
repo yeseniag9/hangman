@@ -51,82 +51,82 @@ function letterPicked() {
 	var hangman = [string, head, body, leftArm, rightArm, leftLeg, rightLeg, leftEye, rightEye, frown];
 
 	if (input == "A" || input == "a") {
-		A.style.color = " rgb(33, 156, 239)";
+		A.style.color = "rgb(33, 156, 239)";
 		document.forms['form'].reset()
 	} else if (input == "B" || input == "b") {
-		B.style.color = " rgb(33, 156, 239)";
+		B.style.color = "rgb(33, 156, 239)";
 		document.forms['form'].reset()
 	} else if (input == "C" || input == "c") {
-		C.style.color = " rgb(33, 156, 239)";
+		C.style.color = "rgb(33, 156, 239)";
 		document.forms['form'].reset()
 	} else if (input == "D" || input == "d") {
-		D.style.color = " rgb(33, 156, 239)";
+		D.style.color = "rgb(33, 156, 239)";
 		document.forms['form'].reset()
 	} else if (input == "E" || input == "e") {
-		E.style.color = " rgb(33, 156, 239)";
+		E.style.color = "rgb(33, 156, 239)";
 		document.forms['form'].reset()
 	} else if (input == "F" || input == "f") {
-		F.style.color = " rgb(33, 156, 239)";
+		F.style.color = "rgb(33, 156, 239)";
 		document.forms['form'].reset()
 	} else if (input == "G" || input == "g") {
-		G.style.color = " rgb(33, 156, 239)";
+		G.style.color = "rgb(33, 156, 239)";
 		document.forms['form'].reset()
 	} else if (input == "H" || input == "h") {
-		H.style.color = " rgb(33, 156, 239)";
+		H.style.color = "rgb(33, 156, 239)";
 		document.forms['form'].reset()
 	} else if (input == "I" || input == "i") {
-		I.style.color = " rgb(33, 156, 239)";
+		I.style.color = "rgb(33, 156, 239)";
 		document.forms['form'].reset()
 	} else if (input == "J" || input == "j") {
-		J.style.color = " rgb(33, 156, 239)";
+		J.style.color = "rgb(33, 156, 239)";
 		document.forms['form'].reset()
 	} else if (input == "K" || input == "k") {
-		K.style.color = " rgb(33, 156, 239)";
+		K.style.color = "rgb(33, 156, 239)";
 		document.forms['form'].reset()
 	} else if (input == "L" || input == "l") {
-		L.style.color = " rgb(33, 156, 239)";
+		L.style.color = "rgb(33, 156, 239)";
 		document.forms['form'].reset()
 	} else if (input == "M" || input == "m") {
-		M.style.color = " rgb(33, 156, 239)";
+		M.style.color = "rgb(33, 156, 239)";
 		document.forms['form'].reset()
 	} else if (input == "N" || input == "n") {
-		N.style.color = " rgb(33, 156, 239)";
+		N.style.color = "rgb(33, 156, 239)";
 		document.forms['form'].reset()
 	} else if (input == "O" || input == "o") {
-		O.style.color = " rgb(33, 156, 239)";
+		O.style.color = "rgb(33, 156, 239)";
 		document.forms['form'].reset()
 	} else if (input == "P" || input == "p") {
-		P.style.color = " rgb(33, 156, 239)";
+		P.style.color = "rgb(33, 156, 239)";
 		document.forms['form'].reset()
 	} else if (input == "Q" || input == "q") {
-		Q.style.color = " rgb(33, 156, 239)";
+		Q.style.color = "rgb(33, 156, 239)";
 		document.forms['form'].reset()
 	} else if (input == "R" || input == "r") {
-		R.style.color = " rgb(33, 156, 239)";
+		R.style.color = "rgb(33, 156, 239)";
 		document.forms['form'].reset()
 	} else if (input == "S" || input == "s") {
-		S.style.color = " rgb(33, 156, 239)";
+		S.style.color = "rgb(33, 156, 239)";
 		document.forms['form'].reset()
 	} else if (input == "T" || input == "t") {
-		T.style.color = " rgb(33, 156, 239)";
+		T.style.color = "rgb(33, 156, 239)";
 		document.forms['form'].reset()
 	} else if (input == "U" || input == "u") {
-		U.style.color = " rgb(33, 156, 239)";
+		U.style.color = "rgb(33, 156, 239)";
 		document.forms['form'].reset()
 	} else if (input == "V" || input == "v") {
-		V.style.color = " rgb(33, 156, 239)";
+		V.style.color = "rgb(33, 156, 239)";
 		document.forms['form'].reset()
 	} else if (input == "W" || input == "w") {
-		W.style.color = " rgb(33, 156, 239)";
+		W.style.color = "rgb(33, 156, 239)";
 		document.forms['form'].reset()
 	} else if (input == "X" || input == "x") {
-		X.style.color = " rgb(33, 156, 239)";
+		X.style.color = "rgb(33, 156, 239)";
 		document.forms['form'].reset()
 	} else if (input == "Y" || input == "y") {
-		Y.style.color = " rgb(33, 156, 239)";
+		Y.style.color = "rgb(33, 156, 239)";
 		document.forms['form'].reset()
 	} else if (input == "Z" || input == "z") {
-		Z.style.color = " rgb(33, 156, 239)";
+		Z.style.color = "rgb(33, 156, 239)";
 		document.forms['form'].reset()
 	} 
 
