@@ -199,9 +199,10 @@ h2 {
 }
 
 .values {
-    letter-spacing: 2px;
+    
 }
 
 .underscores {
-    letter-spacing: 1.5px;
+    letter-spacing: 25px;
+    margin-top: -37px;
 }
