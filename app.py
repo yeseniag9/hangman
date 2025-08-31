@@ -23,9 +23,11 @@ def game():
     word = random.choice(words)
 
     randomWord = []
+    underscores = ""
     for w in range(len(word)):
         randomWord += word[w]
         data = randomWord 
         values = "".join(randomWord)
-                 
-    return render_template("game.html", data=data, values=values)         
+        underscores += "_"
+      
+    return render_template("game.html", data=data, values=values, underscores=underscores)         

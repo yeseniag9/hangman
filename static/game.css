@@ -194,8 +194,14 @@ h2 {
 .bottom-container {
     display: block;
     text-align: center;
+    color: black;
+    font-size: 40px;
 }
 
 .values {
-    color: black;
+    letter-spacing: 2px;
+}
+
+.underscores {
+    letter-spacing: 1.5px;
 }
