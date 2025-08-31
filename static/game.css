@@ -96,14 +96,14 @@ body, html {
     position: relative;
     flex-direction: column;
     justify-content: center;
-    padding-bottom: 28px;
+    padding-bottom: 25px;
 }
 
 .form {
     display: flex;
     justify-content: center;
     border-bottom: 2px solid black;
-    width: 40vh;
+    width: 400px;
 }
 
 h1 {
@@ -151,9 +151,9 @@ h2 {
 .box {
     box-sizing: border-box;
     border-radius: 25px;
-    width: 40vh;
+    width: 400px;
     border: 4px solid black;
-    height: 34vh;
+    height: 450px;
 }
 
 .letters {
@@ -168,38 +168,34 @@ h2 {
 
 .a-f {
     display: flex;
-    letter-spacing: 69px;
+    letter-spacing: 41px;
 }
 
 .g-l {
     display: flex;
-    letter-spacing: 71px;
+    letter-spacing: 43px;
 }
 
 .m-r {
     display: flex;
-    letter-spacing: 67px;
+    letter-spacing: 39px;
 }
 
 .s-x {
     display: flex;
-    letter-spacing: 68px;
+    letter-spacing: 40px;
 }
 
 .y-z {
     display: flex;
-    letter-spacing: 70px;
+    letter-spacing: 43px;
 }
 
 .bottom-container {
+    display: block;
     text-align: center;
-    font-size: 45px;
 }
 
 .data {
-    color: black;
-}
-
-.value {
     color: black;
 }

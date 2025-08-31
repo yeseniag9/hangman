@@ -37,7 +37,7 @@ function letterPicked() {
 	var X = document.getElementById("X");
 	var Y = document.getElementById("Y");
 	var Z = document.getElementById("Z");
- 	
+
 	var string = document.getElementById("string");
 	var head = document.getElementById("head");
 	var body = document.getElementById("body");
@@ -148,5 +148,6 @@ function letterPicked() {
 }
 
 // - incorrect guess count needs to stop after 7
+// - input should only count letters towards guesses 
 // - input should only count letters towards guesses 
 // - total guess count should be 0 if blank inputs are only thing entered 

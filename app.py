@@ -26,8 +26,5 @@ def game():
     for w in range(len(word)):
         randomWord += word[w]
         data = randomWord 
-
-    for value in randomWord: 
-        print(value) 
                  
-    return render_template("game.html", data=data, value=value)         
+    return render_template("game.html", data=data)         
