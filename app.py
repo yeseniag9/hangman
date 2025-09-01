@@ -1,12 +1,12 @@
 from flask import Flask, render_template 
-from random_word import RandomWords
+from random_word import Wordnik
 import random
 
 app = Flask(__name__)
-r = RandomWords()
+wordnik_service = Wordnik()
 
-test = r.get_random_word()
-print(test)
+test2 = wordnik_service.get_random_word(hasDictionaryDef="true")
+print(test2)
 
 @app.route("/")
 def home():
