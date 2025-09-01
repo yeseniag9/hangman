@@ -1,7 +1,10 @@
+from random_word import RandomWords
 from flask import Flask, render_template 
+
 import random
 
 app = Flask(__name__)
+r = RandomWords()
 
 @app.route("/")
 def home():
@@ -9,6 +12,9 @@ def home():
 
 @app.route("/game") 
 def game():
+    test = r.get_random_word()
+    print(test)
+
     words = ["apple", "breeze", "candle", "dolphin", "echo", "feather", "guitar", "horizon", "island", "jungle",  
             "kitten", "lantern", "meadow", "nebula", "ocean", "puzzle", "quartz", "ripple", "sunbeam", "tundra",  
             "umbrella", "voyage", "whisper", "xylophone", "yonder", "zephyr", "amber", "blizzard", "cascade",  
