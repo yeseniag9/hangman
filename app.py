@@ -22,6 +22,9 @@ def game():
             "resonance", "silk", "tempest", "utopia", "verdant", "willow", "xylophonist", "yesteryear", "zealous"]
     word = random.choice(words)
 
+    longest = max(words, key=len)  
+    print(len(longest))      
+
     randomWord = []
     underscores = ""
     for w in range(len(word)):
@@ -30,4 +33,4 @@ def game():
         values = " ".join(randomWord)
         underscores += "_"
       
-    return render_template("game.html", data=data, values=values, underscores=underscores)         
+    return render_template("game.html", data=data, values=values, underscores=underscores)   
