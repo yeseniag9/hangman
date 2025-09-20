@@ -20,10 +20,7 @@ def game():
             "alchemy", "ballet", "crimson", "daydream", "epiphany", "flourish", "gossamer", "halcyon", "infinity",  
             "jubilant", "keystone", "labyrinth", "moonbeam", "novella", "obsidian", "phenomenon", "quintessence",  
             "resonance", "silk", "tempest", "utopia", "verdant", "willow", "xylophonist", "yesteryear", "zealous"]
-    word = random.choice(words)
-
-    longest = max(words, key=len)  
-    print(len(longest))      
+    word = random.choice(words) 
 
     randomWord = []
     underscores = ""
