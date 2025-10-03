@@ -6,3 +6,10 @@ bugs
 
 data
 - total guess count should be 0 if blank inputs are only thing entered 
+
+
+
+
+display random word as hidden
+letters show when guessed correctly
+underlines are always shown 

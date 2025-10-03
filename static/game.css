@@ -198,6 +198,6 @@ h2 {
     font-size: 40px;
 }
 
-.data {
-    letter-spacing: 5px;
+.values {
+    color: black; /* color: white; */
 }
