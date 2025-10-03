@@ -142,15 +142,10 @@ function letterPicked() {
 	} else {
 		console.log("fail")
 
-		part = hangman[incorrectGuesses]
+		part = hangman[incorrectGuesses];
 		part.style.color = " rgb(33, 156, 239)";
 
 		incorrectGuesses += 1
-		console.log(incorrectGuesses)
+		console.log(incorrectGuesses);
 	}
 }
-
-// - incorrect guess count needs to stop after 7
-// - input should only count letters towards guesses 
-// - input should only count letters towards guesses 
-// - total guess count should be 0 if blank inputs are only thing entered 
