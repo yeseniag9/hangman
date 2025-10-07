@@ -51,6 +51,7 @@ function letterPicked() {
 	var hangman = [string, head, body, leftArm, rightArm, leftLeg, rightLeg, leftEye, rightEye, frown];
 
 	var values = document.getElementById("values");
+	var data = document.getElementById("data");
 
 	if (input == "A" || input == "a") {
 		A.style.color = "rgb(33, 156, 239)";
@@ -138,6 +139,7 @@ function letterPicked() {
 		} else {
 			console.log("success")
 			values.style.color = "green";
+			data.style.color = "green";
 		}
 	} else {
 		console.log("fail")
