@@ -50,7 +50,7 @@ function letterPicked() {
 	var frown = document.getElementById("frown");
 	var hangman = [string, head, body, leftArm, rightArm, leftLeg, rightLeg, leftEye, rightEye, frown];
 
-	var data = document.getElementById("data");
+	var values = document.getElementById("values");
 
 	if (input == "A" || input == "a") {
 		A.style.color = "rgb(33, 156, 239)";
@@ -137,7 +137,7 @@ function letterPicked() {
 			totalGuesses -= 1
 		} else {
 			console.log("success")
-			data.style.color = "green";
+			values.style.color = "green";
 		}
 	} else {
 		console.log("fail")
