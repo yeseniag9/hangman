@@ -27,7 +27,6 @@ def game():
     for w in range(len(word)):
         randomWord += word[w]
         data = randomWord
-        values = "".join(randomWord)
 
     if len(randomWord) > 0:
         zero = randomWord[0]
@@ -89,9 +88,4 @@ def game():
     else:
         eleven = ""
 
-    return render_template("game.html", data=data, values=values, zero=zero, one=one, two=two, three=three, four=four, five=five, six=six, seven=seven, eight=eight, nine=nine, ten=ten, eleven=eleven)  
-
-
-@app.route("/test") 
-def test():
-    randomWord
+    return render_template("game.html", data=data, zero=zero, one=one, two=two, three=three, four=four, five=five, six=six, seven=seven, eight=eight, nine=nine, ten=ten, eleven=eleven)  

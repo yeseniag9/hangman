@@ -193,55 +193,55 @@ h2 {
 
 .bottom-container {
     display: flex;
+    justify-content: center;
     font-size: 40px;
-    text-align: center;
     color: black;
 }
 
 .zero {
-    padding: 5px;
+    padding: 15px;
 }
 
 .one {
-    padding: 5px;
+    padding: 15px;
 }
 
 .two {
-    padding: 5px;
+    padding: 15px;
 }
 
 .three {
-    padding: 5px;
+    padding: 15px;
 }
 
 .four {
-    padding: 5px;
+    padding: 15px;
 }
 
 .five {
-    padding: 5px;
+    padding: 15px;
 }
 
 .six {
-    padding: 5px;
+    padding: 15px;
 }
 
 .seven {
-    padding: 5px;
+    padding: 15px;
 }
 
 .eight {
-    padding: 5px;
+    padding: 15px;
 }
 
 .nine {
-    padding: 5px;
+    padding: 15px;
 }
 
 .ten {
-    padding: 5px;
+    padding: 15px;
 }
 
 .eleven {
-    padding: 5px;
+    padding: 15px;
 }
