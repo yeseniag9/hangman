@@ -50,8 +50,31 @@ function letterPicked() {
 	var frown = document.getElementById("frown");
 	var hangman = [string, head, body, leftArm, rightArm, leftLeg, rightLeg, leftEye, rightEye, frown];
 
-	var values = document.getElementById("values");
-	var data = document.getElementById("data");
+	var zero = document.getElementById("zero").innerText;
+	var one = document.getElementById("one").innerText;
+	var two = document.getElementById("two").innerText;
+	var three = document.getElementById("three").innerText;
+	var four = document.getElementById("four").innerText;
+	var five = document.getElementById("five").innerText;
+	var six = document.getElementById("six").innerText;
+	var seven = document.getElementById("seven").innerText;
+	var eight = document.getElementById("eight").innerText;
+	var nine = document.getElementById("nine").innerText;
+	var ten = document.getElementById("ten").innerText;
+	var eleven = document.getElementById("eleven").innerText;
+
+	var zeroo = document.getElementById("zero");
+	var onee = document.getElementById("one");
+	var twoo = document.getElementById("two");
+	var threee = document.getElementById("three");
+	var fourr = document.getElementById("four");
+	var fivee = document.getElementById("five");
+	var sixx = document.getElementById("six");
+	var sevenn = document.getElementById("seven");
+	var eightt = document.getElementById("eight");
+	var ninee = document.getElementById("nine");
+	var tenn = document.getElementById("ten");
+	var elevenn = document.getElementById("eleven");
 
 	if (input == "A" || input == "a") {
 		A.style.color = "rgb(33, 156, 239)";
@@ -138,14 +161,18 @@ function letterPicked() {
 			totalGuesses -= 1
 		} else {
 			console.log("success")
-			values.style.color = "green";
-			data.style.color = "green";
+
+			if (input.toUpperCase() == zero) {
+				zeroo.style.color = "green";
+			} else{
+				zeroo.style.color = "red";
+			}
 		}
 	} else {
 		console.log("fail")
 
 		part = hangman[incorrectGuesses];
-		part.style.color = " rgb(33, 156, 239)";
+		part.style.color = "rgb(33, 156, 239)";
 
 		incorrectGuesses += 1
 		console.log(incorrectGuesses);
