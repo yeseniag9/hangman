@@ -196,64 +196,65 @@ h2 {
     justify-content: center;
     font-size: 40px;
     color: black;
+    text-underline-offset: 8px;
 }
 
 .zero {
     padding: 2px;
-    text-underline-offset: 8px;
+    text-decoration: underline;
 }
 
 .one {
     padding: 2px;
-    text-underline-offset: 8px;
+    text-decoration: underline;
 }
 
 .two {
     padding: 2px; 
-    text-underline-offset: 8px;
+    text-decoration: underline;
 }
 
 .three {
     padding: 2px;
-    text-underline-offset: 8px;
+    text-decoration: underline;
 }
 
 .four {
     padding: 2px;
-    text-underline-offset: 8px;
+    text-decoration: underline;
 }
 
 .five {
     padding: 2px;
-    text-underline-offset: 8px;
+    text-decoration: underline;
 }
 
 .six {
     padding: 2px;
-    text-underline-offset: 8px;
+    text-decoration: underline;
 }
 
 .seven {
     padding: 2px;
-    text-underline-offset: 8px;
+    text-decoration: underline;
 }
 
 .eight {
     padding: 2px;
-    text-underline-offset: 8px;
+    text-decoration: underline;
 }
 
 .nine {
     padding: 2px;
-    text-underline-offset: 8px;
+    text-decoration: underline;
 }
 
 .ten {
     padding: 2px;
-    text-underline-offset: 8px;
+    text-decoration: underline;
 }
 
 .eleven {
     padding: 2px;
-    text-underline-offset: 8px;
+    text-decoration: underline;
 }
