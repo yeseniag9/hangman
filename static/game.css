@@ -211,7 +211,6 @@ u{
   position:relative;
 }
 u::after{
-  content: ' ';
   display:block;
   position:absolute;
   bottom:0;

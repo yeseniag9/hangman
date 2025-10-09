@@ -2,6 +2,15 @@ function playGame() {
 	location.href='game';
 }
 
+function hideInex() {
+    var x = Array.from(document.getElementsByTagName('u'));
+	for (var i = 0; i < x.length; i++) {
+  		x[i].style.color = "transparent";
+	}
+}
+
+window.onload = hideInex;
+
 totalGuesses = 0
 incorrectGuesses = 0
 

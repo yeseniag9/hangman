@@ -33,7 +33,7 @@
             <form class="form" id="form" onsubmit="return false;" name="form">
                 <h1 class="pick">Pick a letter - <h1>
                 <input class="input" type="text" id="userInput" size="4" maxlength="1" onkeypress="return event.charCode != 32" autocomplete="off"/>
-                <button class="submit" type="submit" onclick="letterPicked();">Submit</button> 
+                <button class="submit" type="submit" onclick="letterPicked()">Submit</button> 
             </form>
             <h2>Guesses</h2>
             <div class="box">
@@ -78,25 +78,20 @@
             </div>
         </div>
     </div>
-    <div class="bottom-container">
-        <div id="zero" class="zero">{{ zero }}</div>
-        <div id="one" class="one">{{ one }}</div>
-        <div id="two" class="two">{{ two }}</div>
-        <div id="three" class="three">{{ three }}</div>
-        <div id="four" class="four">{{ four }}</div>
-        <div id="five" class="five">{{ five }}</div>
-        <div id="six" class="six">{{ six }}</div>
-        <div id="seven" class="seven">{{ seven }}</div>
-        <div id="eight" class="eight">{{ eight }}</div>
-        <div id="nine" class="nine">{{ nine }}</div>
-        <div id="ten" class="ten">{{ ten }}</div>
-        <div id="eleven" class="eleven">{{ eleven }}</div>
+    <div class="bottom-container" onclick="hideKeywords()">
+        <div id="zero" class="zero"><u>{{ zero }}</u></div>
+        <div id="one" class="one"><u>{{ one }}</u></div>
+        <div id="two" class="two"><u>{{ two }}</u></div>
+        <div id="three" class="three"><u>{{ three }}</u></div>
+        <div id="four" class="four"><u>{{ four }}</u></div>
+        <div id="five" class="five"><u>{{ five }}</u></div>
+        <div id="six" class="six"><u>{{ six }}</u></div>
+        <div id="seven" class="seven"><u>{{ seven }}</u></div>
+        <div id="eight" class="eight"><u>{{ eight }}</u></div>
+        <div id="nine" class="nine"><u>{{ nine }}</u></div>
+        <div id="ten" class="ten"><u>{{ ten }}</u></div>
+        <div id="eleven" class="eleven"><u>{{ eleven }}</u></div>
     </div>
-
-    <p>
-  Example sentence, <u>this</u> is a <u>keyword</u>.
-</p>
-<button onClick='hideKeywords()'>Hide Keywords</button>
-
+    <script type="text/javascript">hideIndex()</script>
 </body>
 </html>
