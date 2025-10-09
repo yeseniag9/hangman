@@ -28,5 +28,65 @@ def game():
         randomWord += word[w]
         data = randomWord
         values = "".join(randomWord)
-      
-    return render_template("game.html", data=data, values=values)         
+
+    if len(randomWord) > 0:
+        zero = randomWord[0]
+    else:
+        zero = ""
+    
+    if len(randomWord) > 1:
+        one = randomWord[1]
+    else:
+        one = ""
+
+    if len(randomWord) > 2:
+        two = randomWord[2]
+    else:
+        two = ""
+
+    if len(randomWord) > 3:
+        three = randomWord[3]
+    else:
+        three = ""
+
+    if len(randomWord) > 4:
+        four = randomWord[4]
+    else:
+        four = ""
+
+    if len(randomWord) > 5:
+        five = randomWord[5]
+    else:
+        five = ""
+
+    if len(randomWord) > 6:
+        six = randomWord[6]
+    else:
+        six = ""
+    
+    if len(randomWord) > 7:
+        seven = randomWord[7]
+    else:
+        seven = ""
+
+    if len(randomWord) > 8:
+        eight = randomWord[8]
+    else:
+        eight = ""
+
+    if len(randomWord) > 9:
+        nine = randomWord[9]
+    else:
+        nine = ""
+
+    if len(randomWord) > 10:
+        ten = randomWord[ten]
+    else:
+        ten = ""
+
+    if len(randomWord) > 11:
+        eleven = randomWord(eleven)
+    else:
+        eleven = ""
+
+    return render_template("game.html", data=data, values=values, zero=zero, one=one, two=two, three=three, four=four, five=five, six=six, seven=seven, eight=eight, nine=nine, ten=ten, eleven=eleven)     
