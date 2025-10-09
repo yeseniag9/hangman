@@ -163,9 +163,29 @@ function letterPicked() {
 			console.log("success")
 
 			if (input.toUpperCase() == zero) {
-				zeroo.style.color = "green";
-			} else{
-				zeroo.style.color = "red";
+				zeroo.style.color = "rgb(33, 156, 239)";
+			} else if (input.toUpperCase() == one) {
+				onee.style.color = "rgb(33, 156, 239)";
+			} else if (input.toUpperCase() == two) {
+				twoo.style.color = "rgb(33, 156, 239)";
+			} else if (input.toUpperCase() == three) {
+				threee.style.color = "rgb(33, 156, 239)";
+			} else if (input.toUpperCase() == four) {
+				fourr.style.color = "rgb(33, 156, 239)";
+			} else if (input.toUpperCase() == five) {
+				fivee.style.color = "rgb(33, 156, 239)";
+			} else if (input.toUpperCase() == six) {
+				sixx.style.color = "rgb(33, 156, 239)";
+			} else if (input.toUpperCase() == seven) {
+				sevenn.style.color = "rgb(33, 156, 239)";
+			} else if (input.toUpperCase() == eight) {
+				eightt.style.color = "rgb(33, 156, 239)";
+			} else if (input.toUpperCase() == nine) {
+				ninee.style.color = "rgb(33, 156, 239)";
+			} else if (input.toUpperCase() == ten) {
+				tenn.style.color = "rgb(33, 156, 239)";
+			} else if (input.toUpperCase() == eleven) {
+				elevenn.style.color = "rgb(33, 156, 239)";
 			}
 		}
 	} else {
