@@ -79,12 +79,12 @@ def game():
         nine = ""
 
     if len(randomWord) > 10:
-        ten = randomWord[ten]
+        ten = randomWord[10]
     else:
         ten = ""
 
     if len(randomWord) > 11:
-        eleven = randomWord(eleven)
+        eleven = randomWord[11]
     else:
         eleven = ""
 
