@@ -192,78 +192,56 @@ h2 {
 }
 
 .bottom-container {
-    display: block;
+    display: flex;
+    font-size: 40px;
     text-align: center;
     color: black;
-    font-size: 40px;
-}
-
-.values {
-    color: black; /* color: white; */
-}
-
-.data {
-    color: black;
-}
-
-
-u{
-  position:relative;
-}
-u::after{
-  display:block;
-  position:absolute;
-  bottom:0;
-  left:0;
-  width: 100%;
-  height:1px;
-  background-color:#000;
 }
 
 .zero {
-    color: black;
+    padding: 5px;
 }
 
 .one {
-    color: black;
+    padding: 5px;
 }
 
 .two {
-    color: black;
+    padding: 5px;
 }
 
 .three {
-    color: black;
+    padding: 5px;
 }
 
 .four {
-    color: black;
+    padding: 5px;
 }
 
 .five {
-    color: black;
+    padding: 5px;
 }
 
 .six {
-    color: black;
+    padding: 5px;
 }
 
 .seven {
-    color: black;
+    padding: 5px;
 }
 
 .eight {
-    color: black;
+    padding: 5px;
 }
 
 .nine {
-    color: black;
+    padding: 5px;
 }
 
 .ten {
-    color: black;
+    padding: 5px;
 }
 
 .eleven {
-    color: black;
+    padding: 5px;
 }
