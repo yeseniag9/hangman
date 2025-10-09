@@ -200,48 +200,60 @@ h2 {
 
 .zero {
     padding: 2px;
+    text-underline-offset: 8px;
 }
 
 .one {
     padding: 2px;
+    text-underline-offset: 8px;
 }
 
 .two {
-    padding: 2px;
+    padding: 2px; 
+    text-underline-offset: 8px;
 }
 
 .three {
     padding: 2px;
+    text-underline-offset: 8px;
 }
 
 .four {
     padding: 2px;
+    text-underline-offset: 8px;
 }
 
 .five {
     padding: 2px;
+    text-underline-offset: 8px;
 }
 
 .six {
     padding: 2px;
+    text-underline-offset: 8px;
 }
 
 .seven {
     padding: 2px;
+    text-underline-offset: 8px;
 }
 
 .eight {
     padding: 2px;
+    text-underline-offset: 8px;
 }
 
 .nine {
     padding: 2px;
+    text-underline-offset: 8px;
 }
 
 .ten {
     padding: 2px;
+    text-underline-offset: 8px;
 }
 
 .eleven {
     padding: 2px;
+    text-underline-offset: 8px;
 }
