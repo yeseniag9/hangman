@@ -151,13 +151,3 @@ function letterPicked() {
 		console.log(incorrectGuesses);
 	}
 }
-
-
-
-
-function hideKeywords() {
-    var x = Array.from(document.getElementsByTagName('u'));
-    for (var i = 0; i < x.length; i++) {
-      x[i].style.color = "transparent";
-    }
-  }

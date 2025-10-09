@@ -10,6 +10,6 @@ data
 
 
 
-display random word as hidden   DONE
+display random word as hidden
 letters show when guessed correctly
 underlines are always shown 
