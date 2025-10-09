@@ -11,5 +11,5 @@ data
 
 
 display random word as hidden
-letters show when guessed correctly
+if letter appears more than once in word, each instance needs to change color 
 underlines are always shown 
