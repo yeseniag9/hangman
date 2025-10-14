@@ -36,5 +36,6 @@ p {
 }
 
 .A {
-    padding-top: 6.4px;
+    color: white;
+    text-decoration: underline black;
 }
