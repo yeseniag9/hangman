@@ -9,4 +9,5 @@ data
 
 
 if letter appears more than once in word, each instance needs to change color 
-style underline
+remove unused underscores
+make sure word is still centered after removal of unused underscores
