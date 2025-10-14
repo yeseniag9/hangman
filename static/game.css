@@ -124,6 +124,8 @@ input {
     text-indent: 21px;
     outline: none;
     font-size: 24px;
+    color: rgb(33, 156, 239);
+    caret-color: black;
 }
 
 .submit {
@@ -138,8 +140,8 @@ input {
 }
 
 .submit:hover {
-    color:  rgb(33, 156, 239);
-    border-left: 3px solid  rgb(33, 156, 239);
+    color: rgb(146, 146, 146);
+    border-left: 3px solid  rgb(146, 146, 146);
 }
 
 h2 {
