@@ -197,67 +197,89 @@ h2 {
     display: flex;
     justify-content: center;
     font-size: 40px;
-    color: white;
-    text-underline-offset:8px;
-
+    color: red;
 }
 
 .zero {
-    padding: 2px;
-    text-decoration: underline black;
+    margin: 10px;
+    border-bottom: 5px solid black;
+    width: 40px;
+    text-align: center;
 }
 
 .one {
-    padding: 2px;
-    text-decoration: underline black;
+    margin: 10px;
+    border-bottom: 5px solid black;
+    width: 40px;
+    text-align: center;
 }
 
 .two {
-    padding: 2px; 
-    text-decoration: underline black;
+    margin: 10px; 
+    border-bottom: 5px solid black;
+    width: 40px;
+    text-align: center;
 }
 
 .three {
-    padding: 2px;
-    text-decoration: underline black;
+    margin: 10px;
+    border-bottom: 5px solid black;
+    width: 40px;
+    text-align: center;
 }
 
 .four {
-    padding: 2px;
-    text-decoration: underline black;
+    margin: 10px;
+    border-bottom: 5px solid black;
+    width: 40px;
+    text-align: center;
 }
 
 .five {
-    padding: 2px;
-    text-decoration: underline black;
+    margin: 10px;
+    border-bottom: 5px solid black;
+    width: 40px;
+    text-align: center;
 }
 
 .six {
-    padding: 2px;
-    text-decoration: underline black;
+    margin: 10px;
+    border-bottom: 5px solid black;
+    width: 40px;
+    text-align: center;
 }
 
 .seven {
-    padding: 2px;
-    text-decoration: underline black;
+    margin: 10px;
+    border-bottom: 5px solid black;
+    width: 40px;
+    text-align: center;
 }
 
 .eight {
-    padding: 2px;
-    text-decoration: underline black;
+    margin: 10px;
+    border-bottom: 5px solid black;
+    width: 40px;
+    text-align: center;
 }
 
 .nine {
-    padding: 2px;
-    text-decoration: underline black;
+    margin: 10px;
+    border-bottom: 5px solid black;
+    width: 40px;
+    text-align: center;
 }
 
 .ten {
-    padding: 2px;
-    text-decoration: underline black;
+    margin: 10px;
+    border-bottom: 5px solid black;
+    width: 40px;
+    text-align: center;
 }
 
 .eleven {
-    padding: 2px;
-    text-decoration: underline black;
+    margin: 10px;
+    border-bottom: 5px solid black;
+    width: 40px;
+    text-align: center;
 }
