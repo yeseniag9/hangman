@@ -163,41 +163,89 @@ function letterPicked() {
 			console.log("success")
 
 			if (input.toUpperCase() == zero) {
-				zeroo.style.color = "rgb(33, 156, 239)";
-				zeroo.style.textDecoration = "underline black";
+				for (let i = 0; i < randomWord.length; i++) {
+  					if (randomWord[i] == input.toUpperCase()) {
+						zeroo.style.color = "rgb(33, 156, 239)";
+						zeroo.style.textDecoration = "underline black";
+					}
+				}
 			} else if (input.toUpperCase() == one) {
-				onee.style.color = "rgb(33, 156, 239)";
-				onee.style.textDecoration = "underline black";
+				for (let i = 0; i < randomWord.length; i++) {
+  					if (randomWord[i] == input.toUpperCase()) {
+						onee.style.color = "rgb(33, 156, 239)";
+						onee.style.textDecoration = "underline black";
+					}
+				}
 			} else if (input.toUpperCase() == two) {
-				twoo.style.color = "rgb(33, 156, 239)";
-				twoo.style.textDecoration = "underline black";
+				for (let i = 0; i < randomWord.length; i++) {
+  					if (randomWord[i] == input.toUpperCase()) {
+						twoo.style.color = "rgb(33, 156, 239)";
+						twoo.style.textDecoration = "underline black";
+					}
+				}
 			} else if (input.toUpperCase() == three) {
-				threee.style.color = "rgb(33, 156, 239)";
-				threee.style.textDecoration = "underline black";
+				for (let i = 0; i < randomWord.length; i++) {
+  					if (randomWord[i] == input.toUpperCase()) {
+						threee.style.color = "rgb(33, 156, 239)";
+						threee.style.textDecoration = "underline black";
+					}
+				}
 			} else if (input.toUpperCase() == four) {
-				fourr.style.color = "rgb(33, 156, 239)";
-				fourr.style.textDecoration = "underline black";
+				for (let i = 0; i < randomWord.length; i++) {
+  					if (randomWord[i] == input.toUpperCase()) {
+						fourr.style.color = "rgb(33, 156, 239)";
+						fourr.style.textDecoration = "underline black";
+					}
+				}
 			} else if (input.toUpperCase() == five) {
-				fivee.style.color = "rgb(33, 156, 239)";
-				fivee.style.textDecoration = "underline black";
+				for (let i = 0; i < randomWord.length; i++) {
+  					if (randomWord[i] == input.toUpperCase()) {
+						fivee.style.color = "rgb(33, 156, 239)";
+						fivee.style.textDecoration = "underline black";
+					}
+				}
 			} else if (input.toUpperCase() == six) {
-				sixx.style.color = "rgb(33, 156, 239)";
-				sixx.style.textDecoration = "underline black";
+				for (let i = 0; i < randomWord.length; i++) {
+  					if (randomWord[i] == input.toUpperCase()) {
+						sixx.style.color = "rgb(33, 156, 239)";
+						sixx.style.textDecoration = "underline black";
+					}
+				}
 			} else if (input.toUpperCase() == seven) {
-				sevenn.style.color = "rgb(33, 156, 239)";
-				sevenn.style.textDecoration = "underline black";
+				for (let i = 0; i < randomWord.length; i++) {
+  					if (randomWord[i] == input.toUpperCase()) {
+						sevenn.style.color = "rgb(33, 156, 239)";
+						sevenn.style.textDecoration = "underline black";
+					}
+				}
 			} else if (input.toUpperCase() == eight) {
-				eightt.style.color = "rgb(33, 156, 239)";
-				eightt.style.textDecoration = "underline black";
+				for (let i = 0; i < randomWord.length; i++) {
+  					if (randomWord[i] == input.toUpperCase()) {
+						eightt.style.color = "rgb(33, 156, 239)";
+						eightt.style.textDecoration = "underline black";
+					}
+				}
 			} else if (input.toUpperCase() == nine) {
-				ninee.style.color = "rgb(33, 156, 239)";
-				ninee.style.textDecoration = "underline black";
+				for (let i = 0; i < randomWord.length; i++) {
+  					if (randomWord[i] == input.toUpperCase()) {
+						ninee.style.color = "rgb(33, 156, 239)";
+						ninee.style.textDecoration = "underline black";
+					}
+				}
 			} else if (input.toUpperCase() == ten) {
-				tenn.style.color = "rgb(33, 156, 239)";
-				tenn.style.textDecoration = "underline black";
+				for (let i = 0; i < randomWord.length; i++) {
+  					if (randomWord[i] == input.toUpperCase()) {
+						tenn.style.color = "rgb(33, 156, 239)";
+						tenn.style.textDecoration = "underline black";
+					}
+				}
 			} else if (input.toUpperCase() == eleven) {
-				elevenn.style.color = "rgb(33, 156, 239)";
-				elevenn.style.textDecoration = "underline black";
+				for (let i = 0; i < randomWord.length; i++) {
+  					if (randomWord[i] == input.toUpperCase()) {
+						elevenn.style.color = "rgb(33, 156, 239)";
+						elevenn.style.textDecoration = "underline black";
+					}
+				}
 			}
 		}
 	} else {
