@@ -2,6 +2,7 @@
 
 body {
     background-color: white;
+    overflow: hidden;
 }
 
 .content {
@@ -9,10 +10,12 @@ body {
     align-items: center;
     min-height: 100vh;
     justify-content: center;
+
 }
 
 .main {
     display: block;
+
 }
 
 .play {
