@@ -167,35 +167,35 @@ function letterPicked() {
 				for (let i = 0; i < randomWord.length; i++) {
   					if (randomWord[i] == input.toUpperCase()) {
 						zeroo.style.color = "rgb(33, 156, 239)";
-						zero.style.borderBottom = "5px solid black";
+						zeroo.style.borderBottom = "5px solid black";
 					}
 				}
 			} else if (input.toUpperCase() == one) {
 				for (let i = 0; i < randomWord.length; i++) {
   					if (randomWord[i] == input.toUpperCase()) {
 						onee.style.color = "rgb(33, 156, 239)";
-						one.style.borderBottom = "5px solid black";
+						onee.style.borderBottom = "5px solid black";
 					}
 				}
 			} else if (input.toUpperCase() == two) {
 				for (let i = 0; i < randomWord.length; i++) {
   					if (randomWord[i] == input.toUpperCase()) {
 						twoo.style.color = "rgb(33, 156, 239)";
-						two.style.borderBottom = "5px solid black";
+						twoo.style.borderBottom = "5px solid black";
 					}
 				}
 			} else if (input.toUpperCase() == three) {
 				for (let i = 0; i < randomWord.length; i++) {
   					if (randomWord[i] == input.toUpperCase()) {
 						threee.style.color = "rgb(33, 156, 239)";
-						three.style.borderBottom = "5px solid black";
+						threee.style.borderBottom = "5px solid black";
 					}
 				}
 			} else if (input.toUpperCase() == four) {
 				for (let i = 0; i < randomWord.length; i++) {
   					if (randomWord[i] == input.toUpperCase()) {
 						fourr.style.color = "rgb(33, 156, 239)";
-						four.style.borderBottom = "5px solid black";
+						fourr.style.borderBottom = "5px solid black";
 					}
 				}
 			} else if (input.toUpperCase() == five) {
@@ -209,42 +209,42 @@ function letterPicked() {
 				for (let i = 0; i < randomWord.length; i++) {
   					if (randomWord[i] == input.toUpperCase()) {
 						sixx.style.color = "rgb(33, 156, 239)";
-						six.style.borderBottom = "5px solid black";
+						sixx.style.borderBottom = "5px solid black";
 					}
 				}
 			} else if (input.toUpperCase() == seven) {
 				for (let i = 0; i < randomWord.length; i++) {
   					if (randomWord[i] == input.toUpperCase()) {
 						sevenn.style.color = "rgb(33, 156, 239)";
-						seven.style.borderBottom = "5px solid black";
+						sevenn.style.borderBottom = "5px solid black";
 					}
 				}
 			} else if (input.toUpperCase() == eight) {
 				for (let i = 0; i < randomWord.length; i++) {
   					if (randomWord[i] == input.toUpperCase()) {
 						eightt.style.color = "rgb(33, 156, 239)";
-						eight.style.borderBottom = "5px solid black";
+						eightt.style.borderBottom = "5px solid black";
 					}
 				}
 			} else if (input.toUpperCase() == nine) {
 				for (let i = 0; i < randomWord.length; i++) {
   					if (randomWord[i] == input.toUpperCase()) {
 						ninee.style.color = "rgb(33, 156, 239)";
-						nine.style.borderBottom = "5px solid black";
+						ninee.style.borderBottom = "5px solid black";
 					}
 				}
 			} else if (input.toUpperCase() == ten) {
 				for (let i = 0; i < randomWord.length; i++) {
   					if (randomWord[i] == input.toUpperCase()) {
 						tenn.style.color = "rgb(33, 156, 239)";
-						ten.style.borderBottom = "5px solid black";
+						tenn.style.borderBottom = "5px solid black";
 					}
 				}
 			} else if (input.toUpperCase() == eleven) {
 				for (let i = 0; i < randomWord.length; i++) {
   					if (randomWord[i] == input.toUpperCase()) {
 						elevenn.style.color = "rgb(33, 156, 239)";
-						eleven.style.borderBottom = "5px solid black";
+						elevenn.style.borderBottom = "5px solid black";
 					}
 				}
 			}

@@ -2,7 +2,8 @@ now
 - game needs to stop after 7 incorrect guesses
 
 bugs 
-- input should only count letters towards guesses 
+- input should only count letters towards guesses (numbers count, punctuation marks are not)
+- if clicking incorrect letter more than once, total guesses keeps accumulating and parts are still added 
 
 data
 - total guess count should be 0 if blank inputs are only thing entered 
