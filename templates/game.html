@@ -11,7 +11,7 @@
     </script>
     <title>H_NGM_N</title>
 </head>
-<body>
+<body onload="hideEmpty()">
     <div class="top-container">
         <div class="left-top">
             <img src="/static/images/post.png" alt="post" height="600">
@@ -30,12 +30,7 @@
             </div>
         </div>
         <div class="right-top">
-            <form class="form" id="form" onsubmit="return false;" name="form">
-                <h1 class="pick">Pick a letter - <h1>
-                <input class="input" type="text" id="userInput" size="4" maxlength="1" onkeypress="return event.charCode != 32" autocomplete="off"/>
-                <button class="submit" type="submit" onclick="letterPicked()">Submit</button> 
-            </form>
-            <h2>Guesses</h2>
+            <h1>PICK A LETTER</h1>
             <div class="box">
                 <div class="letters">
                     <div class="a-f">
@@ -78,7 +73,7 @@
             </div>
         </div>
     </div>
-    <div class="bottom-container">
+    <div class="bottom-container" >
         <div id="zero" class="zero">{{ zero }}</div>
         <div id="one" class="one">{{ one }}</div>
         <div id="two" class="two">{{ two }}</div>
@@ -91,7 +86,6 @@
         <div id="nine" class="nine">{{ nine }}</div>
         <div id="ten" class="ten">{{ ten }}</div>
         <div id="eleven" class="eleven">{{ eleven }}</div>
-        </div>
     </div>
 </body>
 </html>

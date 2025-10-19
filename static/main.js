@@ -2,6 +2,24 @@ function playGame() {
 	location.href='game';
 }
 
+function hideEmpty() {
+	var zer = document.getElementById("zero").innerText;
+	var on = document.getElementById("one").innerText;
+	var tw = document.getElementById("two").innerText;
+	var thre = document.getElementById("three").innerText;
+	var fou = document.getElementById("four").innerText;
+	var fiv = document.getElementById("five").innerText;
+	var si = document.getElementById("six").innerText;
+	var seve = document.getElementById("seven").innerText;
+	var eigh = document.getElementById("eight").innerText;
+	var nin = document.getElementById("nine").innerText;
+	var te = document.getElementById("ten").innerText;
+	var eleve = document.getElementById("eleven").innerText;
+	if (eleve == "") {
+		eleve.hide();
+	}
+}
+
 totalGuesses = 0
 incorrectGuesses = 0
 
