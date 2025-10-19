@@ -2,6 +2,136 @@ function playGame() {
 	location.href='game';
 }
 
+function pickA() {
+	var A = document.getElementById("A");
+	A.style.color = "red";
+}
+
+function pickB() {
+	var B = document.getElementById("B");
+	B.style.color = "red";
+}
+
+function pickC() {
+	var C = document.getElementById("C");
+	C.style.color = "red";
+}
+
+function pickD() {
+	var D = document.getElementById("D");
+	D.style.color = "red";
+}
+
+function pickE() {
+	var E = document.getElementById("E");
+	E.style.color = "red";
+}
+
+function pickF() {
+	var F = document.getElementById("F");
+	F.style.color = "red";
+}
+
+function pickG() {
+	var A = document.getElementById("G");
+	G.style.color = "red";
+}
+
+function pickH() {
+	var A = document.getElementById("H");
+	H.style.color = "red";
+}
+
+function pickI() {
+	var I = document.getElementById("I");
+	I.style.color = "red";
+}
+
+function pickJ() {
+	var J = document.getElementById("J");
+	J.style.color = "red";
+}
+
+function pickK() {
+	var K = document.getElementById("K");
+	K.style.color = "red";
+}
+
+function pickL() {
+	var L = document.getElementById("L");
+	L.style.color = "red";
+}
+
+function pickM() {
+	var M = document.getElementById("M");
+	M.style.color = "red";
+}
+
+function pickN() {
+	var N = document.getElementById("N");
+	N.style.color = "red";
+}
+
+function pickO() {
+	var O = document.getElementById("O");
+	O.style.color = "red";
+}
+
+function pickP() {
+	var P = document.getElementById("P");
+	P.style.color = "red";
+}
+
+function pickQ() {
+	var Q = document.getElementById("Q");
+	Q.style.color = "red";
+}
+
+function pickR() {
+	var R = document.getElementById("R");
+	R.style.color = "red";
+}
+
+function pickS() {
+	var S = document.getElementById("S");
+	S.style.color = "red";
+}
+
+function pickT() {
+	var T = document.getElementById("T");
+	T.style.color = "red";
+}
+
+function pickU() {
+	var U = document.getElementById("U");
+	U.style.color = "red";
+}
+
+function pickV() {
+	var V = document.getElementById("V");
+	V.style.color = "red";
+}
+
+function pickW() {
+	var W = document.getElementById("W");
+	W.style.color = "red";
+}
+
+function pickX() {
+	var X = document.getElementById("X");
+	X.style.color = "red";
+}
+
+function pickY() {
+	var Y = document.getElementById("Y");
+	Y.style.color = "red";
+}
+
+function pickZ() {
+	var Z = document.getElementById("Z");
+	Z.style.color = "red";
+}
+
 function hideEmpty() {
 	var zer = document.getElementById("zero").innerText;
 	var on = document.getElementById("one").innerText;
