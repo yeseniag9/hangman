@@ -26,7 +26,7 @@ def game():
     randomWord = []
     for w in range(len(word)):
         randomWord += word[w]
-        data = randomWord
+        data = word
 
     if len(randomWord) > 0:
         zero = randomWord[0]
