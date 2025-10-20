@@ -2,135 +2,320 @@ function playGame() {
 	location.href='game';
 }
 
+var zero = document.getElementById("zero").innerText;
+var one = document.getElementById("one").innerText;
+var two = document.getElementById("two").innerText;	
+var three = document.getElementById("three").innerText;	
+var four = document.getElementById("four").innerText;	
+var five = document.getElementById("five").innerText;
+var six = document.getElementById("six").innerText;
+var seven = document.getElementById("seven").innerText;
+var eight = document.getElementById("eight").innerText;
+var nine = document.getElementById("nine").innerText;
+var ten = document.getElementById("ten").innerText;
+var eleven = document.getElementById("eleven").innerText;
+
+var string = document.getElementById("string");
+var head = document.getElementById("head");
+var body = document.getElementById("body");
+var leftArm = document.getElementById("leftArm");
+var rightArm = document.getElementById("rightArm");
+var leftLeg = document.getElementById("leftLeg");
+var rightLeg = document.getElementById("rightLeg");
+var leftEye = document.getElementById("leftEye");
+var rightEye = document.getElementById("rightEye");
+var frown = document.getElementById("frown");
+var hangman = [string, head, body, leftArm, rightArm, leftLeg, rightLeg, leftEye, rightEye, frown];
+
 function pickA() {
 	var A = document.getElementById("A");
 	A.style.color = "red";
+	
+	var a = document.getElementById("A").innerText;
+	for (let i = 0; i < randomWord.length; i++) {
+		if (a == randomWord[i])
+			console.log("success")
+	}
 }
 
 function pickB() {
 	var B = document.getElementById("B");
 	B.style.color = "red";
+
+	var b = document.getElementById("B").innerText;
+	for (let i = 0; i < randomWord.length; i++) {
+		if (b == randomWord[i])
+			console.log("success")
+	}
 }
 
 function pickC() {
 	var C = document.getElementById("C");
 	C.style.color = "red";
+
+	var c = document.getElementById("C").innerText;
+	for (let i = 0; i < randomWord.length; i++) {
+		if (c == randomWord[i])
+			console.log("success")
+	}
 }
 
 function pickD() {
 	var D = document.getElementById("D");
 	D.style.color = "red";
+
+	var d = document.getElementById("D").innerText;
+	for (let i = 0; i < randomWord.length; i++) {
+		if (d == randomWord[i])
+			console.log("success")
+	}
 }
 
 function pickE() {
 	var E = document.getElementById("E");
 	E.style.color = "red";
+
+	var e = document.getElementById("E").innerText;
+	for (let i = 0; i < randomWord.length; i++) {
+		if (e == randomWord[i])
+			console.log("success")
+	}
 }
 
 function pickF() {
 	var F = document.getElementById("F");
 	F.style.color = "red";
+
+	var f = document.getElementById("F").innerText;
+	for (let i = 0; i < randomWord.length; i++) {
+		if (f == randomWord[i])
+			console.log("success")
+	}
 }
 
 function pickG() {
-	var A = document.getElementById("G");
+	var G = document.getElementById("G");
 	G.style.color = "red";
+
+	var g = document.getElementById("G").innerText;
+	for (let i = 0; i < randomWord.length; i++) {
+		if (g == randomWord[i])
+			console.log("success")
+	}
 }
 
 function pickH() {
-	var A = document.getElementById("H");
+	var H = document.getElementById("H");
 	H.style.color = "red";
+
+	var h = document.getElementById("H").innerText;
+	for (let i = 0; i < randomWord.length; i++) {
+		if (h == randomWord[i])
+			console.log("success")
+	}
 }
 
 function pickI() {
 	var I = document.getElementById("I");
 	I.style.color = "red";
+
+	var ii = document.getElementById("I").innerText;
+	for (let i = 0; i < randomWord.length; i++) {
+		if (ii == randomWord[i])
+			console.log("success")
+	}
 }
 
 function pickJ() {
 	var J = document.getElementById("J");
 	J.style.color = "red";
+
+	var j = document.getElementById("J").innerText;
+	for (let i = 0; i < randomWord.length; i++) {
+		if (j == randomWord[i])
+			console.log("success")
+	}
 }
 
 function pickK() {
 	var K = document.getElementById("K");
 	K.style.color = "red";
+
+	var k = document.getElementById("K").innerText;
+	for (let i = 0; i < randomWord.length; i++) {
+		if (k == randomWord[i])
+			console.log("success")
+	}
 }
 
 function pickL() {
 	var L = document.getElementById("L");
 	L.style.color = "red";
+
+	var l = document.getElementById("L").innerText;
+	for (let i = 0; i < randomWord.length; i++) {
+		if (l == randomWord[i])
+			console.log("success")
+	}
 }
 
 function pickM() {
 	var M = document.getElementById("M");
 	M.style.color = "red";
+
+	var m = document.getElementById("M").innerText;
+	for (let i = 0; i < randomWord.length; i++) {
+		if (m == randomWord[i])
+			console.log("success")
+	}
 }
 
 function pickN() {
 	var N = document.getElementById("N");
 	N.style.color = "red";
+
+	var n = document.getElementById("N").innerText;
+	for (let i = 0; i < randomWord.length; i++) {
+		if (n == randomWord[i])
+			console.log("success")
+	}
 }
 
 function pickO() {
 	var O = document.getElementById("O");
 	O.style.color = "red";
+
+	var o = document.getElementById("O").innerText;
+	for (let i = 0; i < randomWord.length; i++) {
+		if (o == randomWord[i])
+			console.log("success")
+	}
 }
 
 function pickP() {
 	var P = document.getElementById("P");
 	P.style.color = "red";
+
+	var p = document.getElementById("P").innerText;
+	for (let i = 0; i < randomWord.length; i++) {
+		if (p == randomWord[i])
+			console.log("success")
+	}
 }
 
 function pickQ() {
 	var Q = document.getElementById("Q");
 	Q.style.color = "red";
+
+	var q = document.getElementById("Q").innerText;
+	for (let i = 0; i < randomWord.length; i++) {
+		if (q == randomWord[i])
+			console.log("success")
+	}
 }
 
 function pickR() {
 	var R = document.getElementById("R");
 	R.style.color = "red";
+
+	var r = document.getElementById("R").innerText;
+	for (let i = 0; i < randomWord.length; i++) {
+		if (r == randomWord[i])
+			console.log("success")
+	}
 }
 
 function pickS() {
 	var S = document.getElementById("S");
 	S.style.color = "red";
+
+	var s = document.getElementById("S").innerText;
+	for (let i = 0; i < randomWord.length; i++) {
+		if (s == randomWord[i])
+			console.log("success")
+	}
 }
 
 function pickT() {
 	var T = document.getElementById("T");
 	T.style.color = "red";
+
+	var t = document.getElementById("T").innerText;
+	for (let i = 0; i < randomWord.length; i++) {
+		if (t == randomWord[i])
+			console.log("success")
+	}
 }
 
 function pickU() {
 	var U = document.getElementById("U");
 	U.style.color = "red";
+
+	var u = document.getElementById("U").innerText;
+	for (let i = 0; i < randomWord.length; i++) {
+		if (u == randomWord[i])
+			console.log("success")
+	}
 }
 
 function pickV() {
 	var V = document.getElementById("V");
 	V.style.color = "red";
+
+	var v = document.getElementById("V").innerText;
+	for (let i = 0; i < randomWord.length; i++) {
+		if (v == randomWord[i])
+			console.log("success")
+	}
 }
 
 function pickW() {
 	var W = document.getElementById("W");
 	W.style.color = "red";
+
+	var w = document.getElementById("W").innerText;
+	for (let i = 0; i < randomWord.length; i++) {
+		if (w == randomWord[i])
+			console.log("success")
+	}
 }
 
 function pickX() {
 	var X = document.getElementById("X");
 	X.style.color = "red";
+
+	var x = document.getElementById("X").innerText;
+	for (let i = 0; i < randomWord.length; i++) {
+		if (x == randomWord[i])
+			console.log("success")
+	}
 }
 
 function pickY() {
 	var Y = document.getElementById("Y");
 	Y.style.color = "red";
+
+	var y = document.getElementById("Y").innerText;
+	for (let i = 0; i < randomWord.length; i++) {
+		if (y == randomWord[i])
+			console.log("success")
+	}
 }
 
 function pickZ() {
 	var Z = document.getElementById("Z");
 	Z.style.color = "red";
+
+	var z = document.getElementById("Z").innerText;
+	for (let i = 0; i < randomWord.length; i++) {
+		if (z == randomWord[i])
+			console.log("success")
+	}
 }
+
+
+
+
 
 function hideEmpty() {
 	var zer = document.getElementById("zero").innerText;
