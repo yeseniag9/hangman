@@ -22,11 +22,11 @@ def game():
             "resonance", "silk", "tempest", "utopia", "verdant", "willow", "xylophonist", "yesteryear", "zealous"]
     word = random.choice(words) 
     word = word.upper()
+    data = word
 
     randomWord = []
     for w in range(len(word)):
         randomWord += word[w]
-        data = word
 
     if len(randomWord) > 0:
         zero = randomWord[0]
