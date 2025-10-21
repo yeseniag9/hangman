@@ -11,7 +11,7 @@ function pickA() {
 	if (word.includes("A")) {
 		console.log("success");
 	} else {
-		console.log("fail");
+		addPart()
 		
 		incorrectGuesses += 1
 		console.log(incorrectGuesses)
@@ -25,8 +25,8 @@ function pickB() {
 	if (word.includes("B")) {
 		console.log("success");
 	} else {
-		console.log("fail");
-		
+		addPart()
+
 		incorrectGuesses += 1
 		console.log(incorrectGuesses)
 	}
@@ -39,7 +39,7 @@ function pickC() {
 	if (word.includes("C")) {
 		console.log("success");
 	} else {
-		console.log("fail");
+		addPart()
 		
 		incorrectGuesses += 1
 		console.log(incorrectGuesses)
@@ -53,7 +53,7 @@ function pickD() {
 	if (word.includes("D")) {
 		console.log("success");
 	} else {
-		console.log("fail");
+		addPart()
 		
 		incorrectGuesses += 1
 		console.log(incorrectGuesses)
@@ -67,7 +67,7 @@ function pickE() {
 	if (word.includes("E")) {
 		console.log("success");
 	} else {
-		console.log("fail");
+		addPart()
 		
 		incorrectGuesses += 1
 		console.log(incorrectGuesses)
@@ -81,7 +81,7 @@ function pickF() {
 	if (word.includes("F")) {
 		console.log("success");
 	} else {
-		console.log("fail");
+		addPart()
 		
 		incorrectGuesses += 1
 		console.log(incorrectGuesses)
@@ -95,7 +95,7 @@ function pickG() {
 	if (word.includes("G")) {
 		console.log("success");
 	} else {
-		console.log("fail");
+		addPart()
 		
 		incorrectGuesses += 1
 		console.log(incorrectGuesses)
@@ -109,7 +109,7 @@ function pickH() {
 	if (word.includes("H")) {
 		console.log("success");
 	} else {
-		console.log("fail");
+		addPart()
 		
 		incorrectGuesses += 1
 		console.log(incorrectGuesses)
@@ -123,7 +123,7 @@ function pickI() {
 	if (word.includes("I")) {
 		console.log("success");
 	} else {
-		console.log("fail");
+		addPart()
 		
 		incorrectGuesses += 1
 		console.log(incorrectGuesses)
@@ -137,7 +137,7 @@ function pickJ() {
 	if (word.includes("J")) {
 		console.log("success");
 	} else {
-		console.log("fail");
+		addPart()
 		
 		incorrectGuesses += 1
 		console.log(incorrectGuesses)
@@ -151,7 +151,7 @@ function pickK() {
 	if (word.includes("K")) {
 		console.log("success");
 	} else {
-		console.log("fail");
+		addPart()
 		
 		incorrectGuesses += 1
 		console.log(incorrectGuesses)
@@ -165,7 +165,7 @@ function pickL() {
 	if (word.includes("L")) {
 		console.log("success");
 	} else {
-		console.log("fail");
+		addPart()
 		
 		incorrectGuesses += 1
 		console.log(incorrectGuesses)
@@ -179,7 +179,7 @@ function pickM() {
 	if (word.includes("M")) {
 		console.log("success");
 	} else {
-		console.log("fail");
+		addPart()
 		
 		incorrectGuesses += 1
 		console.log(incorrectGuesses)
@@ -193,7 +193,7 @@ function pickN() {
 	if (word.includes("N")) {
 		console.log("success");
 	} else {
-		console.log("fail");
+		addPart()
 		
 		incorrectGuesses += 1
 		console.log(incorrectGuesses)
@@ -207,7 +207,7 @@ function pickO() {
 	if (word.includes("O")) {
 		console.log("success");
 	} else {
-		console.log("fail");
+		addPart()
 		
 		incorrectGuesses += 1
 		console.log(incorrectGuesses)
@@ -220,9 +220,9 @@ function pickP() {
 
 	if (word.includes("P")) {
 		console.log("success");
-	} else {
-		console.log("fail");
-		
+	} else {		
+		addPart()
+
 		incorrectGuesses += 1
 		console.log(incorrectGuesses)
 	}
@@ -235,7 +235,7 @@ function pickQ() {
 	if (word.includes("Q")) {
 		console.log("success");
 	} else {
-		console.log("fail");
+		addPart()
 		
 		incorrectGuesses += 1
 		console.log(incorrectGuesses)
@@ -249,7 +249,7 @@ function pickR() {
 	if (word.includes("R")) {
 		console.log("success");
 	} else {
-		console.log("fail");
+		addPart()
 		
 		incorrectGuesses += 1
 		console.log(incorrectGuesses)
@@ -263,7 +263,7 @@ function pickS() {
 	if (word.includes("S")) {
 		console.log("success");
 	} else {
-		console.log("fail");
+		addPart()
 		
 		incorrectGuesses += 1
 		console.log(incorrectGuesses)
@@ -277,7 +277,7 @@ function pickT() {
 	if (word.includes("T")) {
 		console.log("success");
 	} else {
-		console.log("fail");
+		addPart()
 		
 		incorrectGuesses += 1
 		console.log(incorrectGuesses)
@@ -291,7 +291,7 @@ function pickU() {
 	if (word.includes("U")) {
 		console.log("success");
 	} else {
-		console.log("fail");
+		addPart()
 		
 		incorrectGuesses += 1
 		console.log(incorrectGuesses)
@@ -305,7 +305,7 @@ function pickV() {
 	if (word.includes("V")) {
 		console.log("success");
 	} else {
-		console.log("fail");
+		addPart()
 		
 		incorrectGuesses += 1
 		console.log(incorrectGuesses)
@@ -319,7 +319,7 @@ function pickW() {
 	if (word.includes("W")) {
 		console.log("success");
 	} else {
-		console.log("fail");
+		addPart()
 		
 		incorrectGuesses += 1
 		console.log(incorrectGuesses)
@@ -333,7 +333,7 @@ function pickX() {
 	if (word.includes("X")) {
 		console.log("success");
 	} else {
-		console.log("fail");
+		addPart()
 		
 		incorrectGuesses += 1
 		console.log(incorrectGuesses)
@@ -347,7 +347,7 @@ function pickY() {
 	if (word.includes("Y")) {
 		console.log("success");
 	} else {
-		console.log("fail");
+		addPart()
 		
 		incorrectGuesses += 1
 		console.log(incorrectGuesses)
@@ -361,15 +361,29 @@ function pickZ() {
 	if (word.includes("Z")) {
 		console.log("success");
 	} else {
-		console.log("fail");
+		addPart()
 		
 		incorrectGuesses += 1
 		console.log(incorrectGuesses)
 	}
 }
 
-console.log()
+function addPart() {
+	var string = document.getElementById("string");
+	var head = document.getElementById("head");
+	var body = document.getElementById("body");
+	var leftArm = document.getElementById("leftArm");
+	var rightArm = document.getElementById("rightArm");
+	var leftLeg = document.getElementById("leftLeg");
+	var rightLeg = document.getElementById("rightLeg");
+	var leftEye = document.getElementById("leftEye");
+	var rightEye = document.getElementById("rightEye");
+	var frown = document.getElementById("frown");
+	var hangman = [string, head, body, leftArm, rightArm, leftLeg, rightLeg, leftEye, rightEye, frown];
 
+	part = hangman[incorrectGuesses];
+	part.style.color = "black";
+}
 
 
 
@@ -430,7 +444,6 @@ function letterPicked() {
 	var Z = document.getElementById("Z");
 
 	var string = document.getElementById("string");
-	console.log(string)
 	var head = document.getElementById("head");
 	var body = document.getElementById("body");
 	var leftArm = document.getElementById("leftArm");
