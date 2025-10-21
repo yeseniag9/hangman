@@ -385,6 +385,24 @@ function addPart() {
 	part.style.color = "black";
 }
 
+function correctPick() {
+	var zero = document.getElementById("zero");
+	var one = document.getElementById("one");
+	var two = document.getElementById("two");
+	var three = document.getElementById("three");
+	var four = document.getElementById("four");
+	var five = document.getElementById("five");
+	var six = document.getElementById("six");
+	var seven = document.getElementById("seven");
+	var eight = document.getElementById("eight");
+	var nine = document.getElementById("nine");
+	var ten = document.getElementById("ten");
+	var eleven = document.getElementById("eleven");
+	var index = [zero, one, two, three, four, five, six, seven, eight, nine, ten, eleven]
+
+	index
+} 
+
 
 
 
@@ -401,19 +419,6 @@ function addPart() {
 	var nine = document.getElementById("nine").innerText;
 	var ten = document.getElementById("ten").innerText;
 	var eleven = document.getElementById("eleven").innerText;
-
-	var zeroo = document.getElementById("zero");
-	var onee = document.getElementById("one");
-	var twoo = document.getElementById("two");
-	var threee = document.getElementById("three");
-	var fourr = document.getElementById("four");
-	var fivee = document.getElementById("five");
-	var sixx = document.getElementById("six");
-	var sevenn = document.getElementById("seven");
-	var eightt = document.getElementById("eight");
-	var ninee = document.getElementById("nine");
-	var tenn = document.getElementById("ten");
-	var elevenn = document.getElementById("eleven");
 
 	if (randomWord.includes(input.toLowerCase()) || randomWord.includes(input.toUpperCase())) {
 		if (input == "") {
