@@ -109,7 +109,14 @@ function pickA() {
 	A.style.color = "red";
 
 	if (word.includes("A")) {
-		console.log("success");
+		position = []
+		for (let i = 0; i < word.length; i++) {
+			if (word[i] == "A") {
+				position += i
+			}
+		}
+
+		console.log(position)
 	} else {
 		addPart()
 		
@@ -123,7 +130,14 @@ function pickB() {
 	B.style.color = "red";
 
 	if (word.includes("B")) {
-		console.log("success");
+		position = []
+		for (let i = 0; i < word.length; i++) {
+			if (word[i] == "B") {
+				position += i
+			}
+		}
+
+		console.log(position)
 	} else {
 		addPart()
 
@@ -137,7 +151,14 @@ function pickC() {
 	C.style.color = "red";
 
 	if (word.includes("C")) {
-		console.log("success");
+		position = []
+		for (let i = 0; i < word.length; i++) {
+			if (word[i] == "C") {
+				position += i
+			}
+		}
+
+		console.log(position)	
 	} else {
 		addPart()
 		
@@ -151,7 +172,14 @@ function pickD() {
 	D.style.color = "red";
 
 	if (word.includes("D")) {
-		console.log("success");
+		position = []
+		for (let i = 0; i < word.length; i++) {
+			if (word[i] == "D") {
+				position += i
+			}
+		}
+
+		console.log(position)
 	} else {
 		addPart()
 		
@@ -165,7 +193,14 @@ function pickE() {
 	E.style.color = "red";
 
 	if (word.includes("E")) {
-		console.log("success");
+		position = []
+		for (let i = 0; i < word.length; i++) {
+			if (word[i] == "E") {
+				position += i
+			}
+		}
+
+		console.log(position)
 	} else {
 		addPart()
 		
@@ -179,7 +214,14 @@ function pickF() {
 	F.style.color = "red";
 
 	if (word.includes("F")) {
-		console.log("success");
+		position = []
+		for (let i = 0; i < word.length; i++) {
+			if (word[i] == "F") {
+				position += i
+			}
+		}
+
+		console.log(position)
 	} else {
 		addPart()
 		
@@ -193,7 +235,14 @@ function pickG() {
 	G.style.color = "red";
 
 	if (word.includes("G")) {
-		console.log("success");
+		position = []
+		for (let i = 0; i < word.length; i++) {
+			if (word[i] == "G") {
+				position += i
+			}
+		}
+
+		console.log(position)
 	} else {
 		addPart()
 		
@@ -207,7 +256,14 @@ function pickH() {
 	H.style.color = "red";
 
 	if (word.includes("H")) {
-		console.log("success");
+		position = []
+		for (let i = 0; i < word.length; i++) {
+			if (word[i] == "H") {
+				position += i
+			}
+		}
+
+		console.log(position)
 	} else {
 		addPart()
 		
@@ -221,7 +277,14 @@ function pickI() {
 	I.style.color = "red";
 
 	if (word.includes("I")) {
-		console.log("success");
+		position = []
+		for (let i = 0; i < word.length; i++) {
+			if (word[i] == "I") {
+				position += i
+			}
+		}
+
+		console.log(position)
 	} else {
 		addPart()
 		
@@ -235,7 +298,14 @@ function pickJ() {
 	J.style.color = "red";
 
 	if (word.includes("J")) {
-		console.log("success");
+		position = []
+		for (let i = 0; i < word.length; i++) {
+			if (word[i] == "J") {
+				position += i
+			}
+		}
+
+		console.log(position)
 	} else {
 		addPart()
 		
@@ -249,7 +319,14 @@ function pickK() {
 	K.style.color = "red";
 
 	if (word.includes("K")) {
-		console.log("success");
+		position = []
+		for (let i = 0; i < word.length; i++) {
+			if (word[i] == "K") {
+				position += i
+			}
+		}
+
+		console.log(position)
 	} else {
 		addPart()
 		
@@ -263,7 +340,14 @@ function pickL() {
 	L.style.color = "red";
 
 	if (word.includes("L")) {
-		console.log("success");
+		position = []
+		for (let i = 0; i < word.length; i++) {
+			if (word[i] == "L") {
+				position += i
+			}
+		}
+
+		console.log(position)
 	} else {
 		addPart()
 		
@@ -277,7 +361,14 @@ function pickM() {
 	M.style.color = "red";
 
 	if (word.includes("M")) {
-		console.log("success");
+		position = []
+		for (let i = 0; i < word.length; i++) {
+			if (word[i] == "M") {
+				position += i
+			}
+		}
+
+		console.log(position)
 	} else {
 		addPart()
 		
@@ -291,7 +382,14 @@ function pickN() {
 	N.style.color = "red";
 
 	if (word.includes("N")) {
-		console.log("success");
+		position = []
+		for (let i = 0; i < word.length; i++) {
+			if (word[i] == "N") {
+				position += i
+			}
+		}
+
+		console.log(position)
 	} else {
 		addPart()
 		
@@ -305,7 +403,14 @@ function pickO() {
 	O.style.color = "red";
 
 	if (word.includes("O")) {
-		console.log("success");
+		position = []
+		for (let i = 0; i < word.length; i++) {
+			if (word[i] == "O") {
+				position += i
+			}
+		}
+
+		console.log(position)
 	} else {
 		addPart()
 		
@@ -319,7 +424,14 @@ function pickP() {
 	P.style.color = "red";
 
 	if (word.includes("P")) {
-		console.log("success");
+		position = []
+		for (let i = 0; i < word.length; i++) {
+			if (word[i] == "P") {
+				position += i
+			}
+		}
+
+		console.log(position)
 	} else {		
 		addPart()
 
@@ -333,7 +445,14 @@ function pickQ() {
 	Q.style.color = "red";
 
 	if (word.includes("Q")) {
-		console.log("success");
+		position = []
+		for (let i = 0; i < word.length; i++) {
+			if (word[i] == "Q") {
+				position += i
+			}
+		}
+
+		console.log(position)
 	} else {
 		addPart()
 		
@@ -347,7 +466,14 @@ function pickR() {
 	R.style.color = "red";
 
 	if (word.includes("R")) {
-		console.log("success");
+		position = []
+		for (let i = 0; i < word.length; i++) {
+			if (word[i] == "R") {
+				position += i
+			}
+		}
+
+		console.log(position)
 	} else {
 		addPart()
 		
@@ -361,7 +487,14 @@ function pickS() {
 	S.style.color = "red";
 
 	if (word.includes("S")) {
-		console.log("success");
+		position = []
+		for (let i = 0; i < word.length; i++) {
+			if (word[i] == "S") {
+				position += i
+			}
+		}
+
+		console.log(position)
 	} else {
 		addPart()
 		
@@ -375,7 +508,14 @@ function pickT() {
 	T.style.color = "red";
 
 	if (word.includes("T")) {
-		console.log("success");
+		position = []
+		for (let i = 0; i < word.length; i++) {
+			if (word[i] == "T") {
+				position += i
+			}
+		}
+
+		console.log(position)
 	} else {
 		addPart()
 		
@@ -389,7 +529,14 @@ function pickU() {
 	U.style.color = "red";
 
 	if (word.includes("U")) {
-		console.log("success");
+		position = []
+		for (let i = 0; i < word.length; i++) {
+			if (word[i] == "U") {
+				position += i
+			}
+		}
+
+		console.log(position)
 	} else {
 		addPart()
 		
@@ -403,7 +550,14 @@ function pickV() {
 	V.style.color = "red";
 
 	if (word.includes("V")) {
-		console.log("success");
+		position = []
+		for (let i = 0; i < word.length; i++) {
+			if (word[i] == "V") {
+				position += i
+			}
+		}
+
+		console.log(position)
 	} else {
 		addPart()
 		
@@ -417,7 +571,14 @@ function pickW() {
 	W.style.color = "red";
 
 	if (word.includes("W")) {
-		console.log("success");
+		position = []
+		for (let i = 0; i < word.length; i++) {
+			if (word[i] == "W") {
+				position += i
+			}
+		}
+
+		console.log(position)
 	} else {
 		addPart()
 		
@@ -431,7 +592,14 @@ function pickX() {
 	X.style.color = "red";
 
 	if (word.includes("X")) {
-		console.log("success");
+		position = []
+		for (let i = 0; i < word.length; i++) {
+			if (word[i] == "X") {
+				position += i
+			}
+		}
+
+		console.log(position)
 	} else {
 		addPart()
 		
@@ -445,7 +613,14 @@ function pickY() {
 	Y.style.color = "red";
 
 	if (word.includes("Y")) {
-		console.log("success");
+		position = []
+		for (let i = 0; i < word.length; i++) {
+			if (word[i] == "Y") {
+				position += i
+			}
+		}
+
+		console.log(position)
 	} else {
 		addPart()
 		
@@ -459,7 +634,14 @@ function pickZ() {
 	Z.style.color = "red";
 
 	if (word.includes("Z")) {
-		console.log("success");
+		position = []
+		for (let i = 0; i < word.length; i++) {
+			if (word[i] == "Z") {
+				position += i
+			}
+		}
+
+		console.log(position)
 	} else {
 		addPart()
 		
@@ -499,8 +681,6 @@ function correctPick() {
 	var ten = document.getElementById("ten");
 	var eleven = document.getElementById("eleven");
 	var index = [zero, one, two, three, four, five, six, seven, eight, nine, ten, eleven]
-
-	index
 } 
 
 
