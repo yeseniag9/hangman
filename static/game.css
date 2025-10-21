@@ -343,3 +343,20 @@ h1 {
     width: 40px;
     text-align: center;
 }
+
+.popups {
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+.play-again {
+    font-size: 25px;
+}
