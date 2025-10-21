@@ -2,6 +2,106 @@ function playGame() {
 	location.href='game';
 }
 
+function showUnderscores() {
+	var zeroo = document.getElementById("zero").innerText;
+	var onee = document.getElementById("one").innerText;
+	var twoo = document.getElementById("two").innerText;
+	var threee = document.getElementById("three").innerText;
+	var fourr = document.getElementById("four").innerText;
+	var fivee = document.getElementById("five").innerText;
+	var sixx = document.getElementById("six").innerText;
+	var sevenn = document.getElementById("seven").innerText;
+	var eightt = document.getElementById("eight").innerText;
+	var ninee = document.getElementById("nine").innerText;
+	var tenn = document.getElementById("ten").innerText;
+	var elevenn = document.getElementById("eleven").innerText;
+
+	var zero = document.getElementById("zero");
+	var one = document.getElementById("one");
+	var two = document.getElementById("two");
+	var three = document.getElementById("three");
+	var four = document.getElementById("four");
+	var five = document.getElementById("five");
+	var six = document.getElementById("six");
+	var seven = document.getElementById("seven");
+	var eight = document.getElementById("eight");
+	var nine = document.getElementById("nine");
+	var ten = document.getElementById("ten");
+	var eleven = document.getElementById("eleven");
+
+	if (zeroo != "") {
+		zero.style.borderBottom = "5px solid black";
+	} else {
+		zero.remove();
+	}
+
+	if (onee != "") {
+		one.style.borderBottom = "5px solid black";
+	} else {
+		one.remove();
+	}
+
+	if (twoo != "") {
+		two.style.borderBottom = "5px solid black";
+	} else {
+		two.remove();
+	}
+
+	if (threee != "") {
+		three.style.borderBottom = "5px solid black";
+	} else {
+		three.remove();
+	}
+
+	if (fourr != "") {
+		four.style.borderBottom = "5px solid black";
+	} else {
+		four.remove();
+	}
+
+	if (fivee != "") {
+		five.style.borderBottom = "5px solid black";
+	} else {
+		five.remove();
+	}
+
+	if (sixx != "") {
+		six.style.borderBottom = "5px solid black";
+	} else {
+		six.remove();
+	}
+
+	if (sevenn != "") {
+		seven.style.borderBottom = "5px solid black";
+	} else {
+		seven.remove();
+	}
+
+	if (eightt != "") {
+		eight.style.borderBottom = "5px solid black";
+	} else {
+		eight.remove();
+	}
+
+	if (ninee != "") {
+		nine.style.borderBottom = "5px solid black";
+	} else {
+		nine.remove();
+	}
+
+	if (tenn != "") {
+		ten.style.borderBottom = "5px solid black";
+	} else {
+		ten.remove();
+	}
+
+	if (elevenn != "") {
+		eleven.style.borderBottom = "5px solid black";
+	} else {
+		eleven.remove();
+	}
+}
+
 incorrectGuesses = 0
 
 function pickA() {
