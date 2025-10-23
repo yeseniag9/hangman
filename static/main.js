@@ -117,7 +117,6 @@ function pickA() {
 		}
 
 		correctPick(position)
-		console.log(position)
 	} else {
 		addPart()
 		
@@ -138,7 +137,7 @@ function pickB() {
 			}
 		}
 
-		console.log(position)
+		correctPick(position)
 	} else {
 		addPart()
 
@@ -159,7 +158,7 @@ function pickC() {
 			}
 		}
 
-		console.log(position)	
+		correctPick(position)
 	} else {
 		addPart()
 		
@@ -180,7 +179,7 @@ function pickD() {
 			}
 		}
 
-		console.log(position)
+		correctPick(position)
 	} else {
 		addPart()
 		
@@ -201,7 +200,7 @@ function pickE() {
 			}
 		}
 
-		console.log(position)
+		correctPick(position)
 	} else {
 		addPart()
 		
@@ -222,7 +221,7 @@ function pickF() {
 			}
 		}
 
-		console.log(position)
+		correctPick(position)
 	} else {
 		addPart()
 		
@@ -243,7 +242,7 @@ function pickG() {
 			}
 		}
 
-		console.log(position)
+		correctPick(position)
 	} else {
 		addPart()
 		
@@ -264,7 +263,7 @@ function pickH() {
 			}
 		}
 
-		console.log(position)
+		correctPick(position)
 	} else {
 		addPart()
 		
@@ -285,7 +284,7 @@ function pickI() {
 			}
 		}
 
-		console.log(position)
+		correctPick(position)
 	} else {
 		addPart()
 		
@@ -306,7 +305,7 @@ function pickJ() {
 			}
 		}
 
-		console.log(position)
+		correctPick(position)
 	} else {
 		addPart()
 		
@@ -327,7 +326,7 @@ function pickK() {
 			}
 		}
 
-		console.log(position)
+		correctPick(position)
 	} else {
 		addPart()
 		
@@ -348,7 +347,7 @@ function pickL() {
 			}
 		}
 
-		console.log(position)
+		correctPick(position)
 	} else {
 		addPart()
 		
@@ -369,7 +368,7 @@ function pickM() {
 			}
 		}
 
-		console.log(position)
+		correctPick(position)
 	} else {
 		addPart()
 		
@@ -390,7 +389,7 @@ function pickN() {
 			}
 		}
 
-		console.log(position)
+		correctPick(position)
 	} else {
 		addPart()
 		
@@ -411,7 +410,7 @@ function pickO() {
 			}
 		}
 
-		console.log(position)
+		correctPick(position)
 	} else {
 		addPart()
 		
@@ -432,7 +431,7 @@ function pickP() {
 			}
 		}
 
-		console.log(position)
+		correctPick(position)
 	} else {		
 		addPart()
 
@@ -453,7 +452,7 @@ function pickQ() {
 			}
 		}
 
-		console.log(position)
+		correctPick(position)
 	} else {
 		addPart()
 		
@@ -474,7 +473,7 @@ function pickR() {
 			}
 		}
 
-		console.log(position)
+		correctPick(position)
 	} else {
 		addPart()
 		
@@ -495,7 +494,7 @@ function pickS() {
 			}
 		}
 
-		console.log(position)
+		correctPick(position)
 	} else {
 		addPart()
 		
@@ -516,7 +515,7 @@ function pickT() {
 			}
 		}
 
-		console.log(position)
+		correctPick(position)
 	} else {
 		addPart()
 		
@@ -537,7 +536,7 @@ function pickU() {
 			}
 		}
 
-		console.log(position)
+		correctPick(position)
 	} else {
 		addPart()
 		
@@ -558,7 +557,7 @@ function pickV() {
 			}
 		}
 
-		console.log(position)
+		correctPick(position)
 	} else {
 		addPart()
 		
@@ -579,7 +578,7 @@ function pickW() {
 			}
 		}
 
-		console.log(position)
+		correctPick(position)
 	} else {
 		addPart()
 		
@@ -600,7 +599,7 @@ function pickX() {
 			}
 		}
 
-		console.log(position)
+		correctPick(position)
 	} else {
 		addPart()
 		
@@ -621,7 +620,7 @@ function pickY() {
 			}
 		}
 
-		console.log(position)
+		correctPick(position)
 	} else {
 		addPart()
 		
@@ -642,7 +641,7 @@ function pickZ() {
 			}
 		}
 
-		console.log(position)
+		correctPick(position)
 	} else {
 		addPart()
 		
@@ -684,5 +683,6 @@ function correctPick(val) {
 	var index = [zero, one, two, three, four, five, six, seven, eight, nine, ten, eleven]
 
 	position = val
-	console.log(val)
+	
+	index[position].style.color = "rgb(33, 156, 239)"
 }
