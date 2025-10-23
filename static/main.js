@@ -109,13 +109,14 @@ function pickA() {
 	A.style.color = "red";
 
 	if (word.includes("A")) {
-		position = []
+		var position = []
 		for (let i = 0; i < word.length; i++) {
 			if (word[i] == "A") {
 				position += i
 			}
 		}
 
+		correctPick(position)
 		console.log(position)
 	} else {
 		addPart()
@@ -667,7 +668,7 @@ function addPart() {
 	part.style.color = "black";
 }
 
-function correctPick() {
+function correctPick(val) {
 	var zero = document.getElementById("zero");
 	var one = document.getElementById("one");
 	var two = document.getElementById("two");
@@ -681,4 +682,7 @@ function correctPick() {
 	var ten = document.getElementById("ten");
 	var eleven = document.getElementById("eleven");
 	var index = [zero, one, two, three, four, five, six, seven, eight, nine, ten, eleven]
+
+	position = val
+	console.log(val)
 }
