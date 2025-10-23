@@ -116,7 +116,8 @@ function pickA() {
 			}
 		}
 
-		correctPick(position)
+		const seperate = position.split('');
+		correctPick(seperate)
 	} else {
 		addPart()
 		
@@ -137,7 +138,8 @@ function pickB() {
 			}
 		}
 
-		correctPick(position)
+		const seperate = position.split('');
+		correctPick(seperate)
 	} else {
 		addPart()
 
@@ -158,7 +160,8 @@ function pickC() {
 			}
 		}
 
-		correctPick(position)
+		const seperate = position.split('');
+		correctPick(seperate)
 	} else {
 		addPart()
 		
@@ -179,7 +182,8 @@ function pickD() {
 			}
 		}
 
-		correctPick(position)
+		const seperate = position.split('');
+		correctPick(seperate)
 	} else {
 		addPart()
 		
@@ -200,7 +204,8 @@ function pickE() {
 			}
 		}
 
-		correctPick(position)
+		const seperate = position.split('');
+		correctPick(seperate)
 	} else {
 		addPart()
 		
@@ -221,7 +226,8 @@ function pickF() {
 			}
 		}
 
-		correctPick(position)
+		const seperate = position.split('');
+		correctPick(seperate)
 	} else {
 		addPart()
 		
@@ -242,7 +248,8 @@ function pickG() {
 			}
 		}
 
-		correctPick(position)
+		const seperate = position.split('');
+		correctPick(seperate)
 	} else {
 		addPart()
 		
@@ -263,7 +270,8 @@ function pickH() {
 			}
 		}
 
-		correctPick(position)
+		const seperate = position.split('');
+		correctPick(seperate)
 	} else {
 		addPart()
 		
@@ -284,7 +292,8 @@ function pickI() {
 			}
 		}
 
-		correctPick(position)
+		const seperate = position.split('');
+		correctPick(seperate)
 	} else {
 		addPart()
 		
@@ -305,7 +314,8 @@ function pickJ() {
 			}
 		}
 
-		correctPick(position)
+		const seperate = position.split('');
+		correctPick(seperate)
 	} else {
 		addPart()
 		
@@ -326,7 +336,8 @@ function pickK() {
 			}
 		}
 
-		correctPick(position)
+		const seperate = position.split('');
+		correctPick(seperate)
 	} else {
 		addPart()
 		
@@ -347,7 +358,8 @@ function pickL() {
 			}
 		}
 
-		correctPick(position)
+		const seperate = position.split('');
+		correctPick(seperate)
 	} else {
 		addPart()
 		
@@ -368,7 +380,8 @@ function pickM() {
 			}
 		}
 
-		correctPick(position)
+		const seperate = position.split('');
+		correctPick(seperate)
 	} else {
 		addPart()
 		
@@ -389,7 +402,8 @@ function pickN() {
 			}
 		}
 
-		correctPick(position)
+		const seperate = position.split('');
+		correctPick(seperate)
 	} else {
 		addPart()
 		
@@ -410,7 +424,8 @@ function pickO() {
 			}
 		}
 
-		correctPick(position)
+		const seperate = position.split('');
+		correctPick(seperate)
 	} else {
 		addPart()
 		
@@ -431,7 +446,8 @@ function pickP() {
 			}
 		}
 
-		correctPick(position)
+		const seperate = position.split('');
+		correctPick(seperate)
 	} else {		
 		addPart()
 
@@ -452,7 +468,8 @@ function pickQ() {
 			}
 		}
 
-		correctPick(position)
+		const seperate = position.split('');
+		correctPick(seperate)
 	} else {
 		addPart()
 		
@@ -473,7 +490,8 @@ function pickR() {
 			}
 		}
 
-		correctPick(position)
+		const seperate = position.split('');
+		correctPick(seperate)
 	} else {
 		addPart()
 		
@@ -494,7 +512,8 @@ function pickS() {
 			}
 		}
 
-		correctPick(position)
+		const seperate = position.split('');
+		correctPick(seperate)
 	} else {
 		addPart()
 		
@@ -515,7 +534,8 @@ function pickT() {
 			}
 		}
 
-		correctPick(position)
+		const seperate = position.split('');
+		correctPick(seperate)
 	} else {
 		addPart()
 		
@@ -536,7 +556,8 @@ function pickU() {
 			}
 		}
 
-		correctPick(position)
+		const seperate = position.split('');
+		correctPick(seperate)
 	} else {
 		addPart()
 		
@@ -557,7 +578,8 @@ function pickV() {
 			}
 		}
 
-		correctPick(position)
+		const seperate = position.split('');
+		correctPick(seperate)
 	} else {
 		addPart()
 		
@@ -578,7 +600,8 @@ function pickW() {
 			}
 		}
 
-		correctPick(position)
+		const seperate = position.split('');
+		correctPick(seperate)
 	} else {
 		addPart()
 		
@@ -599,7 +622,8 @@ function pickX() {
 			}
 		}
 
-		correctPick(position)
+		const seperate = position.split('');
+		correctPick(seperate)
 	} else {
 		addPart()
 		
@@ -620,7 +644,8 @@ function pickY() {
 			}
 		}
 
-		correctPick(position)
+		const seperate = position.split('');
+		correctPick(seperate)
 	} else {
 		addPart()
 		
@@ -641,7 +666,8 @@ function pickZ() {
 			}
 		}
 
-		correctPick(position)
+		const seperate = position.split('');
+		correctPick(seperate)
 	} else {
 		addPart()
 		
@@ -682,7 +708,9 @@ function correctPick(val) {
 	var eleven = document.getElementById("eleven");
 	var index = [zero, one, two, three, four, five, six, seven, eight, nine, ten, eleven]
 
-	position = val
-	
-	index[position].style.color = "rgb(33, 156, 239)"
+	seperate = val
+	for (let i = 0; i < val.length; i++) {
+		correct = val[i]
+		index[correct].style.color = "rgb(33, 156, 239)";
+	}
 }
