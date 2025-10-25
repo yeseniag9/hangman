@@ -684,10 +684,7 @@ function addPart() {
 	var rightArm = document.getElementById("rightArm");
 	var leftLeg = document.getElementById("leftLeg");
 	var rightLeg = document.getElementById("rightLeg");
-	var leftEye = document.getElementById("leftEye");
-	var rightEye = document.getElementById("rightEye");
-	var frown = document.getElementById("frown");
-	var hangman = [string, head, body, leftArm, rightArm, leftLeg, rightLeg, leftEye, rightEye, frown];
+	var hangman = [string, head, body, leftArm, rightArm, leftLeg, rightLeg];
 
 	part = hangman[incorrectGuesses];
 	part.style.color = "black";
@@ -712,5 +709,5 @@ function correctPick(val) {
 	for (let i = 0; i < val.length; i++) {
 		correct = val[i]
 		index[correct].style.color = "rgb(33, 156, 239)";
-	}
+	} 
 }
