@@ -1,1 +1,2 @@
--
+- apply same amount of space between underescore and letter for home page as game page 
+- right top & bottom     

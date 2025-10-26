@@ -122,7 +122,11 @@ function pickA() {
 		addPart()
 		
 		incorrectGuesses += 1
-		console.log(incorrectGuesses)
+		console.log(incorrectGuesses) 
+
+		if (incorrectGuesses == 7) {
+			lose()
+		}
 	}
 }
 
@@ -145,6 +149,10 @@ function pickB() {
 
 		incorrectGuesses += 1
 		console.log(incorrectGuesses)
+
+		if (incorrectGuesses == 7) {
+			lose()
+		}
 	}
 }
 
@@ -167,6 +175,10 @@ function pickC() {
 		
 		incorrectGuesses += 1
 		console.log(incorrectGuesses)
+
+		if (incorrectGuesses == 7) {
+			lose()
+		}
 	}
 }
 
@@ -189,6 +201,10 @@ function pickD() {
 		
 		incorrectGuesses += 1
 		console.log(incorrectGuesses)
+
+		if (incorrectGuesses == 7) {
+			lose()
+		}
 	}
 }
 
@@ -211,6 +227,10 @@ function pickE() {
 		
 		incorrectGuesses += 1
 		console.log(incorrectGuesses)
+
+		if (incorrectGuesses == 7) {
+			lose()
+		}
 	}
 }
 
@@ -233,6 +253,10 @@ function pickF() {
 		
 		incorrectGuesses += 1
 		console.log(incorrectGuesses)
+
+		if (incorrectGuesses == 7) {
+			lose()
+		}
 	}
 }
 
@@ -255,6 +279,10 @@ function pickG() {
 		
 		incorrectGuesses += 1
 		console.log(incorrectGuesses)
+
+		if (incorrectGuesses == 7) {
+			lose()
+		}
 	}
 }
 
@@ -277,6 +305,10 @@ function pickH() {
 		
 		incorrectGuesses += 1
 		console.log(incorrectGuesses)
+
+		if (incorrectGuesses == 7) {
+			lose()
+		}
 	}
 }
 
@@ -299,6 +331,10 @@ function pickI() {
 		
 		incorrectGuesses += 1
 		console.log(incorrectGuesses)
+
+		if (incorrectGuesses == 7) {
+			lose()
+		}
 	}
 }
 
@@ -321,6 +357,10 @@ function pickJ() {
 		
 		incorrectGuesses += 1
 		console.log(incorrectGuesses)
+
+		if (incorrectGuesses == 7) {
+			lose()
+		}
 	}
 }
 
@@ -343,6 +383,10 @@ function pickK() {
 		
 		incorrectGuesses += 1
 		console.log(incorrectGuesses)
+
+		if (incorrectGuesses == 7) {
+			lose()
+		}
 	}
 }
 
@@ -365,6 +409,10 @@ function pickL() {
 		
 		incorrectGuesses += 1
 		console.log(incorrectGuesses)
+
+		if (incorrectGuesses == 7) {
+			lose()
+		}
 	}
 }
 
@@ -387,6 +435,10 @@ function pickM() {
 		
 		incorrectGuesses += 1
 		console.log(incorrectGuesses)
+
+		if (incorrectGuesses == 7) {
+			lose()
+		}
 	}
 }
 
@@ -409,6 +461,10 @@ function pickN() {
 		
 		incorrectGuesses += 1
 		console.log(incorrectGuesses)
+
+		if (incorrectGuesses == 7) {
+			lose()
+		}
 	}
 }
 
@@ -431,6 +487,10 @@ function pickO() {
 		
 		incorrectGuesses += 1
 		console.log(incorrectGuesses)
+
+		if (incorrectGuesses == 7) {
+			lose()
+		}
 	}
 }
 
@@ -453,6 +513,10 @@ function pickP() {
 
 		incorrectGuesses += 1
 		console.log(incorrectGuesses)
+
+		if (incorrectGuesses == 7) {
+			lose()
+		}
 	}
 }
 
@@ -475,6 +539,10 @@ function pickQ() {
 		
 		incorrectGuesses += 1
 		console.log(incorrectGuesses)
+
+		if (incorrectGuesses == 7) {
+			lose()
+		}
 	}
 }
 
@@ -497,6 +565,10 @@ function pickR() {
 		
 		incorrectGuesses += 1
 		console.log(incorrectGuesses)
+
+		if (incorrectGuesses == 7) {
+			lose()
+		}
 	}
 }
 
@@ -519,6 +591,10 @@ function pickS() {
 		
 		incorrectGuesses += 1
 		console.log(incorrectGuesses)
+
+		if (incorrectGuesses == 7) {
+			lose()
+		}
 	}
 }
 
@@ -541,6 +617,10 @@ function pickT() {
 		
 		incorrectGuesses += 1
 		console.log(incorrectGuesses)
+
+		if (incorrectGuesses == 7) {
+			lose()
+		}
 	}
 }
 
@@ -563,6 +643,10 @@ function pickU() {
 		
 		incorrectGuesses += 1
 		console.log(incorrectGuesses)
+
+		if (incorrectGuesses == 7) {
+			lose()
+		}
 	}
 }
 
@@ -585,6 +669,10 @@ function pickV() {
 		
 		incorrectGuesses += 1
 		console.log(incorrectGuesses)
+
+		if (incorrectGuesses == 7) {
+			lose()
+		}
 	}
 }
 
@@ -607,6 +695,10 @@ function pickW() {
 		
 		incorrectGuesses += 1
 		console.log(incorrectGuesses)
+
+		if (incorrectGuesses == 7) {
+			lose()
+		}
 	}
 }
 
@@ -629,6 +721,10 @@ function pickX() {
 		
 		incorrectGuesses += 1
 		console.log(incorrectGuesses)
+
+		if (incorrectGuesses == 7) {
+			lose()
+		}
 	}
 }
 
@@ -651,6 +747,10 @@ function pickY() {
 		
 		incorrectGuesses += 1
 		console.log(incorrectGuesses)
+
+		if (incorrectGuesses == 7) {
+			lose()
+		}
 	}
 }
 
@@ -673,6 +773,10 @@ function pickZ() {
 		
 		incorrectGuesses += 1
 		console.log(incorrectGuesses)
+
+		if (incorrectGuesses == 7) {
+			lose()
+		}
 	}
 }
 
@@ -686,7 +790,7 @@ function addPart() {
 	var rightLeg = document.getElementById("rightLeg");
 	var hangman = [string, head, body, leftArm, rightArm, leftLeg, rightLeg];
 
-	part = hangman[incorrectGuesses];
+	var part = hangman[incorrectGuesses];
 	part.style.color = "black";
 }
 
@@ -710,4 +814,17 @@ function correctPick(val) {
 		correct = val[i]
 		index[correct].style.color = "rgb(33, 156, 239)";
 	} 
+}
+
+function lose() {
+	var head = document.getElementById("head");
+
+	var elements = document.querySelectorAll("*");
+	for(var i=0; i < elements.length; i++) {
+		if (elements[i] == head) {
+			console.log("true")
+		} else {
+			elements[i].style.filter = "blur(2px)";
+		}
+	}
 }
