@@ -817,14 +817,6 @@ function correctPick(val) {
 }
 
 function lose() {
-	var head = document.getElementById("head");
-
-	var elements = document.querySelectorAll("*");
-	for(var i=0; i < elements.length; i++) {
-		if (elements[i] == head) {
-			console.log("true")
-		} else {
-			elements[i].style.filter = "blur(2px)";
-		}
-	}
+	var modal = document.getElementById("myModal");
+	modal.style.display = "block";
 }
