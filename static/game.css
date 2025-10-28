@@ -257,7 +257,7 @@ h1 {
     display: flex;
     justify-content: center;
     font-size: 40px;
-    color: red;
+    color: white;
 }
 
 .zero {
@@ -346,11 +346,9 @@ h1 {
 
 .popups {
     color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
     text-align: center;
+    position: absolute;
+    border: 2px solid green;
 }
 
 h2 {

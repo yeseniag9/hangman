@@ -1,2 +1,3 @@
 - apply same amount of space between underescore and letter for home page as game page 
-- right top & bottom     
+- right top and bottom game page
+- win and lose popup
