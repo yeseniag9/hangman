@@ -817,6 +817,6 @@ function correctPick(val) {
 }
 
 function lose() {
-	var modal = document.getElementById("myModal");
+	var modal = document.getElementById("modals");
 	modal.style.display = "block";
 }
