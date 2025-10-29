@@ -820,3 +820,11 @@ function lose() {
 	var modal = document.getElementById("modals");
 	modal.style.display = "block";
 }
+
+function playAgain() {
+	location.href='game';
+}
+
+function home() {
+	location.href='/'
+}
