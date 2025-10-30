@@ -40,9 +40,8 @@ body, html {
     font-weight: lighter; 
     transform: scale(8, 10);
     margin-left: 22px;
-    margin-bottom: 52px;
+    margin-bottom: 53.5px;
     position: relative;
-    z-index: 2;
 } 
 
 .body {
@@ -344,21 +343,20 @@ h1 {
     text-align: center;
 }
 
-.modal-content {
-    text-align: center;
-    width: 45%;
-}
-
 .win {
     border: 5px solid rgb(33, 156, 239);
     border-radius: 25px;
     background-color: white;
+    text-align: center;
+    width: 45%;
 }
 
 .lose {
     border: 5px solid rgb(33, 156, 239);
     border-radius: 25px;
     background-color: white;
+    text-align: center;
+    width: 45%;
 }
 
 
@@ -396,19 +394,16 @@ button {
     background-color: rgb(240, 88, 72);
 }
 
-
-
-
 .modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    display: none;
+    z-index: 1; 
+
+    position: fixed;
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
