@@ -817,8 +817,8 @@ function correctPick(val) {
 }
 
 function lose() {
-	var modal = document.getElementById("modals");
-	modal.style.display = "block";
+	var loseModal = document.getElementById("lose-modal");
+	loseModal.style.display = "block";
 }
 
 function playAgain() {

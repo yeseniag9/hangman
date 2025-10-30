@@ -87,7 +87,7 @@
         <div id="ten" class="ten">{{ ten }}</div>
         <div id="eleven" class="eleven">{{ eleven }}</div>
     </div>
-    <div id="modals" class="modals">
+    <div id="lose-modal" class="modals">
         <div class="modal-content">
             <div id="lost" class="lose">
                 <h2>Game over. The word was: {{ data }}</h2>
@@ -95,6 +95,10 @@
                 <button class="yes" onclick="playAgain()">Yes</button>
                 <button class="no" onclick="home()">No</button>
             </div>
+        </div>
+    </div>
+    <div id="win-modal" class="modals">
+        <div class="modal-content">
             <div id="won" class="win">
                 <h2>Game over. You win!</h2>
                 <p class="play-again">Play again?</p>
