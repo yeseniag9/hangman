@@ -343,6 +343,16 @@ h1 {
     text-align: center;
 }
 
+.modal {
+    display: none;
+    z-index: 1; 
+    position: fixed;
+    top: 0;
+    width: 100%; 
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
 .win {
     border: 5px solid rgb(33, 156, 239);
     border-radius: 25px;
@@ -392,18 +402,4 @@ button {
 
 .no:hover {
     background-color: rgb(240, 88, 72);
-}
-
-.modal {
-    display: none;
-    z-index: 1; 
-
-    position: fixed;
-    padding-top: 100px; /* Location of the box */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
