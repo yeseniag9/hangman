@@ -87,18 +87,20 @@
         <div id="ten" class="ten">{{ ten }}</div>
         <div id="eleven" class="eleven">{{ eleven }}</div>
     </div>
-    <div id="modals" class="modal">
-        <div id="won" class="win">
-            <h2>Game over. You win!</h2>
-            <p class="play-again">Play again?</p>
-            <button class="yes" onclick="playAgain()">Yes</button>
-            <button class="no" onclick="home()">No</button>
-        </div>
-        <div id="lost" class="lose">
-            <h2>Game over. The word was: {{ data }}</h2>
-            <p class="play-again">Play again?</p>
-            <button class="yes" onclick="playAgain()">Yes</button>
-            <button class="no" onclick="home()">No</button>
+    <div id="modals" class="modals">
+        <div class="modal-content">
+            <div id="lost" class="lose">
+                <h2>Game over. The word was: {{ data }}</h2>
+                <p class="play-again">Play again?</p>
+                <button class="yes" onclick="playAgain()">Yes</button>
+                <button class="no" onclick="home()">No</button>
+            </div>
+            <div id="won" class="win">
+                <h2>Game over. You win!</h2>
+                <p class="play-again">Play again?</p>
+                <button class="yes" onclick="playAgain()">Yes</button>
+                <button class="no" onclick="home()">No</button>
+            </div>
         </div>
     </div>
 </body>

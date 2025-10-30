@@ -343,7 +343,7 @@ h1 {
     text-align: center;
 }
 
-.modal {
+.modals {
     display: none;
     z-index: 1; 
     position: fixed;
@@ -351,6 +351,13 @@ h1 {
     width: 100%; 
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    justify-content: center;
 }
 
 .win {
