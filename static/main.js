@@ -102,7 +102,7 @@ function showUnderscores() {
 	}
 }
 
-incorrectGuesses = 0
+var incorrectGuesses = 0
 
 function pickA() {
 	var A = document.getElementById("A");
@@ -135,7 +135,7 @@ function pickB() {
 	B.style.color = "red";
 
 	if (word.includes("B")) {
-		position = []
+		var position = []
 		for (let i = 0; i < word.length; i++) {
 			if (word[i] == "B") {
 				position += i
@@ -161,7 +161,7 @@ function pickC() {
 	C.style.color = "red";
 
 	if (word.includes("C")) {
-		position = []
+		var position = []
 		for (let i = 0; i < word.length; i++) {
 			if (word[i] == "C") {
 				position += i
@@ -187,7 +187,7 @@ function pickD() {
 	D.style.color = "red";
 
 	if (word.includes("D")) {
-		position = []
+		var position = []
 		for (let i = 0; i < word.length; i++) {
 			if (word[i] == "D") {
 				position += i
@@ -213,7 +213,7 @@ function pickE() {
 	E.style.color = "red";
 
 	if (word.includes("E")) {
-		position = []
+		var position = []
 		for (let i = 0; i < word.length; i++) {
 			if (word[i] == "E") {
 				position += i
@@ -239,7 +239,7 @@ function pickF() {
 	F.style.color = "red";
 
 	if (word.includes("F")) {
-		position = []
+		var position = []
 		for (let i = 0; i < word.length; i++) {
 			if (word[i] == "F") {
 				position += i
@@ -265,7 +265,7 @@ function pickG() {
 	G.style.color = "red";
 
 	if (word.includes("G")) {
-		position = []
+		var position = []
 		for (let i = 0; i < word.length; i++) {
 			if (word[i] == "G") {
 				position += i
@@ -291,7 +291,7 @@ function pickH() {
 	H.style.color = "red";
 
 	if (word.includes("H")) {
-		position = []
+		var position = []
 		for (let i = 0; i < word.length; i++) {
 			if (word[i] == "H") {
 				position += i
@@ -317,7 +317,7 @@ function pickI() {
 	I.style.color = "red";
 
 	if (word.includes("I")) {
-		position = []
+		var position = []
 		for (let i = 0; i < word.length; i++) {
 			if (word[i] == "I") {
 				position += i
@@ -343,7 +343,7 @@ function pickJ() {
 	J.style.color = "red";
 
 	if (word.includes("J")) {
-		position = []
+		var position = []
 		for (let i = 0; i < word.length; i++) {
 			if (word[i] == "J") {
 				position += i
@@ -369,7 +369,7 @@ function pickK() {
 	K.style.color = "red";
 
 	if (word.includes("K")) {
-		position = []
+		var position = []
 		for (let i = 0; i < word.length; i++) {
 			if (word[i] == "K") {
 				position += i
@@ -395,7 +395,7 @@ function pickL() {
 	L.style.color = "red";
 
 	if (word.includes("L")) {
-		position = []
+		var position = []
 		for (let i = 0; i < word.length; i++) {
 			if (word[i] == "L") {
 				position += i
@@ -421,7 +421,7 @@ function pickM() {
 	M.style.color = "red";
 
 	if (word.includes("M")) {
-		position = []
+		var position = []
 		for (let i = 0; i < word.length; i++) {
 			if (word[i] == "M") {
 				position += i
@@ -447,7 +447,7 @@ function pickN() {
 	N.style.color = "red";
 
 	if (word.includes("N")) {
-		position = []
+		var position = []
 		for (let i = 0; i < word.length; i++) {
 			if (word[i] == "N") {
 				position += i
@@ -473,7 +473,7 @@ function pickO() {
 	O.style.color = "red";
 
 	if (word.includes("O")) {
-		position = []
+		var position = []
 		for (let i = 0; i < word.length; i++) {
 			if (word[i] == "O") {
 				position += i
@@ -499,7 +499,7 @@ function pickP() {
 	P.style.color = "red";
 
 	if (word.includes("P")) {
-		position = []
+		var position = []
 		for (let i = 0; i < word.length; i++) {
 			if (word[i] == "P") {
 				position += i
@@ -525,7 +525,7 @@ function pickQ() {
 	Q.style.color = "red";
 
 	if (word.includes("Q")) {
-		position = []
+		var position = []
 		for (let i = 0; i < word.length; i++) {
 			if (word[i] == "Q") {
 				position += i
@@ -551,7 +551,7 @@ function pickR() {
 	R.style.color = "red";
 
 	if (word.includes("R")) {
-		position = []
+		var position = []
 		for (let i = 0; i < word.length; i++) {
 			if (word[i] == "R") {
 				position += i
@@ -577,7 +577,7 @@ function pickS() {
 	S.style.color = "red";
 
 	if (word.includes("S")) {
-		position = []
+		var position = []
 		for (let i = 0; i < word.length; i++) {
 			if (word[i] == "S") {
 				position += i
@@ -603,7 +603,7 @@ function pickT() {
 	T.style.color = "red";
 
 	if (word.includes("T")) {
-		position = []
+		var position = []
 		for (let i = 0; i < word.length; i++) {
 			if (word[i] == "T") {
 				position += i
@@ -629,7 +629,7 @@ function pickU() {
 	U.style.color = "red";
 
 	if (word.includes("U")) {
-		position = []
+		var position = []
 		for (let i = 0; i < word.length; i++) {
 			if (word[i] == "U") {
 				position += i
@@ -655,7 +655,7 @@ function pickV() {
 	V.style.color = "red";
 
 	if (word.includes("V")) {
-		position = []
+		var position = []
 		for (let i = 0; i < word.length; i++) {
 			if (word[i] == "V") {
 				position += i
@@ -681,7 +681,7 @@ function pickW() {
 	W.style.color = "red";
 
 	if (word.includes("W")) {
-		position = []
+		var position = []
 		for (let i = 0; i < word.length; i++) {
 			if (word[i] == "W") {
 				position += i
@@ -707,7 +707,7 @@ function pickX() {
 	X.style.color = "red";
 
 	if (word.includes("X")) {
-		position = []
+		var position = []
 		for (let i = 0; i < word.length; i++) {
 			if (word[i] == "X") {
 				position += i
@@ -733,7 +733,7 @@ function pickY() {
 	Y.style.color = "red";
 
 	if (word.includes("Y")) {
-		position = []
+		var position = []
 		for (let i = 0; i < word.length; i++) {
 			if (word[i] == "Y") {
 				position += i
@@ -759,7 +759,7 @@ function pickZ() {
 	Z.style.color = "red";
 
 	if (word.includes("Z")) {
-		position = []
+		var position = []
 		for (let i = 0; i < word.length; i++) {
 			if (word[i] == "Z") {
 				position += i
@@ -811,7 +811,7 @@ function correctPick(val) {
 
 	seperate = val
 	for (let i = 0; i < val.length; i++) {
-		correct = val[i]
+		var correct = val[i]
 		index[correct].style.color = "rgb(33, 156, 239)";
 	} 
 }
