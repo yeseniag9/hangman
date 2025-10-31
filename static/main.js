@@ -118,6 +118,8 @@ function pickA() {
 
 		const seperate = position.split('');
 		correctPick(seperate)
+
+		win(word)
 	} else {
 		addPart()
 		
@@ -144,6 +146,8 @@ function pickB() {
 
 		const seperate = position.split('');
 		correctPick(seperate)
+
+		win(word)
 	} else {
 		addPart()
 
@@ -170,6 +174,8 @@ function pickC() {
 
 		const seperate = position.split('');
 		correctPick(seperate)
+
+		win(word)
 	} else {
 		addPart()
 		
@@ -196,6 +202,8 @@ function pickD() {
 
 		const seperate = position.split('');
 		correctPick(seperate)
+
+		win(word)
 	} else {
 		addPart()
 		
@@ -222,6 +230,8 @@ function pickE() {
 
 		const seperate = position.split('');
 		correctPick(seperate)
+
+		win(word)
 	} else {
 		addPart()
 		
@@ -248,6 +258,8 @@ function pickF() {
 
 		const seperate = position.split('');
 		correctPick(seperate)
+
+		win(word)
 	} else {
 		addPart()
 		
@@ -274,6 +286,8 @@ function pickG() {
 
 		const seperate = position.split('');
 		correctPick(seperate)
+	
+		win(word)
 	} else {
 		addPart()
 		
@@ -300,6 +314,8 @@ function pickH() {
 
 		const seperate = position.split('');
 		correctPick(seperate)
+
+		win(word)
 	} else {
 		addPart()
 		
@@ -326,6 +342,8 @@ function pickI() {
 
 		const seperate = position.split('');
 		correctPick(seperate)
+
+		win(word)
 	} else {
 		addPart()
 		
@@ -352,6 +370,8 @@ function pickJ() {
 
 		const seperate = position.split('');
 		correctPick(seperate)
+
+		win(word)
 	} else {
 		addPart()
 		
@@ -378,6 +398,8 @@ function pickK() {
 
 		const seperate = position.split('');
 		correctPick(seperate)
+
+		win(word)
 	} else {
 		addPart()
 		
@@ -404,6 +426,8 @@ function pickL() {
 
 		const seperate = position.split('');
 		correctPick(seperate)
+
+		win(word)
 	} else {
 		addPart()
 		
@@ -430,6 +454,8 @@ function pickM() {
 
 		const seperate = position.split('');
 		correctPick(seperate)
+
+		win(word)
 	} else {
 		addPart()
 		
@@ -456,6 +482,8 @@ function pickN() {
 
 		const seperate = position.split('');
 		correctPick(seperate)
+
+		win(word)
 	} else {
 		addPart()
 		
@@ -482,6 +510,8 @@ function pickO() {
 
 		const seperate = position.split('');
 		correctPick(seperate)
+
+		win(word)
 	} else {
 		addPart()
 		
@@ -508,6 +538,8 @@ function pickP() {
 
 		const seperate = position.split('');
 		correctPick(seperate)
+
+		win(word)
 	} else {		
 		addPart()
 
@@ -534,6 +566,8 @@ function pickQ() {
 
 		const seperate = position.split('');
 		correctPick(seperate)
+
+		win(word)
 	} else {
 		addPart()
 		
@@ -560,6 +594,8 @@ function pickR() {
 
 		const seperate = position.split('');
 		correctPick(seperate)
+
+		win(word)
 	} else {
 		addPart()
 		
@@ -586,6 +622,8 @@ function pickS() {
 
 		const seperate = position.split('');
 		correctPick(seperate)
+
+		win(word)
 	} else {
 		addPart()
 		
@@ -612,6 +650,8 @@ function pickT() {
 
 		const seperate = position.split('');
 		correctPick(seperate)
+
+		win(word)
 	} else {
 		addPart()
 		
@@ -638,6 +678,8 @@ function pickU() {
 
 		const seperate = position.split('');
 		correctPick(seperate)
+		
+		win(word)
 	} else {
 		addPart()
 		
@@ -664,6 +706,8 @@ function pickV() {
 
 		const seperate = position.split('');
 		correctPick(seperate)
+
+		win(word)
 	} else {
 		addPart()
 		
@@ -690,6 +734,8 @@ function pickW() {
 
 		const seperate = position.split('');
 		correctPick(seperate)
+
+		win(word)
 	} else {
 		addPart()
 		
@@ -716,6 +762,8 @@ function pickX() {
 
 		const seperate = position.split('');
 		correctPick(seperate)
+
+		win(word)
 	} else {
 		addPart()
 		
@@ -742,6 +790,8 @@ function pickY() {
 
 		const seperate = position.split('');
 		correctPick(seperate)
+
+		win(word)
 	} else {
 		addPart()
 		
@@ -768,6 +818,8 @@ function pickZ() {
 
 		const seperate = position.split('');
 		correctPick(seperate)
+
+		win(word)
 	} else {
 		addPart()
 		
@@ -794,6 +846,8 @@ function addPart() {
 	part.style.color = "black";
 }
 
+var count = 0
+
 function correctPick(val) {
 	var zero = document.getElementById("zero");
 	var one = document.getElementById("one");
@@ -811,14 +865,24 @@ function correctPick(val) {
 
 	seperate = val
 	for (let i = 0; i < val.length; i++) {
+		count += 1
 		var correct = val[i]
 		index[correct].style.color = "rgb(33, 156, 239)";
-	} 
+	}
+
+	win(count)
 }
 
 function lose() {
 	var loseModal = document.getElementById("lose-modal");
 	loseModal.style.display = "block";
+}
+
+function win() {	
+	var winModal = document.getElementById("win-modal");
+	if (count == word.length) {
+		winModal.style.display = "block";
+	}
 }
 
 function playAgain() {

@@ -360,7 +360,7 @@ h1 {
     justify-content: center;
 }
 
-.win {
+.lose {
     border: 5px solid rgb(33, 156, 239);
     border-radius: 25px;
     background-color: white;
@@ -368,7 +368,7 @@ h1 {
     width: 45%;
 }
 
-.lose {
+.win {
     border: 5px solid rgb(33, 156, 239);
     border-radius: 25px;
     background-color: white;
