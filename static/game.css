@@ -388,10 +388,22 @@ h2 {
     font-size: 20px;
 }
 
+.yes:hover {
+    border: 2px solid rgb(146, 226, 163);
+    background-color: black;
+    color: rgb(146, 226, 163);
+}
+
 .no {
     background-color: rgb(240, 88, 72);
     border-radius: 8px;
     font-size: 20px;
+}
+
+.no:hover {
+    border: 2px solid rgb(240, 88, 72);
+    background-color: black;
+    color: rgb(240, 88, 72);
 }
 
 .win {
@@ -400,19 +412,4 @@ h2 {
     background-color: white;
     text-align: center;
     width: 45%;
-}
-
-
-
-
-
-
-.yes:hover {
-    border: 2px solid rgb(146, 226, 163);
-    background-color: white;
-}
-
-.no:hover {
-    border: 2px solid rgb(240, 88, 72);
-    background-color: white;
 }
