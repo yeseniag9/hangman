@@ -382,6 +382,10 @@ h2 {
     font-size: 26px;
 }
 
+button {
+    margin-bottom: 33px;
+}
+
 .yes {
     background-color: rgb(146, 226, 163);
     border-radius: 8px;
