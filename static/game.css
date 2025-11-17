@@ -377,6 +377,23 @@ h2 {
     border-bottom: 3px solid black;
 }
 
+.play-again {
+    padding-top: 0px;
+    font-size: 26px;
+}
+
+.yes {
+    background-color: rgb(146, 226, 163);
+    border-radius: 8px;
+    font-size: 20px;
+}
+
+.no {
+    background-color: rgb(240, 88, 72);
+    border-radius: 8px;
+    font-size: 20px;
+}
+
 .win {
     border: 5px solid rgb(33, 156, 239);
     border-radius: 25px;
@@ -389,30 +406,13 @@ h2 {
 
 
 
-.play-again {
-    font-size: 25px;
-}
-
-button {
-    font-size: 20px;
-}
-
-.yes {
-    border: 2px solid rgb(146, 226, 163);
-    background-color: white;
-    border-radius: 8px;
-}
-
-.no {
-    border: 2px solid rgb(240, 88, 72);
-    background-color: white;
-    border-radius: 8px;
-}
 
 .yes:hover {
-    background-color: rgb(146, 226, 163);
+    border: 2px solid rgb(146, 226, 163);
+    background-color: white;
 }
 
 .no:hover {
-    background-color: rgb(240, 88, 72);
+    border: 2px solid rgb(240, 88, 72);
+    background-color: white;
 }
