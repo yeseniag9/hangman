@@ -26,6 +26,7 @@ body {
 .thank {
     display: flex;
     justify-content: center;
+    padding-left: 30px;
 }
 
 p {
@@ -43,14 +44,17 @@ p {
 .you {
     display: flex;
     justify-content: center;
+    padding-left: 30px;
 }
 
 .for {
     display: flex;
     justify-content: center;
+    padding-left: 30px;
 }
 
 .playing {
     display: flex;
     justify-content: center;
+    padding-left: 30px;
 }
