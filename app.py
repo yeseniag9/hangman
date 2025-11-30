@@ -89,3 +89,7 @@ def game():
         eleven = ""
 
     return render_template("game.html", data=data, zero=zero, one=one, two=two, three=three, four=four, five=five, six=six, seven=seven, eight=eight, nine=nine, ten=ten, eleven=eleven)  
+
+@app.route("/thank-you") 
+def thankYou(): 
+    return render_template("thank-you.html")
