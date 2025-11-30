@@ -1,4 +1,29 @@
+.phrase {
+    display: flex;
+    justify-content: center;
+}
+
+.thank {
+    display: flex;
+    justify-content: center;
+}
+
 .A {
     color: white;
     text-decoration: underline black;
+}
+
+.you {
+    display: flex;
+    justify-content: center;
+}
+
+.for {
+    display: flex;
+    justify-content: center;
+}
+
+.playing {
+    display: flex;
+    justify-content: center;
 }
