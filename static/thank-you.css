@@ -1,3 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300..700&display=swap');
+
+body {
+    background-color: white;
+    overflow: hidden;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    justify-content: center;
+
+}
+
+.content {
+    display: block;
+
+}
+
 .phrase {
     display: flex;
     justify-content: center;
@@ -6,6 +26,13 @@
 .thank {
     display: flex;
     justify-content: center;
+}
+
+p {
+    font-size: 47px;
+    padding: 7px;
+    font-family: "Signika Negative", sans-serif;
+    font-weight: 600;
 }
 
 .A {
