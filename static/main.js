@@ -1046,6 +1046,6 @@ function playAgain() {
 	location.href='game';
 }
 
-function home() {
+function thankYou() {
 	location.href='thank-you'
 }
