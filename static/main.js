@@ -747,7 +747,7 @@ function pickS() {
 			if (incorrectGuesses == 7) {
 				lose()
 			}
-		}
+		} 
 	}
 }
 
