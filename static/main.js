@@ -1047,5 +1047,5 @@ function playAgain() {
 }
 
 function home() {
-	location.href='/'
+	location.href='thank-you'
 }
